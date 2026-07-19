@@ -8,10 +8,10 @@ Built following the [Anthropic Agent Skills standard](https://github.com/anthrop
 
 ## Current Status
 
-**Phase 1 – Engineering & Software Development** (in progress)  
-**Skills added so far**: **79** (2 Meta + 77 Engineering)
+**Phase 1 – Engineering & Software Development** ✅ (core complete)  
+**Skills added so far**: **87** (2 Meta + 85 Engineering)
 
-We prioritize **Tier-1 high-frequency skills** first (code review, planning, specs, TDD, security, etc.). These form the foundation for reliable agent behavior.
+We prioritized **Tier-1 high-frequency skills** first (code review, planning, specs, TDD, security, etc.). These form the foundation for reliable agent behavior.
 
 ---
 
@@ -24,7 +24,7 @@ We prioritize **Tier-1 high-frequency skills** first (code review, planning, spe
 | 🛠️ | **skill-creator** | Create, improve, and evaluate new Agent Skills | [View](skills/meta/skill-creator/) |
 | 🧭 | **using-agent-skills** | Discover and apply the right skills for the current task | [View](skills/meta/using-agent-skills/) |
 
-### ⚙️ Engineering & Software Development
+### ⚙️ Engineering & Software Development (85 skills)
 
 | Icon | Skill | Description | Link |
 |------|-------|-------------|------|
@@ -108,8 +108,16 @@ We prioritize **Tier-1 high-frequency skills** first (code review, planning, spe
 | 📡 | **change-data-capture** | Capture and propagate database changes reliably using CDC | [View](skills/engineering/change-data-capture/) |
 | 🔒 | **privacy-engineering** | Design systems that protect personal data through privacy-by-design practices | [View](skills/engineering/privacy-engineering/) |
 | 🎯 | **threat-modeling** | Systematically identify and prioritize security threats and mitigations | [View](skills/engineering/threat-modeling/) |
+| 🔐 | **zero-trust-principles** | Apply zero-trust principles (never trust, always verify) to system design | [View](skills/engineering/zero-trust-principles/) |
+| 🕸️ | **service-mesh** | Use a service mesh for traffic management, security, and observability between services | [View](skills/engineering/service-mesh/) |
+| 📊 | **continuous-profiling** | Use continuous profiling to understand real production resource usage | [View](skills/engineering/continuous-profiling/) |
+| 📑 | **schema-registry** | Manage evolving data and event schemas with compatibility guarantees | [View](skills/engineering/schema-registry/) |
+| 📝 | **data-contracts** | Define and enforce explicit data contracts between producers and consumers | [View](skills/engineering/data-contracts/) |
+| 🔁 | **reproducible-builds** | Make builds deterministic for verification and supply-chain security | [View](skills/engineering/reproducible-builds/) |
+| 🏛️ | **internal-developer-platform** | Design an Internal Developer Platform with self-service golden paths | [View](skills/engineering/internal-developer-platform/) |
+| 📋 | **engineering-scorecards** | Use scorecards to make service and team health visible and actionable | [View](skills/engineering/engineering-scorecards/) |
 
-> More Engineering skills are being added continuously. Document Production, Product, Design, Marketing, and other domains are next.
+> **Engineering core is now complete at 85 skills.** Next up: Document Production, Product, Design, Marketing, and other domains.
 
 ---
 
@@ -120,9 +128,9 @@ agent-skills-collection/
 ├── README.md
 ├── LICENSE
 ├── skills/
-│   ├── engineering/          # Core software engineering workflows
+│   ├── engineering/          # 85 core software engineering workflows
 │   ├── meta/                 # Skill creation & discovery
-│   ├── document-production/  # Coming soon (docx, pptx, xlsx, pdf)
+│   ├── document-production/  # Next (docx, pptx, xlsx, pdf)
 │   └── ...
 └── packs/                    # Future: curated skill packs
 ```
@@ -170,8 +178,7 @@ Most modern agents that support the Agent Skills / SKILL.md standard can load th
 ## Roadmap
 
 - [x] Repository foundation
-- [x] Core Engineering skills (multiple batches)
-- [ ] Full Engineering set (~85)
+- [x] Core Engineering skills (~85) ✅
 - [ ] Document Production pack (docx, pptx, xlsx, pdf)
 - [ ] Product Management pack
 - [ ] Design & UX pack
