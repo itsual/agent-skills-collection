@@ -8,10 +8,9 @@ Built following the [Anthropic Agent Skills standard](https://github.com/anthrop
 
 ## Current Status
 
-**Phase 1 – Engineering & Software Development** ✅ (core complete)  
-**Skills added so far**: **87** (2 Meta + 85 Engineering)
-
-We prioritized **Tier-1 high-frequency skills** first (code review, planning, specs, TDD, security, etc.). These form the foundation for reliable agent behavior.
+**Phase 1 – Engineering & Software Development** ✅ (85 skills)  
+**Phase 2 – Document Production** 🚀 (in progress)  
+**Skills added so far**: **94** (2 Meta + 85 Engineering + 7 Document Production)
 
 ---
 
@@ -23,6 +22,18 @@ We prioritized **Tier-1 high-frequency skills** first (code review, planning, sp
 |------|-------|-------------|------|
 | 🛠️ | **skill-creator** | Create, improve, and evaluate new Agent Skills | [View](skills/meta/skill-creator/) |
 | 🧭 | **using-agent-skills** | Discover and apply the right skills for the current task | [View](skills/meta/using-agent-skills/) |
+
+### 📄 Document Production
+
+| Icon | Skill | Description | Link |
+|------|-------|-------------|------|
+| 📝 | **docx** | Create and edit professional Word documents (.docx) with clean structure and formatting | [View](skills/document-production/docx/) |
+| 📊 | **pptx** | Create clean, professional PowerPoint / presentation decks (.pptx) | [View](skills/document-production/pptx/) |
+| 📈 | **xlsx** | Create well-structured, usable Excel spreadsheets (.xlsx) with clear data and formulas | [View](skills/document-production/xlsx/) |
+| 📕 | **pdf** | Create, read, and manipulate PDF documents | [View](skills/document-production/pdf/) |
+| 🎨 | **document-design** | Apply strong visual and structural design principles to any document type | [View](skills/document-production/document-design/) |
+| 📋 | **report-generation** | Structure and produce clear, professional reports with logical flow and actionable conclusions | [View](skills/document-production/report-generation/) |
+| 🗣️ | **presentation-storytelling** | Craft compelling narrative structure and messaging for presentations | [View](skills/document-production/presentation-storytelling/) |
 
 ### ⚙️ Engineering & Software Development (85 skills)
 
@@ -117,8 +128,6 @@ We prioritized **Tier-1 high-frequency skills** first (code review, planning, sp
 | 🏛️ | **internal-developer-platform** | Design an Internal Developer Platform with self-service golden paths | [View](skills/engineering/internal-developer-platform/) |
 | 📋 | **engineering-scorecards** | Use scorecards to make service and team health visible and actionable | [View](skills/engineering/engineering-scorecards/) |
 
-> **Engineering core is now complete at 85 skills.** Next up: Document Production, Product, Design, Marketing, and other domains.
-
 ---
 
 ## Repository Structure
@@ -128,9 +137,9 @@ agent-skills-collection/
 ├── README.md
 ├── LICENSE
 ├── skills/
-│   ├── engineering/          # 85 core software engineering workflows
 │   ├── meta/                 # Skill creation & discovery
-│   ├── document-production/  # Next (docx, pptx, xlsx, pdf)
+│   ├── engineering/          # 85 core software engineering workflows
+│   ├── document-production/  # Document & presentation skills (in progress)
 │   └── ...
 └── packs/                    # Future: curated skill packs
 ```
@@ -179,7 +188,8 @@ Most modern agents that support the Agent Skills / SKILL.md standard can load th
 
 - [x] Repository foundation
 - [x] Core Engineering skills (~85) ✅
-- [ ] Document Production pack (docx, pptx, xlsx, pdf)
+- [x] Document Production pack (started)
+- [ ] Expand Document Production (templates, advanced layout, etc.)
 - [ ] Product Management pack
 - [ ] Design & UX pack
 - [ ] Marketing & Growth pack
