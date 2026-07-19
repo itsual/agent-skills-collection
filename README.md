@@ -9,8 +9,8 @@ Built following the [Anthropic Agent Skills standard](https://github.com/anthrop
 ## Current Status
 
 **Phase 1 – Engineering & Software Development** ✅ (85 skills)  
-**Phase 2 – Document Production** 🚀 (in progress)  
-**Skills added so far**: **94** (2 Meta + 85 Engineering + 7 Document Production)
+**Phase 2 – Document Production** 🚀 (15 skills)  
+**Skills added so far**: **102** (2 Meta + 85 Engineering + 15 Document Production)
 
 ---
 
@@ -23,110 +23,123 @@ Built following the [Anthropic Agent Skills standard](https://github.com/anthrop
 | 🛠️ | **skill-creator** | Create, improve, and evaluate new Agent Skills | [View](skills/meta/skill-creator/) |
 | 🧭 | **using-agent-skills** | Discover and apply the right skills for the current task | [View](skills/meta/using-agent-skills/) |
 
-### 📄 Document Production
+### 📄 Document Production (15 skills)
 
 | Icon | Skill | Description | Link |
 |------|-------|-------------|------|
-| 📝 | **docx** | Create and edit professional Word documents (.docx) with clean structure and formatting | [View](skills/document-production/docx/) |
+| 📝 | **docx** | Create and edit professional Word documents (.docx) | [View](skills/document-production/docx/) |
 | 📊 | **pptx** | Create clean, professional PowerPoint / presentation decks (.pptx) | [View](skills/document-production/pptx/) |
-| 📈 | **xlsx** | Create well-structured, usable Excel spreadsheets (.xlsx) with clear data and formulas | [View](skills/document-production/xlsx/) |
+| 📈 | **xlsx** | Create well-structured, usable Excel spreadsheets (.xlsx) | [View](skills/document-production/xlsx/) |
 | 📕 | **pdf** | Create, read, and manipulate PDF documents | [View](skills/document-production/pdf/) |
-| 🎨 | **document-design** | Apply strong visual and structural design principles to any document type | [View](skills/document-production/document-design/) |
-| 📋 | **report-generation** | Structure and produce clear, professional reports with logical flow and actionable conclusions | [View](skills/document-production/report-generation/) |
-| 🗣️ | **presentation-storytelling** | Craft compelling narrative structure and messaging for presentations | [View](skills/document-production/presentation-storytelling/) |
+| 🎨 | **document-design** | Apply strong visual and structural design principles to any document | [View](skills/document-production/document-design/) |
+| 📋 | **report-generation** | Structure and produce clear, professional reports | [View](skills/document-production/report-generation/) |
+| 🗣️ | **presentation-storytelling** | Craft compelling narrative structure for presentations | [View](skills/document-production/presentation-storytelling/) |
+| 📨 | **proposal-writing** | Write clear, persuasive business or project proposals | [View](skills/document-production/proposal-writing/) |
+| 📌 | **executive-summary** | Write concise, high-signal executive summaries for senior audiences | [View](skills/document-production/executive-summary/) |
+| 📑 | **template-design** | Design reusable document and presentation templates | [View](skills/document-production/template-design/) |
+| 📉 | **dashboard-spreadsheets** | Design clear, usable spreadsheet dashboards for KPIs and status | [View](skills/document-production/dashboard-spreadsheets/) |
+| 📊 | **data-visualization-for-documents** | Choose and design effective charts for reports, slides, and spreadsheets | [View](skills/document-production/data-visualization-for-documents/) |
+| 🗒️ | **meeting-notes-and-minutes** | Capture clear, actionable meeting notes and formal minutes | [View](skills/document-production/meeting-notes-and-minutes/) |
+| 📄 | **one-pager** | Create concise one-page overviews and briefing sheets | [View](skills/document-production/one-pager/) |
+| 👁️ | **visual-hierarchy** | Create clear visual hierarchy so readers instantly see what matters | [View](skills/document-production/visual-hierarchy/) |
 
 ### ⚙️ Engineering & Software Development (85 skills)
 
+<details>
+<summary>Click to expand full Engineering catalog (85 skills)</summary>
+
 | Icon | Skill | Description | Link |
 |------|-------|-------------|------|
-| 🔍 | **code-review-and-quality** | Multi-axis code review (correctness, readability, architecture, security, performance) | [View](skills/engineering/code-review-and-quality/) |
-| 📋 | **planning-and-task-breakdown** | Break complex work into small, verifiable tasks with clear acceptance criteria | [View](skills/engineering/planning-and-task-breakdown/) |
-| 📝 | **spec-driven-development** | Create clear specifications and acceptance criteria before writing code | [View](skills/engineering/spec-driven-development/) |
-| 🧪 | **test-driven-development** | Write failing tests first, then implement the minimum code to make them pass | [View](skills/engineering/test-driven-development/) |
-| 🔒 | **security-and-hardening** | Security-focused review and hardening of code, configs, and designs | [View](skills/engineering/security-and-hardening/) |
-| 🧱 | **incremental-implementation** | Implement features in thin, end-to-end vertical slices | [View](skills/engineering/incremental-implementation/) |
-| 🐛 | **debugging-and-error-recovery** | Systematically reproduce, localize, fix, and guard against bugs | [View](skills/engineering/debugging-and-error-recovery/) |
-| 🌿 | **git-workflow-and-versioning** | Clean Git practices: atomic commits, meaningful messages, safe history | [View](skills/engineering/git-workflow-and-versioning/) |
-| 🔌 | **api-and-interface-design** | Design stable, well-documented, and evolvable APIs and interfaces | [View](skills/engineering/api-and-interface-design/) |
-| ⚡ | **performance-optimization** | Measure first, then optimize the actual bottlenecks | [View](skills/engineering/performance-optimization/) |
-| 📊 | **observability-and-instrumentation** | Add structured logging, metrics, and tracing for production systems | [View](skills/engineering/observability-and-instrumentation/) |
-| 🎨 | **frontend-ui-engineering** | Build production-quality UIs with accessibility, performance, and maintainability | [View](skills/engineering/frontend-ui-engineering/) |
-| 🧩 | **context-engineering** | Deliberately manage context loaded into the model for better reasoning | [View](skills/engineering/context-engineering/) |
-| 📚 | **source-driven-development** | Verify behavior against official docs and source of truth before implementing | [View](skills/engineering/source-driven-development/) |
-| ✂️ | **code-simplification** | Reduce unnecessary complexity while preserving behavior | [View](skills/engineering/code-simplification/) |
-| 🚀 | **shipping-and-launch** | Prepare and execute safe releases with monitoring and rollback plans | [View](skills/engineering/shipping-and-launch/) |
-| 🔄 | **ci-cd-and-automation** | Design and improve CI/CD pipelines and quality gates | [View](skills/engineering/ci-cd-and-automation/) |
-| 🤔 | **doubt-driven-development** | Adversarial, fresh-context review of non-trivial decisions while building | [View](skills/engineering/doubt-driven-development/) |
-| 🗑️ | **deprecation-and-migration** | Safely retire old systems and migrate users/code with minimal disruption | [View](skills/engineering/deprecation-and-migration/) |
-| 📖 | **documentation-and-adrs** | Write useful docs and Architecture Decision Records that capture the *why* | [View](skills/engineering/documentation-and-adrs/) |
-| 🌐 | **browser-testing** | Verify UI behavior using browser automation and DevTools-style checks | [View](skills/engineering/browser-testing/) |
-| 💡 | **idea-refine** | Refine vague ideas through structured divergent and convergent thinking | [View](skills/engineering/idea-refine/) |
-| 🏗️ | **architecture-review** | Evaluate system design for scalability, maintainability, and fit | [View](skills/engineering/architecture-review/) |
-| 📦 | **dependency-management** | Manage dependencies safely: updates, audits, minimal footprint, lockfiles | [View](skills/engineering/dependency-management/) |
-| 🚩 | **feature-flag-architecture** | Design and operate feature flags for safe rollouts and experimentation | [View](skills/engineering/feature-flag-architecture/) |
-| 🚨 | **error-handling-strategy** | Design consistent, informative, and safe error handling across the stack | [View](skills/engineering/error-handling-strategy/) |
-| 🔑 | **authentication-patterns** | Design and implement secure authentication flows (sessions, tokens, OAuth/OIDC, MFA) | [View](skills/engineering/authentication-patterns/) |
-| 🛡️ | **authorization-patterns** | Design robust authorization (RBAC, ABAC, policies) and enforce it on every sensitive action | [View](skills/engineering/authorization-patterns/) |
-| 🗄️ | **data-modeling-and-persistence** | Design clear data models, schemas, and persistence strategies | [View](skills/engineering/data-modeling-and-persistence/) |
-| 💨 | **caching-strategies** | Design caching layers and invalidation strategies that improve performance safely | [View](skills/engineering/caching-strategies/) |
-| 🛡️ | **resilience-patterns** | Apply retries, circuit breakers, timeouts, bulkheads, and fallbacks | [View](skills/engineering/resilience-patterns/) |
-| 📡 | **event-driven-architecture** | Design event-driven systems with clear contracts and consumer patterns | [View](skills/engineering/event-driven-architecture/) |
-| 🏛️ | **clean-architecture** | Structure code so business logic is independent of frameworks and external details | [View](skills/engineering/clean-architecture/) |
-| 🧾 | **technical-debt-management** | Identify, track, prioritize, and systematically reduce technical debt | [View](skills/engineering/technical-debt-management/) |
-| 🔢 | **api-versioning-and-compatibility** | Design APIs for safe evolution and backward compatibility | [View](skills/engineering/api-versioning-and-compatibility/) |
-| 🧪 | **testing-strategy** | Define a balanced testing strategy across unit, integration, contract, and E2E tests | [View](skills/engineering/testing-strategy/) |
-| 🧠 | **domain-driven-design** | Apply DDD tactical and strategic patterns to model complex business domains | [View](skills/engineering/domain-driven-design/) |
-| 🧩 | **microservices-patterns** | Design, decompose, and operate microservices with appropriate patterns | [View](skills/engineering/microservices-patterns/) |
-| ⏱️ | **background-jobs-and-async-processing** | Design reliable background jobs, queues, and asynchronous processing | [View](skills/engineering/background-jobs-and-async-processing/) |
-| 🔁 | **idempotency-and-exactly-once** | Design operations to be safely retryable and handle duplicate execution | [View](skills/engineering/idempotency-and-exactly-once/) |
-| 🚦 | **rate-limiting-and-throttling** | Protect systems and enforce fair usage with rate limiting and throttling | [View](skills/engineering/rate-limiting-and-throttling/) |
-| 🏢 | **multi-tenancy-design** | Design systems that safely serve multiple tenants with proper isolation | [View](skills/engineering/multi-tenancy-design/) |
-| 🔐 | **secrets-management** | Handle secrets securely throughout their lifecycle | [View](skills/engineering/secrets-management/) |
-| ⚙️ | **configuration-management** | Manage configuration cleanly across environments with safe defaults | [View](skills/engineering/configuration-management/) |
-| ♿ | **accessibility-engineering** | Build and verify interfaces usable by people with disabilities (WCAG-oriented) | [View](skills/engineering/accessibility-engineering/) |
-| 📜 | **contract-testing** | Keep service interfaces compatible with consumer-driven or bidirectional contracts | [View](skills/engineering/contract-testing/) |
-| 📈 | **load-testing-and-performance-testing** | Design and run load/stress tests that produce actionable performance results | [View](skills/engineering/load-testing-and-performance-testing/) |
-| 📐 | **graphql-api-design** | Design well-structured, evolvable, and performant GraphQL APIs | [View](skills/engineering/graphql-api-design/) |
-| 🔗 | **grpc-and-protobuf** | Design and evolve gRPC services and Protocol Buffer contracts | [View](skills/engineering/grpc-and-protobuf/) |
-| 🔎 | **search-design-and-indexing** | Design search experiences and indexing strategies | [View](skills/engineering/search-design-and-indexing/) |
-| 📁 | **file-uploads-and-storage** | Design secure, scalable file upload and storage flows | [View](skills/engineering/file-uploads-and-storage/) |
-| 🔒 | **distributed-locking** | Implement safe distributed locks and coordination primitives | [View](skills/engineering/distributed-locking/) |
-| 🌀 | **saga-and-distributed-transactions** | Coordinate multi-step processes across services using sagas | [View](skills/engineering/saga-and-distributed-transactions/) |
-| ↔️ | **cqrs** | Apply Command Query Responsibility Segregation when read/write needs diverge | [View](skills/engineering/cqrs/) |
-| 🧱 | **monolith-modularization** | Improve monolith structure with clear module boundaries | [View](skills/engineering/monolith-modularization/) |
-| 🚦 | **progressive-delivery** | Release changes safely using canaries, flags, and progressive rollouts | [View](skills/engineering/progressive-delivery/) |
-| 💥 | **chaos-engineering** | Deliberately inject failures to discover weaknesses and improve resilience | [View](skills/engineering/chaos-engineering/) |
-| 💻 | **local-development-experience** | Improve local dev setup and feedback loops for faster productivity | [View](skills/engineering/local-development-experience/) |
-| 📦 | **release-engineering** | Design reliable release processes, versioning, changelogs, and artifact promotion | [View](skills/engineering/release-engineering/) |
-| 🗄️ | **database-migrations** | Design and apply safe, low-downtime database schema and data migrations | [View](skills/engineering/database-migrations/) |
-| ❤️ | **health-checks-and-probes** | Design accurate liveness, readiness, and startup probes | [View](skills/engineering/health-checks-and-probes/) |
-| 🛑 | **graceful-shutdown-and-degradation** | Implement graceful shutdown and controlled degradation under failure | [View](skills/engineering/graceful-shutdown-and-degradation/) |
-| 📤 | **outbox-and-inbox-patterns** | Reliably publish and consume events using transactional outbox and inbox patterns | [View](skills/engineering/outbox-and-inbox-patterns/) |
-| 📜 | **event-sourcing** | Persist state as a sequence of events for audit, replay, and temporal queries | [View](skills/engineering/event-sourcing/) |
-| 🛡️ | **anti-corruption-layer** | Protect your domain model from external systems via translation layers | [View](skills/engineering/anti-corruption-layer/) |
-| 🌱 | **strangler-fig-pattern** | Incrementally replace legacy systems by gradually routing to new implementations | [View](skills/engineering/strangler-fig-pattern/) |
-| 🏗️ | **platform-engineering** | Build internal platforms and golden paths that reduce cognitive load for teams | [View](skills/engineering/platform-engineering/) |
-| 📊 | **dora-and-engineering-metrics** | Use DORA and related metrics to improve delivery performance thoughtfully | [View](skills/engineering/dora-and-engineering-metrics/) |
-| 📝 | **blameless-postmortems** | Run blameless post-incident reviews focused on systemic learning and action | [View](skills/engineering/blameless-postmortems/) |
-| 🔗 | **supply-chain-security** | Protect the software supply chain from compromised dependencies and build systems | [View](skills/engineering/supply-chain-security/) |
-| 📋 | **sbom-and-provenance** | Generate and consume SBOMs and build provenance for transparency and security | [View](skills/engineering/sbom-and-provenance/) |
-| 📜 | **policy-as-code** | Encode and automatically enforce organizational and security policies | [View](skills/engineering/policy-as-code/) |
-| 🏗️ | **infrastructure-as-code** | Manage infrastructure through versioned, reviewable code with safe practices | [View](skills/engineering/infrastructure-as-code/) |
-| 💰 | **finops-and-cost-aware-engineering** | Design and operate systems with cost visibility and efficiency in mind | [View](skills/engineering/finops-and-cost-aware-engineering/) |
-| 🌐 | **api-gateway-patterns** | Design and use API gateways for routing, policies, and backend aggregation | [View](skills/engineering/api-gateway-patterns/) |
-| 📉 | **backpressure-and-flow-control** | Apply backpressure so producers do not overwhelm consumers | [View](skills/engineering/backpressure-and-flow-control/) |
-| 🔄 | **data-pipeline-engineering** | Design reliable, observable, and maintainable data pipelines | [View](skills/engineering/data-pipeline-engineering/) |
-| 📡 | **change-data-capture** | Capture and propagate database changes reliably using CDC | [View](skills/engineering/change-data-capture/) |
-| 🔒 | **privacy-engineering** | Design systems that protect personal data through privacy-by-design practices | [View](skills/engineering/privacy-engineering/) |
-| 🎯 | **threat-modeling** | Systematically identify and prioritize security threats and mitigations | [View](skills/engineering/threat-modeling/) |
-| 🔐 | **zero-trust-principles** | Apply zero-trust principles (never trust, always verify) to system design | [View](skills/engineering/zero-trust-principles/) |
-| 🕸️ | **service-mesh** | Use a service mesh for traffic management, security, and observability between services | [View](skills/engineering/service-mesh/) |
-| 📊 | **continuous-profiling** | Use continuous profiling to understand real production resource usage | [View](skills/engineering/continuous-profiling/) |
-| 📑 | **schema-registry** | Manage evolving data and event schemas with compatibility guarantees | [View](skills/engineering/schema-registry/) |
-| 📝 | **data-contracts** | Define and enforce explicit data contracts between producers and consumers | [View](skills/engineering/data-contracts/) |
-| 🔁 | **reproducible-builds** | Make builds deterministic for verification and supply-chain security | [View](skills/engineering/reproducible-builds/) |
-| 🏛️ | **internal-developer-platform** | Design an Internal Developer Platform with self-service golden paths | [View](skills/engineering/internal-developer-platform/) |
-| 📋 | **engineering-scorecards** | Use scorecards to make service and team health visible and actionable | [View](skills/engineering/engineering-scorecards/) |
+| 🔍 | **code-review-and-quality** | Multi-axis code review | [View](skills/engineering/code-review-and-quality/) |
+| 📋 | **planning-and-task-breakdown** | Break complex work into small, verifiable tasks | [View](skills/engineering/planning-and-task-breakdown/) |
+| 📝 | **spec-driven-development** | Create clear specifications before writing code | [View](skills/engineering/spec-driven-development/) |
+| 🧪 | **test-driven-development** | Write failing tests first | [View](skills/engineering/test-driven-development/) |
+| 🔒 | **security-and-hardening** | Security-focused review and hardening | [View](skills/engineering/security-and-hardening/) |
+| 🧱 | **incremental-implementation** | Implement features in thin vertical slices | [View](skills/engineering/incremental-implementation/) |
+| 🐛 | **debugging-and-error-recovery** | Systematically reproduce, fix, and guard against bugs | [View](skills/engineering/debugging-and-error-recovery/) |
+| 🌿 | **git-workflow-and-versioning** | Clean Git practices | [View](skills/engineering/git-workflow-and-versioning/) |
+| 🔌 | **api-and-interface-design** | Design stable, evolvable APIs | [View](skills/engineering/api-and-interface-design/) |
+| ⚡ | **performance-optimization** | Measure first, then optimize | [View](skills/engineering/performance-optimization/) |
+| 📊 | **observability-and-instrumentation** | Structured logging, metrics, and tracing | [View](skills/engineering/observability-and-instrumentation/) |
+| 🎨 | **frontend-ui-engineering** | Production-quality UIs | [View](skills/engineering/frontend-ui-engineering/) |
+| 🧩 | **context-engineering** | Manage context for better reasoning | [View](skills/engineering/context-engineering/) |
+| 📚 | **source-driven-development** | Verify against official docs and source of truth | [View](skills/engineering/source-driven-development/) |
+| ✂️ | **code-simplification** | Reduce unnecessary complexity | [View](skills/engineering/code-simplification/) |
+| 🚀 | **shipping-and-launch** | Safe releases with monitoring and rollback | [View](skills/engineering/shipping-and-launch/) |
+| 🔄 | **ci-cd-and-automation** | CI/CD pipelines and quality gates | [View](skills/engineering/ci-cd-and-automation/) |
+| 🤔 | **doubt-driven-development** | Adversarial review of non-trivial decisions | [View](skills/engineering/doubt-driven-development/) |
+| 🗑️ | **deprecation-and-migration** | Safely retire old systems | [View](skills/engineering/deprecation-and-migration/) |
+| 📖 | **documentation-and-adrs** | Useful docs and Architecture Decision Records | [View](skills/engineering/documentation-and-adrs/) |
+| 🌐 | **browser-testing** | Browser automation and DevTools-style checks | [View](skills/engineering/browser-testing/) |
+| 💡 | **idea-refine** | Structured divergent and convergent thinking | [View](skills/engineering/idea-refine/) |
+| 🏗️ | **architecture-review** | Evaluate system design | [View](skills/engineering/architecture-review/) |
+| 📦 | **dependency-management** | Manage dependencies safely | [View](skills/engineering/dependency-management/) |
+| 🚩 | **feature-flag-architecture** | Safe rollouts and experimentation | [View](skills/engineering/feature-flag-architecture/) |
+| 🚨 | **error-handling-strategy** | Consistent, safe error handling | [View](skills/engineering/error-handling-strategy/) |
+| 🔑 | **authentication-patterns** | Secure authentication flows | [View](skills/engineering/authentication-patterns/) |
+| 🛡️ | **authorization-patterns** | RBAC, ABAC, and policy enforcement | [View](skills/engineering/authorization-patterns/) |
+| 🗄️ | **data-modeling-and-persistence** | Clear data models and persistence | [View](skills/engineering/data-modeling-and-persistence/) |
+| 💨 | **caching-strategies** | Caching and invalidation | [View](skills/engineering/caching-strategies/) |
+| 🛡️ | **resilience-patterns** | Retries, circuit breakers, timeouts, bulkheads | [View](skills/engineering/resilience-patterns/) |
+| 📡 | **event-driven-architecture** | Event-driven systems | [View](skills/engineering/event-driven-architecture/) |
+| 🏛️ | **clean-architecture** | Business logic independent of frameworks | [View](skills/engineering/clean-architecture/) |
+| 🧾 | **technical-debt-management** | Track and reduce technical debt | [View](skills/engineering/technical-debt-management/) |
+| 🔢 | **api-versioning-and-compatibility** | Safe API evolution | [View](skills/engineering/api-versioning-and-compatibility/) |
+| 🧪 | **testing-strategy** | Balanced testing strategy | [View](skills/engineering/testing-strategy/) |
+| 🧠 | **domain-driven-design** | DDD tactical and strategic patterns | [View](skills/engineering/domain-driven-design/) |
+| 🧩 | **microservices-patterns** | Microservice design and operation | [View](skills/engineering/microservices-patterns/) |
+| ⏱️ | **background-jobs-and-async-processing** | Reliable background jobs | [View](skills/engineering/background-jobs-and-async-processing/) |
+| 🔁 | **idempotency-and-exactly-once** | Safely retryable operations | [View](skills/engineering/idempotency-and-exactly-once/) |
+| 🚦 | **rate-limiting-and-throttling** | Protect systems and enforce fair usage | [View](skills/engineering/rate-limiting-and-throttling/) |
+| 🏢 | **multi-tenancy-design** | Safe multi-tenant systems | [View](skills/engineering/multi-tenancy-design/) |
+| 🔐 | **secrets-management** | Secure secrets lifecycle | [View](skills/engineering/secrets-management/) |
+| ⚙️ | **configuration-management** | Clean configuration across environments | [View](skills/engineering/configuration-management/) |
+| ♿ | **accessibility-engineering** | WCAG-oriented accessibility | [View](skills/engineering/accessibility-engineering/) |
+| 📜 | **contract-testing** | Consumer-driven and bidirectional contracts | [View](skills/engineering/contract-testing/) |
+| 📈 | **load-testing-and-performance-testing** | Actionable load and performance tests | [View](skills/engineering/load-testing-and-performance-testing/) |
+| 📐 | **graphql-api-design** | Well-structured GraphQL APIs | [View](skills/engineering/graphql-api-design/) |
+| 🔗 | **grpc-and-protobuf** | gRPC and Protocol Buffer contracts | [View](skills/engineering/grpc-and-protobuf/) |
+| 🔎 | **search-design-and-indexing** | Search experiences and indexing | [View](skills/engineering/search-design-and-indexing/) |
+| 📁 | **file-uploads-and-storage** | Secure file upload and storage | [View](skills/engineering/file-uploads-and-storage/) |
+| 🔒 | **distributed-locking** | Safe distributed locks | [View](skills/engineering/distributed-locking/) |
+| 🌀 | **saga-and-distributed-transactions** | Multi-step process coordination | [View](skills/engineering/saga-and-distributed-transactions/) |
+| ↔️ | **cqrs** | Command Query Responsibility Segregation | [View](skills/engineering/cqrs/) |
+| 🧱 | **monolith-modularization** | Modular monolith structure | [View](skills/engineering/monolith-modularization/) |
+| 🚦 | **progressive-delivery** | Canaries, flags, and progressive rollouts | [View](skills/engineering/progressive-delivery/) |
+| 💥 | **chaos-engineering** | Controlled failure injection | [View](skills/engineering/chaos-engineering/) |
+| 💻 | **local-development-experience** | Fast, reliable local dev setup | [View](skills/engineering/local-development-experience/) |
+| 📦 | **release-engineering** | Reliable release processes | [View](skills/engineering/release-engineering/) |
+| 🗄️ | **database-migrations** | Safe database migrations | [View](skills/engineering/database-migrations/) |
+| ❤️ | **health-checks-and-probes** | Liveness, readiness, and startup probes | [View](skills/engineering/health-checks-and-probes/) |
+| 🛑 | **graceful-shutdown-and-degradation** | Graceful shutdown and controlled degradation | [View](skills/engineering/graceful-shutdown-and-degradation/) |
+| 📤 | **outbox-and-inbox-patterns** | Transactional outbox and inbox | [View](skills/engineering/outbox-and-inbox-patterns/) |
+| 📜 | **event-sourcing** | Event-sourced state | [View](skills/engineering/event-sourcing/) |
+| 🛡️ | **anti-corruption-layer** | Protect domain model from external systems | [View](skills/engineering/anti-corruption-layer/) |
+| 🌱 | **strangler-fig-pattern** | Incremental legacy replacement | [View](skills/engineering/strangler-fig-pattern/) |
+| 🏗️ | **platform-engineering** | Internal platforms and golden paths | [View](skills/engineering/platform-engineering/) |
+| 📊 | **dora-and-engineering-metrics** | DORA and delivery metrics | [View](skills/engineering/dora-and-engineering-metrics/) |
+| 📝 | **blameless-postmortems** | Systemic learning from incidents | [View](skills/engineering/blameless-postmortems/) |
+| 🔗 | **supply-chain-security** | Protect the software supply chain | [View](skills/engineering/supply-chain-security/) |
+| 📋 | **sbom-and-provenance** | SBOMs and build provenance | [View](skills/engineering/sbom-and-provenance/) |
+| 📜 | **policy-as-code** | Automated policy enforcement | [View](skills/engineering/policy-as-code/) |
+| 🏗️ | **infrastructure-as-code** | Versioned infrastructure | [View](skills/engineering/infrastructure-as-code/) |
+| 💰 | **finops-and-cost-aware-engineering** | Cost visibility and efficiency | [View](skills/engineering/finops-and-cost-aware-engineering/) |
+| 🌐 | **api-gateway-patterns** | API gateway design | [View](skills/engineering/api-gateway-patterns/) |
+| 📉 | **backpressure-and-flow-control** | Backpressure and flow control | [View](skills/engineering/backpressure-and-flow-control/) |
+| 🔄 | **data-pipeline-engineering** | Reliable data pipelines | [View](skills/engineering/data-pipeline-engineering/) |
+| 📡 | **change-data-capture** | CDC patterns | [View](skills/engineering/change-data-capture/) |
+| 🔒 | **privacy-engineering** | Privacy-by-design | [View](skills/engineering/privacy-engineering/) |
+| 🎯 | **threat-modeling** | Structured threat identification | [View](skills/engineering/threat-modeling/) |
+| 🔐 | **zero-trust-principles** | Never trust, always verify | [View](skills/engineering/zero-trust-principles/) |
+| 🕸️ | **service-mesh** | Service mesh for traffic, security, observability | [View](skills/engineering/service-mesh/) |
+| 📊 | **continuous-profiling** | Production profiling | [View](skills/engineering/continuous-profiling/) |
+| 📑 | **schema-registry** | Schema evolution and compatibility | [View](skills/engineering/schema-registry/) |
+| 📝 | **data-contracts** | Explicit data contracts | [View](skills/engineering/data-contracts/) |
+| 🔁 | **reproducible-builds** | Deterministic builds | [View](skills/engineering/reproducible-builds/) |
+| 🏛️ | **internal-developer-platform** | Internal Developer Platforms | [View](skills/engineering/internal-developer-platform/) |
+| 📋 | **engineering-scorecards** | Service and team health scorecards | [View](skills/engineering/engineering-scorecards/) |
+
+</details>
 
 ---
 
@@ -137,40 +150,11 @@ agent-skills-collection/
 ├── README.md
 ├── LICENSE
 ├── skills/
-│   ├── meta/                 # Skill creation & discovery
-│   ├── engineering/          # 85 core software engineering workflows
-│   ├── document-production/  # Document & presentation skills (in progress)
+│   ├── meta/
+│   ├── engineering/           # 85 skills
+│   ├── document-production/   # 15 skills
 │   └── ...
-└── packs/                    # Future: curated skill packs
-```
-
-Each skill is a folder containing a `SKILL.md` (required) plus optional `scripts/`, `references/`, and `assets/`.
-
-## Skill Format
-
-Every skill follows this structure:
-
-```yaml
----
-name: skill-name
-description: >
-  Strong, slightly pushy description of *when* to use this skill.
-  This is the primary triggering mechanism.
----
-
-# Skill Title
-
-## Overview
-...
-
-## When to Use
-...
-
-## Core Process
-...
-
-## Verification
-...
+└── packs/
 ```
 
 ## How to Use
@@ -187,9 +171,8 @@ Most modern agents that support the Agent Skills / SKILL.md standard can load th
 ## Roadmap
 
 - [x] Repository foundation
-- [x] Core Engineering skills (~85) ✅
-- [x] Document Production pack (started)
-- [ ] Expand Document Production (templates, advanced layout, etc.)
+- [x] Core Engineering skills (85) ✅
+- [x] Document Production pack (15 skills) ✅
 - [ ] Product Management pack
 - [ ] Design & UX pack
 - [ ] Marketing & Growth pack
