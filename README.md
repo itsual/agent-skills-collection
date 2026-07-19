@@ -9,7 +9,7 @@ Built following the [Anthropic Agent Skills standard](https://github.com/anthrop
 ## Current Status
 
 **Phase 1 – Engineering & Software Development** (in progress)  
-**Skills added so far**: 25+ (core Engineering + Meta)
+**Skills added so far**: **35** (2 Meta + 33 Engineering)
 
 We prioritize **Tier-1 high-frequency skills** first (code review, planning, specs, TDD, security, etc.). These form the foundation for reliable agent behavior.
 
@@ -53,6 +53,17 @@ We prioritize **Tier-1 high-frequency skills** first (code review, planning, spe
 | 🏗️ | **architecture-review** | Evaluate system design for scalability, maintainability, and fit | [View](skills/engineering/architecture-review/) |
 | 📦 | **dependency-management** | Manage dependencies safely: updates, audits, minimal footprint, lockfiles | [View](skills/engineering/dependency-management/) |
 | 🚩 | **feature-flag-architecture** | Design and operate feature flags for safe rollouts and experimentation | [View](skills/engineering/feature-flag-architecture/) |
+| 🚨 | **error-handling-strategy** | Design consistent, informative, and safe error handling across the stack | [View](skills/engineering/error-handling-strategy/) |
+| 🔑 | **authentication-patterns** | Design and implement secure authentication flows (sessions, tokens, OAuth/OIDC, MFA) | [View](skills/engineering/authentication-patterns/) |
+| 🛡️ | **authorization-patterns** | Design robust authorization (RBAC, ABAC, policies) and enforce it on every sensitive action | [View](skills/engineering/authorization-patterns/) |
+| 🗄️ | **data-modeling-and-persistence** | Design clear data models, schemas, and persistence strategies | [View](skills/engineering/data-modeling-and-persistence/) |
+| 💨 | **caching-strategies** | Design caching layers and invalidation strategies that improve performance safely | [View](skills/engineering/caching-strategies/) |
+| 🛡️ | **resilience-patterns** | Apply retries, circuit breakers, timeouts, bulkheads, and fallbacks | [View](skills/engineering/resilience-patterns/) |
+| 📡 | **event-driven-architecture** | Design event-driven systems with clear contracts and consumer patterns | [View](skills/engineering/event-driven-architecture/) |
+| 🏛️ | **clean-architecture** | Structure code so business logic is independent of frameworks and external details | [View](skills/engineering/clean-architecture/) |
+| 🧾 | **technical-debt-management** | Identify, track, prioritize, and systematically reduce technical debt | [View](skills/engineering/technical-debt-management/) |
+| 🔢 | **api-versioning-and-compatibility** | Design APIs for safe evolution and backward compatibility | [View](skills/engineering/api-versioning-and-compatibility/) |
+| 🧪 | **testing-strategy** | Define a balanced testing strategy across unit, integration, contract, and E2E tests | [View](skills/engineering/testing-strategy/) |
 
 > More Engineering skills are being added continuously. Document Production, Product, Design, Marketing, and other domains are next.
 
@@ -115,7 +126,7 @@ Most modern agents that support the Agent Skills / SKILL.md standard can load th
 ## Roadmap
 
 - [x] Repository foundation
-- [x] Core Engineering skills (first batch)
+- [x] Core Engineering skills (multiple batches)
 - [ ] Full Engineering set (~85)
 - [ ] Document Production pack (docx, pptx, xlsx, pdf)
 - [ ] Product Management pack
