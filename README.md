@@ -9,7 +9,7 @@ Built following the [Anthropic Agent Skills standard](https://github.com/anthrop
 ## Current Status
 
 **Phase 1 – Engineering & Software Development** (in progress)  
-**Skills added so far**: **57** (2 Meta + 55 Engineering)
+**Skills added so far**: **68** (2 Meta + 66 Engineering)
 
 We prioritize **Tier-1 high-frequency skills** first (code review, planning, specs, TDD, security, etc.). These form the foundation for reliable agent behavior.
 
@@ -86,6 +86,17 @@ We prioritize **Tier-1 high-frequency skills** first (code review, planning, spe
 | 🚦 | **progressive-delivery** | Release changes safely using canaries, flags, and progressive rollouts | [View](skills/engineering/progressive-delivery/) |
 | 💥 | **chaos-engineering** | Deliberately inject failures to discover weaknesses and improve resilience | [View](skills/engineering/chaos-engineering/) |
 | 💻 | **local-development-experience** | Improve local dev setup and feedback loops for faster productivity | [View](skills/engineering/local-development-experience/) |
+| 📦 | **release-engineering** | Design reliable release processes, versioning, changelogs, and artifact promotion | [View](skills/engineering/release-engineering/) |
+| 🗄️ | **database-migrations** | Design and apply safe, low-downtime database schema and data migrations | [View](skills/engineering/database-migrations/) |
+| ❤️ | **health-checks-and-probes** | Design accurate liveness, readiness, and startup probes | [View](skills/engineering/health-checks-and-probes/) |
+| 🛑 | **graceful-shutdown-and-degradation** | Implement graceful shutdown and controlled degradation under failure | [View](skills/engineering/graceful-shutdown-and-degradation/) |
+| 📤 | **outbox-and-inbox-patterns** | Reliably publish and consume events using transactional outbox and inbox patterns | [View](skills/engineering/outbox-and-inbox-patterns/) |
+| 📜 | **event-sourcing** | Persist state as a sequence of events for audit, replay, and temporal queries | [View](skills/engineering/event-sourcing/) |
+| 🛡️ | **anti-corruption-layer** | Protect your domain model from external systems via translation layers | [View](skills/engineering/anti-corruption-layer/) |
+| 🌱 | **strangler-fig-pattern** | Incrementally replace legacy systems by gradually routing to new implementations | [View](skills/engineering/strangler-fig-pattern/) |
+| 🏗️ | **platform-engineering** | Build internal platforms and golden paths that reduce cognitive load for teams | [View](skills/engineering/platform-engineering/) |
+| 📊 | **dora-and-engineering-metrics** | Use DORA and related metrics to improve delivery performance thoughtfully | [View](skills/engineering/dora-and-engineering-metrics/) |
+| 📝 | **blameless-postmortems** | Run blameless post-incident reviews focused on systemic learning and action | [View](skills/engineering/blameless-postmortems/) |
 
 > More Engineering skills are being added continuously. Document Production, Product, Design, Marketing, and other domains are next.
 
