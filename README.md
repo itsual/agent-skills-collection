@@ -9,7 +9,7 @@ Built following the [Anthropic Agent Skills standard](https://github.com/anthrop
 ## Current Status
 
 **Phase 1 – Engineering & Software Development** (in progress)  
-**Skills added so far**: **68** (2 Meta + 66 Engineering)
+**Skills added so far**: **79** (2 Meta + 77 Engineering)
 
 We prioritize **Tier-1 high-frequency skills** first (code review, planning, specs, TDD, security, etc.). These form the foundation for reliable agent behavior.
 
@@ -97,6 +97,17 @@ We prioritize **Tier-1 high-frequency skills** first (code review, planning, spe
 | 🏗️ | **platform-engineering** | Build internal platforms and golden paths that reduce cognitive load for teams | [View](skills/engineering/platform-engineering/) |
 | 📊 | **dora-and-engineering-metrics** | Use DORA and related metrics to improve delivery performance thoughtfully | [View](skills/engineering/dora-and-engineering-metrics/) |
 | 📝 | **blameless-postmortems** | Run blameless post-incident reviews focused on systemic learning and action | [View](skills/engineering/blameless-postmortems/) |
+| 🔗 | **supply-chain-security** | Protect the software supply chain from compromised dependencies and build systems | [View](skills/engineering/supply-chain-security/) |
+| 📋 | **sbom-and-provenance** | Generate and consume SBOMs and build provenance for transparency and security | [View](skills/engineering/sbom-and-provenance/) |
+| 📜 | **policy-as-code** | Encode and automatically enforce organizational and security policies | [View](skills/engineering/policy-as-code/) |
+| 🏗️ | **infrastructure-as-code** | Manage infrastructure through versioned, reviewable code with safe practices | [View](skills/engineering/infrastructure-as-code/) |
+| 💰 | **finops-and-cost-aware-engineering** | Design and operate systems with cost visibility and efficiency in mind | [View](skills/engineering/finops-and-cost-aware-engineering/) |
+| 🌐 | **api-gateway-patterns** | Design and use API gateways for routing, policies, and backend aggregation | [View](skills/engineering/api-gateway-patterns/) |
+| 📉 | **backpressure-and-flow-control** | Apply backpressure so producers do not overwhelm consumers | [View](skills/engineering/backpressure-and-flow-control/) |
+| 🔄 | **data-pipeline-engineering** | Design reliable, observable, and maintainable data pipelines | [View](skills/engineering/data-pipeline-engineering/) |
+| 📡 | **change-data-capture** | Capture and propagate database changes reliably using CDC | [View](skills/engineering/change-data-capture/) |
+| 🔒 | **privacy-engineering** | Design systems that protect personal data through privacy-by-design practices | [View](skills/engineering/privacy-engineering/) |
+| 🎯 | **threat-modeling** | Systematically identify and prioritize security threats and mitigations | [View](skills/engineering/threat-modeling/) |
 
 > More Engineering skills are being added continuously. Document Production, Product, Design, Marketing, and other domains are next.
 
