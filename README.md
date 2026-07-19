@@ -9,7 +9,7 @@ Built following the [Anthropic Agent Skills standard](https://github.com/anthrop
 ## Current Status
 
 **Phase 1 – Engineering & Software Development** (in progress)  
-**Skills added so far**: **46** (2 Meta + 44 Engineering)
+**Skills added so far**: **57** (2 Meta + 55 Engineering)
 
 We prioritize **Tier-1 high-frequency skills** first (code review, planning, specs, TDD, security, etc.). These form the foundation for reliable agent behavior.
 
@@ -75,6 +75,17 @@ We prioritize **Tier-1 high-frequency skills** first (code review, planning, spe
 | ♿ | **accessibility-engineering** | Build and verify interfaces usable by people with disabilities (WCAG-oriented) | [View](skills/engineering/accessibility-engineering/) |
 | 📜 | **contract-testing** | Keep service interfaces compatible with consumer-driven or bidirectional contracts | [View](skills/engineering/contract-testing/) |
 | 📈 | **load-testing-and-performance-testing** | Design and run load/stress tests that produce actionable performance results | [View](skills/engineering/load-testing-and-performance-testing/) |
+| 📐 | **graphql-api-design** | Design well-structured, evolvable, and performant GraphQL APIs | [View](skills/engineering/graphql-api-design/) |
+| 🔗 | **grpc-and-protobuf** | Design and evolve gRPC services and Protocol Buffer contracts | [View](skills/engineering/grpc-and-protobuf/) |
+| 🔎 | **search-design-and-indexing** | Design search experiences and indexing strategies | [View](skills/engineering/search-design-and-indexing/) |
+| 📁 | **file-uploads-and-storage** | Design secure, scalable file upload and storage flows | [View](skills/engineering/file-uploads-and-storage/) |
+| 🔒 | **distributed-locking** | Implement safe distributed locks and coordination primitives | [View](skills/engineering/distributed-locking/) |
+| 🌀 | **saga-and-distributed-transactions** | Coordinate multi-step processes across services using sagas | [View](skills/engineering/saga-and-distributed-transactions/) |
+| ↔️ | **cqrs** | Apply Command Query Responsibility Segregation when read/write needs diverge | [View](skills/engineering/cqrs/) |
+| 🧱 | **monolith-modularization** | Improve monolith structure with clear module boundaries | [View](skills/engineering/monolith-modularization/) |
+| 🚦 | **progressive-delivery** | Release changes safely using canaries, flags, and progressive rollouts | [View](skills/engineering/progressive-delivery/) |
+| 💥 | **chaos-engineering** | Deliberately inject failures to discover weaknesses and improve resilience | [View](skills/engineering/chaos-engineering/) |
+| 💻 | **local-development-experience** | Improve local dev setup and feedback loops for faster productivity | [View](skills/engineering/local-development-experience/) |
 
 > More Engineering skills are being added continuously. Document Production, Product, Design, Marketing, and other domains are next.
 
