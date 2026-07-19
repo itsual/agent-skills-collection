@@ -9,7 +9,7 @@ Built following the [Anthropic Agent Skills standard](https://github.com/anthrop
 ## Current Status
 
 **Phase 1 – Engineering & Software Development** (in progress)  
-**Skills added so far**: **35** (2 Meta + 33 Engineering)
+**Skills added so far**: **46** (2 Meta + 44 Engineering)
 
 We prioritize **Tier-1 high-frequency skills** first (code review, planning, specs, TDD, security, etc.). These form the foundation for reliable agent behavior.
 
@@ -64,6 +64,17 @@ We prioritize **Tier-1 high-frequency skills** first (code review, planning, spe
 | 🧾 | **technical-debt-management** | Identify, track, prioritize, and systematically reduce technical debt | [View](skills/engineering/technical-debt-management/) |
 | 🔢 | **api-versioning-and-compatibility** | Design APIs for safe evolution and backward compatibility | [View](skills/engineering/api-versioning-and-compatibility/) |
 | 🧪 | **testing-strategy** | Define a balanced testing strategy across unit, integration, contract, and E2E tests | [View](skills/engineering/testing-strategy/) |
+| 🧠 | **domain-driven-design** | Apply DDD tactical and strategic patterns to model complex business domains | [View](skills/engineering/domain-driven-design/) |
+| 🧩 | **microservices-patterns** | Design, decompose, and operate microservices with appropriate patterns | [View](skills/engineering/microservices-patterns/) |
+| ⏱️ | **background-jobs-and-async-processing** | Design reliable background jobs, queues, and asynchronous processing | [View](skills/engineering/background-jobs-and-async-processing/) |
+| 🔁 | **idempotency-and-exactly-once** | Design operations to be safely retryable and handle duplicate execution | [View](skills/engineering/idempotency-and-exactly-once/) |
+| 🚦 | **rate-limiting-and-throttling** | Protect systems and enforce fair usage with rate limiting and throttling | [View](skills/engineering/rate-limiting-and-throttling/) |
+| 🏢 | **multi-tenancy-design** | Design systems that safely serve multiple tenants with proper isolation | [View](skills/engineering/multi-tenancy-design/) |
+| 🔐 | **secrets-management** | Handle secrets securely throughout their lifecycle | [View](skills/engineering/secrets-management/) |
+| ⚙️ | **configuration-management** | Manage configuration cleanly across environments with safe defaults | [View](skills/engineering/configuration-management/) |
+| ♿ | **accessibility-engineering** | Build and verify interfaces usable by people with disabilities (WCAG-oriented) | [View](skills/engineering/accessibility-engineering/) |
+| 📜 | **contract-testing** | Keep service interfaces compatible with consumer-driven or bidirectional contracts | [View](skills/engineering/contract-testing/) |
+| 📈 | **load-testing-and-performance-testing** | Design and run load/stress tests that produce actionable performance results | [View](skills/engineering/load-testing-and-performance-testing/) |
 
 > More Engineering skills are being added continuously. Document Production, Product, Design, Marketing, and other domains are next.
 
