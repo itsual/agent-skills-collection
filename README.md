@@ -2,7 +2,7 @@
 
 **A comprehensive, production-ready collection of high-quality Agent Skills** for Claude, Codex, Cursor, Gemini CLI, and other AI coding agents.
 
-Built following the [Anthropic Agent Skills standard](https://github.com/anthropics/skills) with best practices from leading open collections (Addy Osmani, Alireza Rezvani, and others).
+Built following the [Anthropic Agent Skills standard](https://github.com/anthropics/skills) with best practices from leading open collections
 
 > **Goal**: 500+ modular, battle-tested skills organized by domain, with strong verification steps, clear triggering descriptions, and progressive disclosure.
 
