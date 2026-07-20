@@ -9,8 +9,8 @@ Built following the [Anthropic Agent Skills standard](https://github.com/anthrop
 ## Current Status
 
 **Phase 1 – Engineering & Software Development** ✅ (85 skills)  
-**Phase 2 – Document Production** 🚀 (23 skills)  
-**Skills added so far**: **110** (2 Meta + 85 Engineering + 23 Document Production)
+**Phase 2 – Document Production** 🚀 (33 skills)  
+**Skills added so far**: **120** (2 Meta + 85 Engineering + 33 Document Production)
 
 ---
 
@@ -23,7 +23,7 @@ Built following the [Anthropic Agent Skills standard](https://github.com/anthrop
 | 🛠️ | **skill-creator** | Create, improve, and evaluate new Agent Skills | [View](skills/meta/skill-creator/) |
 | 🧭 | **using-agent-skills** | Discover and apply the right skills for the current task | [View](skills/meta/using-agent-skills/) |
 
-### 📄 Document Production (23 skills)
+### 📄 Document Production (33 skills)
 
 | Icon | Skill | Description | Link |
 |------|-------|-------------|------|
@@ -50,6 +50,16 @@ Built following the [Anthropic Agent Skills standard](https://github.com/anthrop
 | 📜 | **policy-and-procedure** | Write clear organizational policies and procedures | [View](skills/document-production/policy-and-procedure/) |
 | 👤 | **resume-and-cv** | Create clear, achievement-focused resumes and CVs | [View](skills/document-production/resume-and-cv/) |
 | 📬 | **newsletter-and-update** | Write engaging newsletters and periodic updates | [View](skills/document-production/newsletter-and-update/) |
+| 🛠️ | **technical-documentation** | Clear, maintainable technical and API documentation | [View](skills/document-production/technical-documentation/) |
+| 📖 | **user-guide-and-manual** | User-friendly guides and manuals for end users | [View](skills/document-production/user-guide-and-manual/) |
+| 🎯 | **pitch-deck** | Focused, persuasive pitch decks for fundraising or sales | [View](skills/document-production/pitch-deck/) |
+| 📢 | **press-release** | Clear, newsworthy press releases | [View](skills/document-production/press-release/) |
+| 💼 | **job-description** | Clear, inclusive, and effective job descriptions | [View](skills/document-production/job-description/) |
+| 📝 | **performance-review** | Fair, specific, and constructive performance reviews | [View](skills/document-production/performance-review/) |
+| 🚀 | **onboarding-kit** | Practical onboarding documents and kits | [View](skills/document-production/onboarding-kit/) |
+| 📚 | **style-guide** | Practical style guides for consistency in writing and terminology | [View](skills/document-production/style-guide/) |
+| 📋 | **form-design** | Clear, usable forms that minimize friction and error | [View](skills/document-production/form-design/) |
+| 📒 | **decision-log** | Capture important decisions with context and rationale | [View](skills/document-production/decision-log/) |
 
 ### ⚙️ Engineering & Software Development (85 skills)
 
@@ -160,7 +170,7 @@ agent-skills-collection/
 ├── skills/
 │   ├── meta/
 │   ├── engineering/             # 85 skills
-│   ├── document-production/     # 23 skills
+│   ├── document-production/     # 33 skills
 │   └── ...
 └── packs/
 ```
@@ -176,7 +186,7 @@ git clone https://github.com/itsual/agent-skills-collection.git
 
 - [x] Repository foundation
 - [x] Core Engineering skills (85) ✅
-- [x] Document Production pack (23 skills) ✅
+- [x] Document Production pack (33 skills) ✅
 - [ ] Product Management pack
 - [ ] Design & UX pack
 - [ ] Marketing & Growth pack
