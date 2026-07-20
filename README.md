@@ -9,8 +9,8 @@ Built following the [Anthropic Agent Skills standard](https://github.com/anthrop
 ## Current Status
 
 **Phase 1 – Engineering & Software Development** ✅ (85 skills)  
-**Phase 2 – Document Production** 🚀 (33 skills)  
-**Skills added so far**: **120** (2 Meta + 85 Engineering + 33 Document Production)
+**Phase 2 – Document Production** 🚀 (43 skills)  
+**Skills added so far**: **130** (2 Meta + 85 Engineering + 43 Document Production)
 
 ---
 
@@ -23,7 +23,7 @@ Built following the [Anthropic Agent Skills standard](https://github.com/anthrop
 | 🛠️ | **skill-creator** | Create, improve, and evaluate new Agent Skills | [View](skills/meta/skill-creator/) |
 | 🧭 | **using-agent-skills** | Discover and apply the right skills for the current task | [View](skills/meta/using-agent-skills/) |
 
-### 📄 Document Production (33 skills)
+### 📄 Document Production (43 skills)
 
 | Icon | Skill | Description | Link |
 |------|-------|-------------|------|
@@ -60,6 +60,16 @@ Built following the [Anthropic Agent Skills standard](https://github.com/anthrop
 | 📚 | **style-guide** | Practical style guides for consistency in writing and terminology | [View](skills/document-production/style-guide/) |
 | 📋 | **form-design** | Clear, usable forms that minimize friction and error | [View](skills/document-production/form-design/) |
 | 📒 | **decision-log** | Capture important decisions with context and rationale | [View](skills/document-production/decision-log/) |
+| 💰 | **grant-proposal** | Compelling grant proposals aligned with funder priorities | [View](skills/document-production/grant-proposal/) |
+| 📄 | **research-paper** | Structured research papers and academic-style reports | [View](skills/document-production/research-paper/) |
+| 🏛️ | **board-pack** | Concise, decision-oriented board packs and governance reports | [View](skills/document-production/board-pack/) |
+| 🧾 | **invoice-and-quote** | Clear professional invoices, quotes, and estimates | [View](skills/document-production/invoice-and-quote/) |
+| 📅 | **agenda-and-meeting-pack** | Effective meeting agendas and supporting packs | [View](skills/document-production/agenda-and-meeting-pack/) |
+| 🚨 | **incident-report** | Factual incident reports with impact, causes, and actions | [View](skills/document-production/incident-report/) |
+| 📚 | **knowledge-base-article** | Effective help-center and knowledge base articles | [View](skills/document-production/knowledge-base-article/) |
+| ❓ | **faq** | Useful FAQs based on real user questions | [View](skills/document-production/faq/) |
+| 🎓 | **training-material** | Training materials that build skills and retention | [View](skills/document-production/training-material/) |
+| 🔄 | **lessons-learned** | Capture lessons from projects and initiatives for improvement | [View](skills/document-production/lessons-learned/) |
 
 ### ⚙️ Engineering & Software Development (85 skills)
 
@@ -170,7 +180,7 @@ agent-skills-collection/
 ├── skills/
 │   ├── meta/
 │   ├── engineering/             # 85 skills
-│   ├── document-production/     # 33 skills
+│   ├── document-production/     # 43 skills
 │   └── ...
 └── packs/
 ```
@@ -186,7 +196,7 @@ git clone https://github.com/itsual/agent-skills-collection.git
 
 - [x] Repository foundation
 - [x] Core Engineering skills (85) ✅
-- [x] Document Production pack (33 skills) ✅
+- [x] Document Production pack (43 skills) ✅
 - [ ] Product Management pack
 - [ ] Design & UX pack
 - [ ] Marketing & Growth pack
