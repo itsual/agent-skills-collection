@@ -11,8 +11,8 @@ Built following the [Anthropic Agent Skills standard](https://github.com/anthrop
 **Phase 1 – Engineering & Software Development** ✅ (85 skills)  
 **Phase 2 – Document Production** ✅ (43 skills)  
 **Phase 3 – Product Management** ✅ (36 skills)  
-**Phase 4 – Design & UX** 🚀 (24 skills)  
-**Skills added so far**: **190** (2 Meta + 85 Engineering + 43 Document Production + 36 Product Management + 24 Design & UX)
+**Phase 4 – Design & UX** 🚀 (36 skills)  
+**Skills added so far**: **202** (2 Meta + 85 Engineering + 43 Document Production + 36 Product Management + 36 Design & UX)
 
 ---
 
@@ -25,7 +25,7 @@ Built following the [Anthropic Agent Skills standard](https://github.com/anthrop
 | 🛠️ | **skill-creator** | Create, improve, and evaluate new Agent Skills | [View](skills/meta/skill-creator/) |
 | 🧭 | **using-agent-skills** | Discover and apply the right skills for the current task | [View](skills/meta/using-agent-skills/) |
 
-### 🎨 Design & UX (24 skills)
+### 🎨 Design & UX (36 skills)
 
 | Icon | Skill | Description | Link |
 |------|-------|-------------|------|
@@ -53,6 +53,18 @@ Built following the [Anthropic Agent Skills standard](https://github.com/anthrop
 | 📝 | **content-design** | Content as a core part of the product experience | [View](skills/design-ux/content-design/) |
 | 🔍 | **design-research** | Research that informs experience decisions | [View](skills/design-ux/design-research/) |
 | 🔄 | **cross-platform-design** | Coherent experiences across web, mobile, and desktop | [View](skills/design-ux/cross-platform-design/) |
+| 📋 | **form-ux** | Forms that minimize friction and prevent errors | [View](skills/design-ux/form-ux/) |
+| 🧭 | **navigation-design** | Navigation systems for clear wayfinding | [View](skills/design-ux/navigation-design/) |
+| 📊 | **data-visualization-ux** | Charts and dashboards that make insight actionable | [View](skills/design-ux/data-visualization-ux/) |
+| 🚀 | **onboarding-ux** | First-run experiences that reach value quickly | [View](skills/design-ux/onboarding-ux/) |
+| ⚠️ | **error-states** | Error UI that enables understanding and recovery | [View](skills/design-ux/error-states/) |
+| 🌙 | **dark-mode** | Dark themes with hierarchy, contrast, and quality | [View](skills/design-ux/dark-mode/) |
+| ✅ | **design-qa** | Design quality assurance against intent and standards | [View](skills/design-ux/design-qa/) |
+| 🔷 | **iconography** | Recognizable, consistent icon systems | [View](skills/design-ux/iconography/) |
+| 🖼️ | **illustration-in-product** | Purposeful illustration in product UI | [View](skills/design-ux/illustration-in-product/) |
+| 💬 | **conversational-ux** | Chat and assistant experiences that feel controllable | [View](skills/design-ux/conversational-ux/) |
+| 📈 | **dashboard-ux** | Dashboards for monitoring, exceptions, and action | [View](skills/design-ux/dashboard-ux/) |
+| ⚖️ | **design-ethics** | Ethical design practices; avoid dark patterns | [View](skills/design-ux/design-ethics/) |
 
 ### 📦 Product Management (36 skills)
 
@@ -264,7 +276,7 @@ agent-skills-collection/
 │   ├── engineering/             # 85 skills
 │   ├── document-production/     # 43 skills
 │   ├── product-management/      # 36 skills
-│   ├── design-ux/               # 24 skills
+│   ├── design-ux/               # 36 skills
 │   └── ...
 └── packs/
 ```
@@ -282,7 +294,7 @@ git clone https://github.com/itsual/agent-skills-collection.git
 - [x] Core Engineering skills (85) ✅
 - [x] Document Production pack (43) ✅
 - [x] Product Management pack (36) ✅
-- [x] Design & UX pack (24 skills) ✅
+- [x] Design & UX pack (36 skills) ✅
 - [ ] Marketing & Growth pack
 - [ ] Research, Finance, Compliance, and remaining domains
 - [ ] Curated skill packs + evaluation harness
