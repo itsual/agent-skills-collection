@@ -10,8 +10,8 @@ Built following the [Anthropic Agent Skills standard](https://github.com/anthrop
 
 **Phase 1 – Engineering & Software Development** ✅ (85 skills)  
 **Phase 2 – Document Production** ✅ (43 skills)  
-**Phase 3 – Product Management** 🚀 (12 skills)  
-**Skills added so far**: **142** (2 Meta + 85 Engineering + 43 Document Production + 12 Product Management)
+**Phase 3 – Product Management** 🚀 (24 skills)  
+**Skills added so far**: **154** (2 Meta + 85 Engineering + 43 Document Production + 24 Product Management)
 
 ---
 
@@ -24,7 +24,7 @@ Built following the [Anthropic Agent Skills standard](https://github.com/anthrop
 | 🛠️ | **skill-creator** | Create, improve, and evaluate new Agent Skills | [View](skills/meta/skill-creator/) |
 | 🧭 | **using-agent-skills** | Discover and apply the right skills for the current task | [View](skills/meta/using-agent-skills/) |
 
-### 📦 Product Management (12 skills)
+### 📦 Product Management (24 skills)
 
 | Icon | Skill | Description | Link |
 |------|-------|-------------|------|
@@ -40,6 +40,18 @@ Built following the [Anthropic Agent Skills standard](https://github.com/anthrop
 | 🚀 | **go-to-market** | Plan GTM for launches, pricing changes, and market entry | [View](skills/product-management/go-to-market/) |
 | 🏁 | **competitive-analysis** | Analyze competitors and alternatives to inform strategy | [View](skills/product-management/competitive-analysis/) |
 | 🤝 | **stakeholder-management** | Align and communicate with stakeholders so decisions stick | [View](skills/product-management/stakeholder-management/) |
+| 👤 | **persona-development** | Create research-grounded personas that drive decisions | [View](skills/product-management/persona-development/) |
+| 🧭 | **journey-mapping** | Map end-to-end user journeys to find friction and opportunities | [View](skills/product-management/journey-mapping/) |
+| 🎯 | **jobs-to-be-done** | Apply JTBD to understand the progress customers seek | [View](skills/product-management/jobs-to-be-done/) |
+| 💡 | **opportunity-assessment** | Evaluate opportunities for desirability, feasibility, and viability | [View](skills/product-management/opportunity-assessment/) |
+| 📦 | **mvp-definition** | Define the smallest viable slice for learning and value | [View](skills/product-management/mvp-definition/) |
+| ✨ | **product-vision** | Craft a clear, inspiring long-term product vision | [View](skills/product-management/product-vision/) |
+| 🎯 | **okrs-and-goal-setting** | Set outcome-focused OKRs and product goals | [View](skills/product-management/okrs-and-goal-setting/) |
+| 💰 | **pricing-strategy** | Design pricing and packaging that reflect value | [View](skills/product-management/pricing-strategy/) |
+| 📚 | **backlog-management** | Maintain a healthy, prioritized, refined product backlog | [View](skills/product-management/backlog-management/) |
+| 🚢 | **release-management** | Plan and coordinate safe, well-communicated releases | [View](skills/product-management/release-management/) |
+| 💬 | **feedback-management** | Collect, synthesize, and act on customer feedback | [View](skills/product-management/feedback-management/) |
+| 📈 | **product-analytics** | Use analytics to understand behavior and measure impact | [View](skills/product-management/product-analytics/) |
 
 ### 📄 Document Production (43 skills)
 
@@ -204,7 +216,7 @@ agent-skills-collection/
 │   ├── meta/
 │   ├── engineering/             # 85 skills
 │   ├── document-production/     # 43 skills
-│   ├── product-management/      # 12 skills
+│   ├── product-management/      # 24 skills
 │   └── ...
 └── packs/
 ```
@@ -221,8 +233,7 @@ git clone https://github.com/itsual/agent-skills-collection.git
 - [x] Repository foundation
 - [x] Core Engineering skills (85) ✅
 - [x] Document Production pack (43) ✅
-- [x] Product Management pack (started – 12 core skills)
-- [ ] Expand Product Management
+- [x] Product Management pack (24 skills) ✅
 - [ ] Design & UX pack
 - [ ] Marketing & Growth pack
 - [ ] Research, Finance, Compliance, and remaining domains
