@@ -9,8 +9,9 @@ Built following the [Anthropic Agent Skills standard](https://github.com/anthrop
 ## Current Status
 
 **Phase 1 – Engineering & Software Development** ✅ (85 skills)  
-**Phase 2 – Document Production** 🚀 (43 skills)  
-**Skills added so far**: **130** (2 Meta + 85 Engineering + 43 Document Production)
+**Phase 2 – Document Production** ✅ (43 skills)  
+**Phase 3 – Product Management** 🚀 (12 skills)  
+**Skills added so far**: **142** (2 Meta + 85 Engineering + 43 Document Production + 12 Product Management)
 
 ---
 
@@ -23,53 +24,75 @@ Built following the [Anthropic Agent Skills standard](https://github.com/anthrop
 | 🛠️ | **skill-creator** | Create, improve, and evaluate new Agent Skills | [View](skills/meta/skill-creator/) |
 | 🧭 | **using-agent-skills** | Discover and apply the right skills for the current task | [View](skills/meta/using-agent-skills/) |
 
-### 📄 Document Production (43 skills)
+### 📦 Product Management (12 skills)
 
 | Icon | Skill | Description | Link |
 |------|-------|-------------|------|
-| 📝 | **docx** | Create and edit professional Word documents (.docx) | [View](skills/document-production/docx/) |
-| 📊 | **pptx** | Create clean, professional PowerPoint / presentation decks (.pptx) | [View](skills/document-production/pptx/) |
-| 📈 | **xlsx** | Create well-structured, usable Excel spreadsheets (.xlsx) | [View](skills/document-production/xlsx/) |
-| 📕 | **pdf** | Create, read, and manipulate PDF documents | [View](skills/document-production/pdf/) |
-| 🎨 | **document-design** | Apply strong visual and structural design principles | [View](skills/document-production/document-design/) |
-| 📋 | **report-generation** | Structure and produce clear, professional reports | [View](skills/document-production/report-generation/) |
-| 🗣️ | **presentation-storytelling** | Craft compelling narrative structure for presentations | [View](skills/document-production/presentation-storytelling/) |
-| 📨 | **proposal-writing** | Write clear, persuasive business or project proposals | [View](skills/document-production/proposal-writing/) |
-| 📌 | **executive-summary** | Write concise, high-signal executive summaries | [View](skills/document-production/executive-summary/) |
-| 📑 | **template-design** | Design reusable document and presentation templates | [View](skills/document-production/template-design/) |
-| 📉 | **dashboard-spreadsheets** | Design clear spreadsheet dashboards for KPIs and status | [View](skills/document-production/dashboard-spreadsheets/) |
-| 📊 | **data-visualization-for-documents** | Choose and design effective charts for documents | [View](skills/document-production/data-visualization-for-documents/) |
-| 🗒️ | **meeting-notes-and-minutes** | Capture clear, actionable meeting notes and minutes | [View](skills/document-production/meeting-notes-and-minutes/) |
-| 📄 | **one-pager** | Create concise one-page overviews and briefing sheets | [View](skills/document-production/one-pager/) |
-| 👁️ | **visual-hierarchy** | Create clear visual hierarchy in documents and slides | [View](skills/document-production/visual-hierarchy/) |
-| 💼 | **business-case** | Write decision-ready business cases | [View](skills/document-production/business-case/) |
-| 📡 | **status-report** | Produce clear, scannable status reports | [View](skills/document-production/status-report/) |
-| 📖 | **case-study** | Write compelling customer / project case studies | [View](skills/document-production/case-study/) |
-| 📰 | **whitepaper** | Write authoritative whitepapers and thought leadership | [View](skills/document-production/whitepaper/) |
-| ✅ | **checklist-and-runbook** | Create practical checklists and operational runbooks | [View](skills/document-production/checklist-and-runbook/) |
-| 📜 | **policy-and-procedure** | Write clear organizational policies and procedures | [View](skills/document-production/policy-and-procedure/) |
-| 👤 | **resume-and-cv** | Create clear, achievement-focused resumes and CVs | [View](skills/document-production/resume-and-cv/) |
-| 📬 | **newsletter-and-update** | Write engaging newsletters and periodic updates | [View](skills/document-production/newsletter-and-update/) |
-| 🛠️ | **technical-documentation** | Clear, maintainable technical and API documentation | [View](skills/document-production/technical-documentation/) |
-| 📖 | **user-guide-and-manual** | User-friendly guides and manuals for end users | [View](skills/document-production/user-guide-and-manual/) |
-| 🎯 | **pitch-deck** | Focused, persuasive pitch decks for fundraising or sales | [View](skills/document-production/pitch-deck/) |
-| 📢 | **press-release** | Clear, newsworthy press releases | [View](skills/document-production/press-release/) |
-| 💼 | **job-description** | Clear, inclusive, and effective job descriptions | [View](skills/document-production/job-description/) |
-| 📝 | **performance-review** | Fair, specific, and constructive performance reviews | [View](skills/document-production/performance-review/) |
-| 🚀 | **onboarding-kit** | Practical onboarding documents and kits | [View](skills/document-production/onboarding-kit/) |
-| 📚 | **style-guide** | Practical style guides for consistency in writing and terminology | [View](skills/document-production/style-guide/) |
-| 📋 | **form-design** | Clear, usable forms that minimize friction and error | [View](skills/document-production/form-design/) |
-| 📒 | **decision-log** | Capture important decisions with context and rationale | [View](skills/document-production/decision-log/) |
-| 💰 | **grant-proposal** | Compelling grant proposals aligned with funder priorities | [View](skills/document-production/grant-proposal/) |
-| 📄 | **research-paper** | Structured research papers and academic-style reports | [View](skills/document-production/research-paper/) |
-| 🏛️ | **board-pack** | Concise, decision-oriented board packs and governance reports | [View](skills/document-production/board-pack/) |
-| 🧾 | **invoice-and-quote** | Clear professional invoices, quotes, and estimates | [View](skills/document-production/invoice-and-quote/) |
-| 📅 | **agenda-and-meeting-pack** | Effective meeting agendas and supporting packs | [View](skills/document-production/agenda-and-meeting-pack/) |
-| 🚨 | **incident-report** | Factual incident reports with impact, causes, and actions | [View](skills/document-production/incident-report/) |
-| 📚 | **knowledge-base-article** | Effective help-center and knowledge base articles | [View](skills/document-production/knowledge-base-article/) |
-| ❓ | **faq** | Useful FAQs based on real user questions | [View](skills/document-production/faq/) |
-| 🎓 | **training-material** | Training materials that build skills and retention | [View](skills/document-production/training-material/) |
-| 🔄 | **lessons-learned** | Capture lessons from projects and initiatives for improvement | [View](skills/document-production/lessons-learned/) |
+| 🎯 | **product-strategy** | Define product strategy connecting vision, users, value, and business goals | [View](skills/product-management/product-strategy/) |
+| 🔍 | **product-discovery** | Structured discovery to reduce uncertainty before heavy investment | [View](skills/product-management/product-discovery/) |
+| 👥 | **user-research** | Plan and synthesize user research into actionable insights | [View](skills/product-management/user-research/) |
+| ⚖️ | **prioritization-frameworks** | Apply RICE, value/effort, MoSCoW, Kano, and other prioritization methods | [View](skills/product-management/prioritization-frameworks/) |
+| 🗺️ | **roadmap-planning** | Create outcome-oriented roadmaps that communicate direction and priorities | [View](skills/product-management/roadmap-planning/) |
+| 📋 | **prd-writing** | Write clear Product Requirements Documents | [View](skills/product-management/prd-writing/) |
+| 📝 | **user-story-writing** | Write effective user stories and acceptance criteria | [View](skills/product-management/user-story-writing/) |
+| 📊 | **metrics-and-kpis** | Define product metrics that measure outcomes and guide decisions | [View](skills/product-management/metrics-and-kpis/) |
+| 🧪 | **experiment-design** | Design trustworthy A/B tests and product experiments | [View](skills/product-management/experiment-design/) |
+| 🚀 | **go-to-market** | Plan GTM for launches, pricing changes, and market entry | [View](skills/product-management/go-to-market/) |
+| 🏁 | **competitive-analysis** | Analyze competitors and alternatives to inform strategy | [View](skills/product-management/competitive-analysis/) |
+| 🤝 | **stakeholder-management** | Align and communicate with stakeholders so decisions stick | [View](skills/product-management/stakeholder-management/) |
+
+### 📄 Document Production (43 skills)
+
+<details>
+<summary>Click to expand Document Production catalog (43 skills)</summary>
+
+| Icon | Skill | Link |
+|------|-------|------|
+| 📝 | docx | [View](skills/document-production/docx/) |
+| 📊 | pptx | [View](skills/document-production/pptx/) |
+| 📈 | xlsx | [View](skills/document-production/xlsx/) |
+| 📕 | pdf | [View](skills/document-production/pdf/) |
+| 🎨 | document-design | [View](skills/document-production/document-design/) |
+| 📋 | report-generation | [View](skills/document-production/report-generation/) |
+| 🗣️ | presentation-storytelling | [View](skills/document-production/presentation-storytelling/) |
+| 📨 | proposal-writing | [View](skills/document-production/proposal-writing/) |
+| 📌 | executive-summary | [View](skills/document-production/executive-summary/) |
+| 📑 | template-design | [View](skills/document-production/template-design/) |
+| 📉 | dashboard-spreadsheets | [View](skills/document-production/dashboard-spreadsheets/) |
+| 📊 | data-visualization-for-documents | [View](skills/document-production/data-visualization-for-documents/) |
+| 🗒️ | meeting-notes-and-minutes | [View](skills/document-production/meeting-notes-and-minutes/) |
+| 📄 | one-pager | [View](skills/document-production/one-pager/) |
+| 👁️ | visual-hierarchy | [View](skills/document-production/visual-hierarchy/) |
+| 💼 | business-case | [View](skills/document-production/business-case/) |
+| 📡 | status-report | [View](skills/document-production/status-report/) |
+| 📖 | case-study | [View](skills/document-production/case-study/) |
+| 📰 | whitepaper | [View](skills/document-production/whitepaper/) |
+| ✅ | checklist-and-runbook | [View](skills/document-production/checklist-and-runbook/) |
+| 📜 | policy-and-procedure | [View](skills/document-production/policy-and-procedure/) |
+| 👤 | resume-and-cv | [View](skills/document-production/resume-and-cv/) |
+| 📬 | newsletter-and-update | [View](skills/document-production/newsletter-and-update/) |
+| 🛠️ | technical-documentation | [View](skills/document-production/technical-documentation/) |
+| 📖 | user-guide-and-manual | [View](skills/document-production/user-guide-and-manual/) |
+| 🎯 | pitch-deck | [View](skills/document-production/pitch-deck/) |
+| 📢 | press-release | [View](skills/document-production/press-release/) |
+| 💼 | job-description | [View](skills/document-production/job-description/) |
+| 📝 | performance-review | [View](skills/document-production/performance-review/) |
+| 🚀 | onboarding-kit | [View](skills/document-production/onboarding-kit/) |
+| 📚 | style-guide | [View](skills/document-production/style-guide/) |
+| 📋 | form-design | [View](skills/document-production/form-design/) |
+| 📒 | decision-log | [View](skills/document-production/decision-log/) |
+| 💰 | grant-proposal | [View](skills/document-production/grant-proposal/) |
+| 📄 | research-paper | [View](skills/document-production/research-paper/) |
+| 🏛️ | board-pack | [View](skills/document-production/board-pack/) |
+| 🧾 | invoice-and-quote | [View](skills/document-production/invoice-and-quote/) |
+| 📅 | agenda-and-meeting-pack | [View](skills/document-production/agenda-and-meeting-pack/) |
+| 🚨 | incident-report | [View](skills/document-production/incident-report/) |
+| 📚 | knowledge-base-article | [View](skills/document-production/knowledge-base-article/) |
+| ❓ | faq | [View](skills/document-production/faq/) |
+| 🎓 | training-material | [View](skills/document-production/training-material/) |
+| 🔄 | lessons-learned | [View](skills/document-production/lessons-learned/) |
+
+</details>
 
 ### ⚙️ Engineering & Software Development (85 skills)
 
@@ -181,6 +204,7 @@ agent-skills-collection/
 │   ├── meta/
 │   ├── engineering/             # 85 skills
 │   ├── document-production/     # 43 skills
+│   ├── product-management/      # 12 skills
 │   └── ...
 └── packs/
 ```
@@ -196,8 +220,9 @@ git clone https://github.com/itsual/agent-skills-collection.git
 
 - [x] Repository foundation
 - [x] Core Engineering skills (85) ✅
-- [x] Document Production pack (43 skills) ✅
-- [ ] Product Management pack
+- [x] Document Production pack (43) ✅
+- [x] Product Management pack (started – 12 core skills)
+- [ ] Expand Product Management
 - [ ] Design & UX pack
 - [ ] Marketing & Growth pack
 - [ ] Research, Finance, Compliance, and remaining domains
