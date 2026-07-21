@@ -11,8 +11,8 @@ Built following the [Anthropic Agent Skills standard](https://github.com/anthrop
 **Phase 1 – Engineering & Software Development** ✅ (85 skills)  
 **Phase 2 – Document Production** ✅ (43 skills)  
 **Phase 3 – Product Management** ✅ (36 skills)  
-**Phase 4 – Design & UX** 🚀 (12 skills)  
-**Skills added so far**: **178** (2 Meta + 85 Engineering + 43 Document Production + 36 Product Management + 12 Design & UX)
+**Phase 4 – Design & UX** 🚀 (24 skills)  
+**Skills added so far**: **190** (2 Meta + 85 Engineering + 43 Document Production + 36 Product Management + 24 Design & UX)
 
 ---
 
@@ -25,22 +25,34 @@ Built following the [Anthropic Agent Skills standard](https://github.com/anthrop
 | 🛠️ | **skill-creator** | Create, improve, and evaluate new Agent Skills | [View](skills/meta/skill-creator/) |
 | 🧭 | **using-agent-skills** | Discover and apply the right skills for the current task | [View](skills/meta/using-agent-skills/) |
 
-### 🎨 Design & UX (12 skills)
+### 🎨 Design & UX (24 skills)
 
 | Icon | Skill | Description | Link |
 |------|-------|-------------|------|
-| 🧩 | **design-systems** | Create and govern scalable design systems and component libraries | [View](skills/design-ux/design-systems/) |
-| 🖥️ | **ui-design** | Design clear, usable, and visually coherent interfaces | [View](skills/design-ux/ui-design/) |
-| 👆 | **interaction-design** | Design responsive, predictable interactions and micro-experiences | [View](skills/design-ux/interaction-design/) |
-| 🎭 | **visual-design** | Apply typography, color, layout, and brand-aligned visual style | [View](skills/design-ux/visual-design/) |
-| 🧪 | **usability-testing** | Plan and run usability tests that produce actionable findings | [View](skills/design-ux/usability-testing/) |
+| 🧩 | **design-systems** | Create and govern scalable design systems | [View](skills/design-ux/design-systems/) |
+| 🖥️ | **ui-design** | Design clear, usable, coherent interfaces | [View](skills/design-ux/ui-design/) |
+| 👆 | **interaction-design** | Design responsive, predictable interactions | [View](skills/design-ux/interaction-design/) |
+| 🎭 | **visual-design** | Typography, color, layout, and brand-aligned style | [View](skills/design-ux/visual-design/) |
+| 🧪 | **usability-testing** | Plan and run usability tests with actionable findings | [View](skills/design-ux/usability-testing/) |
 | 🗺️ | **information-architecture** | Structure content and navigation for findability | [View](skills/design-ux/information-architecture/) |
 | 📐 | **wireframing-and-prototyping** | Create wireframes and prototypes at the right fidelity | [View](skills/design-ux/wireframing-and-prototyping/) |
-| ♿ | **accessibility-design** | Design inclusive interfaces that meet accessibility standards | [View](skills/design-ux/accessibility-design/) |
-| 💬 | **design-critique** | Run effective, structured design critique sessions | [View](skills/design-ux/design-critique/) |
-| ✍️ | **ux-writing** | Write clear UI microcopy, errors, and empty states | [View](skills/design-ux/ux-writing/) |
-| 🔀 | **user-flows** | Map multi-step user flows including branches and edge cases | [View](skills/design-ux/user-flows/) |
-| 🤝 | **design-handoff** | Deliver complete design handoffs for accurate implementation | [View](skills/design-ux/design-handoff/) |
+| ♿ | **accessibility-design** | Design inclusive interfaces meeting a11y standards | [View](skills/design-ux/accessibility-design/) |
+| 💬 | **design-critique** | Run effective, structured design critiques | [View](skills/design-ux/design-critique/) |
+| ✍️ | **ux-writing** | Clear UI microcopy, errors, and empty states | [View](skills/design-ux/ux-writing/) |
+| 🔀 | **user-flows** | Map multi-step flows with branches and edge cases | [View](skills/design-ux/user-flows/) |
+| 🤝 | **design-handoff** | Complete design handoffs for accurate implementation | [View](skills/design-ux/design-handoff/) |
+| 🎨 | **design-tokens** | Define and manage design tokens as shared source of truth | [View](skills/design-ux/design-tokens/) |
+| 📱 | **mobile-ux** | High-quality mobile experiences and platform conventions | [View](skills/design-ux/mobile-ux/) |
+| ⚙️ | **design-ops** | Scale design quality with processes, tools, and systems | [View](skills/design-ux/design-ops/) |
+| 🌐 | **service-design** | End-to-end service experiences across touchpoints | [View](skills/design-ux/service-design/) |
+| ✨ | **motion-design** | Purposeful motion that aids understanding and feedback | [View](skills/design-ux/motion-design/) |
+| 📋 | **heuristic-evaluation** | Expert usability reviews against established heuristics | [View](skills/design-ux/heuristic-evaluation/) |
+| 📐 | **responsive-design** | Interfaces that adapt gracefully across screen sizes | [View](skills/design-ux/responsive-design/) |
+| 📭 | **empty-states** | Effective empty states that guide next action | [View](skills/design-ux/empty-states/) |
+| 💡 | **design-thinking** | Human-centered creative problem-solving methods | [View](skills/design-ux/design-thinking/) |
+| 📝 | **content-design** | Content as a core part of the product experience | [View](skills/design-ux/content-design/) |
+| 🔍 | **design-research** | Research that informs experience decisions | [View](skills/design-ux/design-research/) |
+| 🔄 | **cross-platform-design** | Coherent experiences across web, mobile, and desktop | [View](skills/design-ux/cross-platform-design/) |
 
 ### 📦 Product Management (36 skills)
 
@@ -252,7 +264,7 @@ agent-skills-collection/
 │   ├── engineering/             # 85 skills
 │   ├── document-production/     # 43 skills
 │   ├── product-management/      # 36 skills
-│   ├── design-ux/               # 12 skills
+│   ├── design-ux/               # 24 skills
 │   └── ...
 └── packs/
 ```
@@ -270,8 +282,7 @@ git clone https://github.com/itsual/agent-skills-collection.git
 - [x] Core Engineering skills (85) ✅
 - [x] Document Production pack (43) ✅
 - [x] Product Management pack (36) ✅
-- [x] Design & UX pack (started – 12 core skills)
-- [ ] Expand Design & UX
+- [x] Design & UX pack (24 skills) ✅
 - [ ] Marketing & Growth pack
 - [ ] Research, Finance, Compliance, and remaining domains
 - [ ] Curated skill packs + evaluation harness
