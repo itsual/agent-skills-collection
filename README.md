@@ -10,8 +10,8 @@ Built following the [Anthropic Agent Skills standard](https://github.com/anthrop
 
 **Phase 1 – Engineering & Software Development** ✅ (85 skills)  
 **Phase 2 – Document Production** ✅ (43 skills)  
-**Phase 3 – Product Management** 🚀 (24 skills)  
-**Skills added so far**: **154** (2 Meta + 85 Engineering + 43 Document Production + 24 Product Management)
+**Phase 3 – Product Management** 🚀 (36 skills)  
+**Skills added so far**: **166** (2 Meta + 85 Engineering + 43 Document Production + 36 Product Management)
 
 ---
 
@@ -24,7 +24,7 @@ Built following the [Anthropic Agent Skills standard](https://github.com/anthrop
 | 🛠️ | **skill-creator** | Create, improve, and evaluate new Agent Skills | [View](skills/meta/skill-creator/) |
 | 🧭 | **using-agent-skills** | Discover and apply the right skills for the current task | [View](skills/meta/using-agent-skills/) |
 
-### 📦 Product Management (24 skills)
+### 📦 Product Management (36 skills)
 
 | Icon | Skill | Description | Link |
 |------|-------|-------------|------|
@@ -32,26 +32,38 @@ Built following the [Anthropic Agent Skills standard](https://github.com/anthrop
 | 🔍 | **product-discovery** | Structured discovery to reduce uncertainty before heavy investment | [View](skills/product-management/product-discovery/) |
 | 👥 | **user-research** | Plan and synthesize user research into actionable insights | [View](skills/product-management/user-research/) |
 | ⚖️ | **prioritization-frameworks** | Apply RICE, value/effort, MoSCoW, Kano, and other prioritization methods | [View](skills/product-management/prioritization-frameworks/) |
-| 🗺️ | **roadmap-planning** | Create outcome-oriented roadmaps that communicate direction and priorities | [View](skills/product-management/roadmap-planning/) |
+| 🗺️ | **roadmap-planning** | Create outcome-oriented roadmaps | [View](skills/product-management/roadmap-planning/) |
 | 📋 | **prd-writing** | Write clear Product Requirements Documents | [View](skills/product-management/prd-writing/) |
 | 📝 | **user-story-writing** | Write effective user stories and acceptance criteria | [View](skills/product-management/user-story-writing/) |
-| 📊 | **metrics-and-kpis** | Define product metrics that measure outcomes and guide decisions | [View](skills/product-management/metrics-and-kpis/) |
-| 🧪 | **experiment-design** | Design trustworthy A/B tests and product experiments | [View](skills/product-management/experiment-design/) |
-| 🚀 | **go-to-market** | Plan GTM for launches, pricing changes, and market entry | [View](skills/product-management/go-to-market/) |
-| 🏁 | **competitive-analysis** | Analyze competitors and alternatives to inform strategy | [View](skills/product-management/competitive-analysis/) |
-| 🤝 | **stakeholder-management** | Align and communicate with stakeholders so decisions stick | [View](skills/product-management/stakeholder-management/) |
-| 👤 | **persona-development** | Create research-grounded personas that drive decisions | [View](skills/product-management/persona-development/) |
-| 🧭 | **journey-mapping** | Map end-to-end user journeys to find friction and opportunities | [View](skills/product-management/journey-mapping/) |
-| 🎯 | **jobs-to-be-done** | Apply JTBD to understand the progress customers seek | [View](skills/product-management/jobs-to-be-done/) |
-| 💡 | **opportunity-assessment** | Evaluate opportunities for desirability, feasibility, and viability | [View](skills/product-management/opportunity-assessment/) |
-| 📦 | **mvp-definition** | Define the smallest viable slice for learning and value | [View](skills/product-management/mvp-definition/) |
-| ✨ | **product-vision** | Craft a clear, inspiring long-term product vision | [View](skills/product-management/product-vision/) |
-| 🎯 | **okrs-and-goal-setting** | Set outcome-focused OKRs and product goals | [View](skills/product-management/okrs-and-goal-setting/) |
+| 📊 | **metrics-and-kpis** | Define product metrics that measure outcomes | [View](skills/product-management/metrics-and-kpis/) |
+| 🧪 | **experiment-design** | Design trustworthy A/B tests and experiments | [View](skills/product-management/experiment-design/) |
+| 🚀 | **go-to-market** | Plan GTM for launches and market entry | [View](skills/product-management/go-to-market/) |
+| 🏁 | **competitive-analysis** | Analyze competitors and alternatives | [View](skills/product-management/competitive-analysis/) |
+| 🤝 | **stakeholder-management** | Align and communicate with stakeholders | [View](skills/product-management/stakeholder-management/) |
+| 👤 | **persona-development** | Create research-grounded personas | [View](skills/product-management/persona-development/) |
+| 🧭 | **journey-mapping** | Map end-to-end user journeys | [View](skills/product-management/journey-mapping/) |
+| 🎯 | **jobs-to-be-done** | Apply JTBD to understand customer progress | [View](skills/product-management/jobs-to-be-done/) |
+| 💡 | **opportunity-assessment** | Evaluate desirability, feasibility, viability | [View](skills/product-management/opportunity-assessment/) |
+| 📦 | **mvp-definition** | Define the smallest viable slice for learning | [View](skills/product-management/mvp-definition/) |
+| ✨ | **product-vision** | Craft a clear, inspiring product vision | [View](skills/product-management/product-vision/) |
+| 🎯 | **okrs-and-goal-setting** | Set outcome-focused OKRs and goals | [View](skills/product-management/okrs-and-goal-setting/) |
 | 💰 | **pricing-strategy** | Design pricing and packaging that reflect value | [View](skills/product-management/pricing-strategy/) |
-| 📚 | **backlog-management** | Maintain a healthy, prioritized, refined product backlog | [View](skills/product-management/backlog-management/) |
-| 🚢 | **release-management** | Plan and coordinate safe, well-communicated releases | [View](skills/product-management/release-management/) |
-| 💬 | **feedback-management** | Collect, synthesize, and act on customer feedback | [View](skills/product-management/feedback-management/) |
-| 📈 | **product-analytics** | Use analytics to understand behavior and measure impact | [View](skills/product-management/product-analytics/) |
+| 📚 | **backlog-management** | Maintain a healthy, prioritized backlog | [View](skills/product-management/backlog-management/) |
+| 🚢 | **release-management** | Plan and coordinate safe releases | [View](skills/product-management/release-management/) |
+| 💬 | **feedback-management** | Collect, synthesize, and act on feedback | [View](skills/product-management/feedback-management/) |
+| 📈 | **product-analytics** | Use analytics to understand behavior and impact | [View](skills/product-management/product-analytics/) |
+| 🌱 | **product-led-growth** | Design PLG motions for acquisition, activation, and expansion | [View](skills/product-management/product-led-growth/) |
+| 🔁 | **retention-and-engagement** | Diagnose and improve retention and engagement | [View](skills/product-management/retention-and-engagement/) |
+| 💵 | **monetization-strategy** | Holistic monetization across pricing, packaging, and expansion | [View](skills/product-management/monetization-strategy/) |
+| ⚙️ | **product-ops** | Scale PM effectiveness with processes, tools, and enablement | [View](skills/product-management/product-ops/) |
+| ✅ | **launch-checklist** | Comprehensive launch readiness across functions | [View](skills/product-management/launch-checklist/) |
+| 🎙️ | **customer-interviewing** | Conduct interviews that surface real behavior and needs | [View](skills/product-management/customer-interviewing/) |
+| ⭐ | **north-star-metric** | Define and operationalize a North Star Metric | [View](skills/product-management/north-star-metric/) |
+| 💘 | **product-market-fit** | Assess and pursue product-market fit | [View](skills/product-management/product-market-fit/) |
+| 📍 | **product-positioning** | Craft clear positioning and differentiation | [View](skills/product-management/product-positioning/) |
+| 🔄 | **growth-loops** | Design compounding growth loops | [View](skills/product-management/growth-loops/) |
+| 🚪 | **onboarding-optimization** | Improve activation and time-to-value | [View](skills/product-management/onboarding-optimization/) |
+| 📉 | **churn-analysis** | Analyze churn drivers and design interventions | [View](skills/product-management/churn-analysis/) |
 
 ### 📄 Document Production (43 skills)
 
@@ -216,7 +228,7 @@ agent-skills-collection/
 │   ├── meta/
 │   ├── engineering/             # 85 skills
 │   ├── document-production/     # 43 skills
-│   ├── product-management/      # 24 skills
+│   ├── product-management/      # 36 skills
 │   └── ...
 └── packs/
 ```
@@ -233,7 +245,7 @@ git clone https://github.com/itsual/agent-skills-collection.git
 - [x] Repository foundation
 - [x] Core Engineering skills (85) ✅
 - [x] Document Production pack (43) ✅
-- [x] Product Management pack (24 skills) ✅
+- [x] Product Management pack (36 skills) ✅
 - [ ] Design & UX pack
 - [ ] Marketing & Growth pack
 - [ ] Research, Finance, Compliance, and remaining domains
