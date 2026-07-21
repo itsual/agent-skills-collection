@@ -11,8 +11,9 @@ Built following the [Anthropic Agent Skills standard](https://github.com/anthrop
 **Phase 1 – Engineering & Software Development** ✅ (85 skills)  
 **Phase 2 – Document Production** ✅ (43 skills)  
 **Phase 3 – Product Management** ✅ (36 skills)  
-**Phase 4 – Design & UX** 🚀 (46 skills)  
-**Skills added so far**: **212** (2 Meta + 85 Engineering + 43 Document Production + 36 Product Management + 46 Design & UX)
+**Phase 4 – Design & UX** ✅ (46 skills)  
+**Phase 5 – Marketing & Growth** 🚀 (12 skills)  
+**Skills added so far**: **224** (2 Meta + 85 Engineering + 43 Document Production + 36 Product Management + 46 Design & UX + 12 Marketing & Growth)
 
 ---
 
@@ -25,56 +26,78 @@ Built following the [Anthropic Agent Skills standard](https://github.com/anthrop
 | 🛠️ | **skill-creator** | Create, improve, and evaluate new Agent Skills | [View](skills/meta/skill-creator/) |
 | 🧭 | **using-agent-skills** | Discover and apply the right skills for the current task | [View](skills/meta/using-agent-skills/) |
 
-### 🎨 Design & UX (46 skills)
+### 📈 Marketing & Growth (12 skills)
 
 | Icon | Skill | Description | Link |
 |------|-------|-------------|------|
-| 🧩 | **design-systems** | Create and govern scalable design systems | [View](skills/design-ux/design-systems/) |
-| 🖥️ | **ui-design** | Design clear, usable, coherent interfaces | [View](skills/design-ux/ui-design/) |
-| 👆 | **interaction-design** | Design responsive, predictable interactions | [View](skills/design-ux/interaction-design/) |
-| 🎭 | **visual-design** | Typography, color, layout, and brand-aligned style | [View](skills/design-ux/visual-design/) |
-| 🧪 | **usability-testing** | Plan and run usability tests with actionable findings | [View](skills/design-ux/usability-testing/) |
-| 🗺️ | **information-architecture** | Structure content and navigation for findability | [View](skills/design-ux/information-architecture/) |
-| 📐 | **wireframing-and-prototyping** | Create wireframes and prototypes at the right fidelity | [View](skills/design-ux/wireframing-and-prototyping/) |
-| ♿ | **accessibility-design** | Design inclusive interfaces meeting a11y standards | [View](skills/design-ux/accessibility-design/) |
-| 💬 | **design-critique** | Run effective, structured design critiques | [View](skills/design-ux/design-critique/) |
-| ✍️ | **ux-writing** | Clear UI microcopy, errors, and empty states | [View](skills/design-ux/ux-writing/) |
-| 🔀 | **user-flows** | Map multi-step flows with branches and edge cases | [View](skills/design-ux/user-flows/) |
-| 🤝 | **design-handoff** | Complete design handoffs for accurate implementation | [View](skills/design-ux/design-handoff/) |
-| 🎨 | **design-tokens** | Define and manage design tokens as shared source of truth | [View](skills/design-ux/design-tokens/) |
-| 📱 | **mobile-ux** | High-quality mobile experiences and platform conventions | [View](skills/design-ux/mobile-ux/) |
-| ⚙️ | **design-ops** | Scale design quality with processes, tools, and systems | [View](skills/design-ux/design-ops/) |
-| 🌐 | **service-design** | End-to-end service experiences across touchpoints | [View](skills/design-ux/service-design/) |
-| ✨ | **motion-design** | Purposeful motion that aids understanding and feedback | [View](skills/design-ux/motion-design/) |
-| 📋 | **heuristic-evaluation** | Expert usability reviews against established heuristics | [View](skills/design-ux/heuristic-evaluation/) |
-| 📐 | **responsive-design** | Interfaces that adapt gracefully across screen sizes | [View](skills/design-ux/responsive-design/) |
-| 📭 | **empty-states** | Effective empty states that guide next action | [View](skills/design-ux/empty-states/) |
-| 💡 | **design-thinking** | Human-centered creative problem-solving methods | [View](skills/design-ux/design-thinking/) |
-| 📝 | **content-design** | Content as a core part of the product experience | [View](skills/design-ux/content-design/) |
-| 🔍 | **design-research** | Research that informs experience decisions | [View](skills/design-ux/design-research/) |
-| 🔄 | **cross-platform-design** | Coherent experiences across web, mobile, and desktop | [View](skills/design-ux/cross-platform-design/) |
-| 📋 | **form-ux** | Forms that minimize friction and prevent errors | [View](skills/design-ux/form-ux/) |
-| 🧭 | **navigation-design** | Navigation systems for clear wayfinding | [View](skills/design-ux/navigation-design/) |
-| 📊 | **data-visualization-ux** | Charts and dashboards that make insight actionable | [View](skills/design-ux/data-visualization-ux/) |
-| 🚀 | **onboarding-ux** | First-run experiences that reach value quickly | [View](skills/design-ux/onboarding-ux/) |
-| ⚠️ | **error-states** | Error UI that enables understanding and recovery | [View](skills/design-ux/error-states/) |
-| 🌙 | **dark-mode** | Dark themes with hierarchy, contrast, and quality | [View](skills/design-ux/dark-mode/) |
-| ✅ | **design-qa** | Design quality assurance against intent and standards | [View](skills/design-ux/design-qa/) |
-| 🔷 | **iconography** | Recognizable, consistent icon systems | [View](skills/design-ux/iconography/) |
-| 🖼️ | **illustration-in-product** | Purposeful illustration in product UI | [View](skills/design-ux/illustration-in-product/) |
-| 💬 | **conversational-ux** | Chat and assistant experiences that feel controllable | [View](skills/design-ux/conversational-ux/) |
-| 📈 | **dashboard-ux** | Dashboards for monitoring, exceptions, and action | [View](skills/design-ux/dashboard-ux/) |
-| ⚖️ | **design-ethics** | Ethical design practices; avoid dark patterns | [View](skills/design-ux/design-ethics/) |
-| 🔎 | **search-ux** | Search experiences for query, results, and refinement | [View](skills/design-ux/search-ux/) |
-| 📑 | **table-ux** | Data tables for scanning, sorting, and bulk actions | [View](skills/design-ux/table-ux/) |
-| 🪟 | **modal-and-overlay** | Modals, drawers, and overlays used appropriately | [View](skills/design-ux/modal-and-overlay/) |
-| 🔔 | **notification-ux** | In-product notifications that inform without overwhelming | [View](skills/design-ux/notification-ux/) |
-| ⏳ | **loading-states** | Loading and skeleton states for perceived performance | [View](skills/design-ux/loading-states/) |
-| 👆 | **gesture-design** | Touch and pointer gestures with accessible alternatives | [View](skills/design-ux/gesture-design/) |
-| 🌍 | **localization-ux** | Interfaces that adapt to languages and locales | [View](skills/design-ux/localization-ux/) |
-| 📂 | **progressive-disclosure** | Reveal complexity on demand without hiding power | [View](skills/design-ux/progressive-disclosure/) |
-| 🏛️ | **design-systems-governance** | Contribution models and versioning for design systems | [View](skills/design-ux/design-systems-governance/) |
-| ♿ | **accessibility-audit** | Audit and remediate accessibility issues systematically | [View](skills/design-ux/accessibility-audit/) |
+| 📍 | **positioning-and-messaging** | Craft clear positioning and consistent market messaging | [View](skills/marketing-growth/positioning-and-messaging/) |
+| 📝 | **content-marketing** | Content that attracts, educates, and converts | [View](skills/marketing-growth/content-marketing/) |
+| 🔍 | **seo** | Organic search visibility through technical, content, and authority | [View](skills/marketing-growth/seo/) |
+| ✉️ | **email-marketing** | Lifecycle and campaign email that earns attention | [View](skills/marketing-growth/email-marketing/) |
+| 📱 | **social-media-marketing** | Social strategy that builds brand and demand | [View](skills/marketing-growth/social-media-marketing/) |
+| 💰 | **paid-acquisition** | Paid channels with clear unit economics | [View](skills/marketing-growth/paid-acquisition/) |
+| 🎯 | **conversion-optimization** | Research-driven funnel and page optimization | [View](skills/marketing-growth/conversion-optimization/) |
+| 🏷️ | **brand-strategy** | Brand purpose, identity, and coherent expression | [View](skills/marketing-growth/brand-strategy/) |
+| 🚀 | **launch-marketing** | Coordinated product and feature launch campaigns | [View](skills/marketing-growth/launch-marketing/) |
+| 📊 | **marketing-analytics** | Measure performance to guide budget and channel decisions | [View](skills/marketing-growth/marketing-analytics/) |
+| 👥 | **customer-segmentation** | Actionable segments for messaging and GTM | [View](skills/marketing-growth/customer-segmentation/) |
+| 🧪 | **growth-experimentation** | Systematic experiments across the growth model | [View](skills/marketing-growth/growth-experimentation/) |
+
+### 🎨 Design & UX (46 skills)
+
+<details>
+<summary>Click to expand Design & UX catalog (46 skills)</summary>
+
+| Icon | Skill | Link |
+|------|-------|------|
+| 🧩 | design-systems | [View](skills/design-ux/design-systems/) |
+| 🖥️ | ui-design | [View](skills/design-ux/ui-design/) |
+| 👆 | interaction-design | [View](skills/design-ux/interaction-design/) |
+| 🎭 | visual-design | [View](skills/design-ux/visual-design/) |
+| 🧪 | usability-testing | [View](skills/design-ux/usability-testing/) |
+| 🗺️ | information-architecture | [View](skills/design-ux/information-architecture/) |
+| 📐 | wireframing-and-prototyping | [View](skills/design-ux/wireframing-and-prototyping/) |
+| ♿ | accessibility-design | [View](skills/design-ux/accessibility-design/) |
+| 💬 | design-critique | [View](skills/design-ux/design-critique/) |
+| ✍️ | ux-writing | [View](skills/design-ux/ux-writing/) |
+| 🔀 | user-flows | [View](skills/design-ux/user-flows/) |
+| 🤝 | design-handoff | [View](skills/design-ux/design-handoff/) |
+| 🎨 | design-tokens | [View](skills/design-ux/design-tokens/) |
+| 📱 | mobile-ux | [View](skills/design-ux/mobile-ux/) |
+| ⚙️ | design-ops | [View](skills/design-ux/design-ops/) |
+| 🌐 | service-design | [View](skills/design-ux/service-design/) |
+| ✨ | motion-design | [View](skills/design-ux/motion-design/) |
+| 📋 | heuristic-evaluation | [View](skills/design-ux/heuristic-evaluation/) |
+| 📐 | responsive-design | [View](skills/design-ux/responsive-design/) |
+| 📭 | empty-states | [View](skills/design-ux/empty-states/) |
+| 💡 | design-thinking | [View](skills/design-ux/design-thinking/) |
+| 📝 | content-design | [View](skills/design-ux/content-design/) |
+| 🔍 | design-research | [View](skills/design-ux/design-research/) |
+| 🔄 | cross-platform-design | [View](skills/design-ux/cross-platform-design/) |
+| 📋 | form-ux | [View](skills/design-ux/form-ux/) |
+| 🧭 | navigation-design | [View](skills/design-ux/navigation-design/) |
+| 📊 | data-visualization-ux | [View](skills/design-ux/data-visualization-ux/) |
+| 🚀 | onboarding-ux | [View](skills/design-ux/onboarding-ux/) |
+| ⚠️ | error-states | [View](skills/design-ux/error-states/) |
+| 🌙 | dark-mode | [View](skills/design-ux/dark-mode/) |
+| ✅ | design-qa | [View](skills/design-ux/design-qa/) |
+| 🔷 | iconography | [View](skills/design-ux/iconography/) |
+| 🖼️ | illustration-in-product | [View](skills/design-ux/illustration-in-product/) |
+| 💬 | conversational-ux | [View](skills/design-ux/conversational-ux/) |
+| 📈 | dashboard-ux | [View](skills/design-ux/dashboard-ux/) |
+| ⚖️ | design-ethics | [View](skills/design-ux/design-ethics/) |
+| 🔎 | search-ux | [View](skills/design-ux/search-ux/) |
+| 📑 | table-ux | [View](skills/design-ux/table-ux/) |
+| 🪟 | modal-and-overlay | [View](skills/design-ux/modal-and-overlay/) |
+| 🔔 | notification-ux | [View](skills/design-ux/notification-ux/) |
+| ⏳ | loading-states | [View](skills/design-ux/loading-states/) |
+| 👆 | gesture-design | [View](skills/design-ux/gesture-design/) |
+| 🌍 | localization-ux | [View](skills/design-ux/localization-ux/) |
+| 📂 | progressive-disclosure | [View](skills/design-ux/progressive-disclosure/) |
+| 🏛️ | design-systems-governance | [View](skills/design-ux/design-systems-governance/) |
+| ♿ | accessibility-audit | [View](skills/design-ux/accessibility-audit/) |
+
+</details>
 
 ### 📦 Product Management (36 skills)
 
@@ -287,6 +310,7 @@ agent-skills-collection/
 │   ├── document-production/     # 43 skills
 │   ├── product-management/      # 36 skills
 │   ├── design-ux/               # 46 skills
+│   ├── marketing-growth/        # 12 skills
 │   └── ...
 └── packs/
 ```
@@ -304,8 +328,9 @@ git clone https://github.com/itsual/agent-skills-collection.git
 - [x] Core Engineering skills (85) ✅
 - [x] Document Production pack (43) ✅
 - [x] Product Management pack (36) ✅
-- [x] Design & UX pack (46 skills) ✅
-- [ ] Marketing & Growth pack
+- [x] Design & UX pack (46) ✅
+- [x] Marketing & Growth pack (started – 12 core skills)
+- [ ] Expand Marketing & Growth
 - [ ] Research, Finance, Compliance, and remaining domains
 - [ ] Curated skill packs + evaluation harness
 
