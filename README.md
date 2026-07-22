@@ -21,9 +21,9 @@ Built following the [Anthropic Agent Skills standard](https://github.com/anthrop
 | 9 | Compliance | 24 ✅ |
 | 10 | Customer Success | 24 ✅ |
 | 11 | HR | 30 ✅ |
-| 12 | **Data Analytics & Data Science** | **30 ✅** |
+| 12 | **Data Analytics & Data Science** | **38 ✅** |
 | | **Meta** | **2** |
-| | **Total** | **452** |
+| | **Total** | **460** |
 
 ---
 
@@ -36,40 +36,53 @@ Built following the [Anthropic Agent Skills standard](https://github.com/anthrop
 | 🛠️ | skill-creator | [View](skills/meta/skill-creator/) |
 | 🧭 | using-agent-skills | [View](skills/meta/using-agent-skills/) |
 
-### 📊 Data Analytics & Data Science (30 skills)
+### 📊 Data Analytics & Data Science (38 skills)
 
+#### Data Governance & Quality
 | Icon | Skill | Description | Link |
 |------|-------|-------------|------|
-| 🎯 | **analytics-problem-framing** | Decision-oriented problem scoping before analysis | [View](skills/data-analytics/analytics-problem-framing/) |
-| 🔍 | **exploratory-data-analysis** | Distributions, quality, and hypothesis generation | [View](skills/data-analytics/exploratory-data-analysis/) |
-| 🧹 | **data-cleaning** | Documented, reversible preparation pipelines | [View](skills/data-analytics/data-cleaning/) |
-| 📈 | **statistical-analysis** | Estimation, uncertainty, honest interpretation | [View](skills/data-analytics/statistical-analysis/) |
-| 🧪 | **hypothesis-testing** | Tests, power, p-values without fallacies | [View](skills/data-analytics/hypothesis-testing/) |
-| ⚗️ | **experiment-design-data** | A/B design, randomization, sample size | [View](skills/data-analytics/experiment-design-data/) |
-| 📉 | **regression-analysis** | Explanation/prediction with diagnostics | [View](skills/data-analytics/regression-analysis/) |
-| 🏷️ | **classification-basics** | Label prediction, metrics, thresholds | [View](skills/data-analytics/classification-basics/) |
-| 🧩 | **clustering-and-segmentation** | Actionable segments with validation | [View](skills/data-analytics/clustering-and-segmentation/) |
-| ⏱️ | **time-series-basics** | Trend, seasonality, temporal validation | [View](skills/data-analytics/time-series-basics/) |
-| 📊 | **data-visualization** | Honest, decision-fit charts | [View](skills/data-analytics/data-visualization/) |
-| 📐 | **metrics-definition** | Metric dictionaries and single sources of truth | [View](skills/data-analytics/metrics-definition/) |
-| 🗃️ | **sql-for-analysis** | Analytical SQL, grain, window functions | [View](skills/data-analytics/sql-for-analysis/) |
-| 🔧 | **feature-engineering** | Leakage-safe predictive features | [View](skills/data-analytics/feature-engineering/) |
-| ✅ | **model-evaluation** | Metrics, validation, baselines, error analysis | [View](skills/data-analytics/model-evaluation/) |
-| 🔎 | **feature-importance-and-explainability** | Interpreting model drivers carefully | [View](skills/data-analytics/feature-importance-and-explainability/) |
-| 🔮 | **forecasting** | Planning-grade forecasts with uncertainty | [View](skills/data-analytics/forecasting/) |
-| 🚨 | **anomaly-detection** | KPI/data anomalies with actionable alerts | [View](skills/data-analytics/anomaly-detection/) |
-| ⛓️ | **causal-inference-basics** | Effects, confounding, credible designs | [View](skills/data-analytics/causal-inference-basics/) |
+| 🏛️ | **data-governance** | Ownership, policies, decision rights, accountability | [View](skills/data-analytics/data-governance/) |
+| ✅ | **data-quality-management** | Dimensions, rules, remediation, prevention | [View](skills/data-analytics/data-quality-management/) |
 | 🛡️ | **data-quality-monitoring** | Freshness, volume, schema, pipeline checks | [View](skills/data-analytics/data-quality-monitoring/) |
-| 🏗️ | **analytics-engineering** | Tested, versioned transformation layers | [View](skills/data-analytics/analytics-engineering/) |
-| 📱 | **dashboard-design** | Decision-first dashboards | [View](skills/data-analytics/dashboard-design/) |
-| 🗣️ | **storytelling-with-data** | Insight narratives that drive action | [View](skills/data-analytics/storytelling-with-data/) |
-| ⚙️ | **mlops-basics** | Production ML lifecycle basics | [View](skills/data-analytics/mlops-basics/) |
-| 📝 | **nlp-basics** | Practical text analytics pipelines | [View](skills/data-analytics/nlp-basics/) |
-| 🎁 | **recommendation-basics** | Ranking, baselines, feedback loops | [View](skills/data-analytics/recommendation-basics/) |
-| ⚖️ | **data-ethics** | Privacy, fairness, responsible claims | [View](skills/data-analytics/data-ethics/) |
-| 📓 | **notebook-best-practices** | Reproducible analytical notebooks | [View](skills/data-analytics/notebook-best-practices/) |
-| 🎲 | **sampling-and-bias** | Selection bias and external validity | [View](skills/data-analytics/sampling-and-bias/) |
-| 📑 | **ab-test-analysis** | Experiment readout and ship decisions | [View](skills/data-analytics/ab-test-analysis/) |
+| 📚 | **data-catalog-and-discovery** | Findable, certified, owned datasets | [View](skills/data-analytics/data-catalog-and-discovery/) |
+| 🔗 | **data-lineage** | Source-to-consumer impact and traceability | [View](skills/data-analytics/data-lineage/) |
+| 🗃️ | **master-data-management** | Golden records for core entities | [View](skills/data-analytics/master-data-management/) |
+| 👤 | **data-stewardship** | Day-to-day domain care and definitions | [View](skills/data-analytics/data-stewardship/) |
+| 🏷️ | **metadata-management** | Technical, business, operational metadata | [View](skills/data-analytics/metadata-management/) |
+| 📜 | **data-contracts** | Producer–consumer schema and SLA agreements | [View](skills/data-analytics/data-contracts/) |
+
+#### Analytics, Statistics & Modeling
+| Icon | Skill | Link |
+|------|-------|------|
+| 🎯 | analytics-problem-framing | [View](skills/data-analytics/analytics-problem-framing/) |
+| 🔍 | exploratory-data-analysis | [View](skills/data-analytics/exploratory-data-analysis/) |
+| 🧹 | data-cleaning | [View](skills/data-analytics/data-cleaning/) |
+| 📈 | statistical-analysis | [View](skills/data-analytics/statistical-analysis/) |
+| 🧪 | hypothesis-testing | [View](skills/data-analytics/hypothesis-testing/) |
+| ⚗️ | experiment-design-data | [View](skills/data-analytics/experiment-design-data/) |
+| 📉 | regression-analysis | [View](skills/data-analytics/regression-analysis/) |
+| 🏷️ | classification-basics | [View](skills/data-analytics/classification-basics/) |
+| 🧩 | clustering-and-segmentation | [View](skills/data-analytics/clustering-and-segmentation/) |
+| ⏱️ | time-series-basics | [View](skills/data-analytics/time-series-basics/) |
+| 📊 | data-visualization | [View](skills/data-analytics/data-visualization/) |
+| 📐 | metrics-definition | [View](skills/data-analytics/metrics-definition/) |
+| 🗃️ | sql-for-analysis | [View](skills/data-analytics/sql-for-analysis/) |
+| 🔧 | feature-engineering | [View](skills/data-analytics/feature-engineering/) |
+| ✅ | model-evaluation | [View](skills/data-analytics/model-evaluation/) |
+| 🔎 | feature-importance-and-explainability | [View](skills/data-analytics/feature-importance-and-explainability/) |
+| 🔮 | forecasting | [View](skills/data-analytics/forecasting/) |
+| 🚨 | anomaly-detection | [View](skills/data-analytics/anomaly-detection/) |
+| ⛓️ | causal-inference-basics | [View](skills/data-analytics/causal-inference-basics/) |
+| 🏗️ | analytics-engineering | [View](skills/data-analytics/analytics-engineering/) |
+| 📱 | dashboard-design | [View](skills/data-analytics/dashboard-design/) |
+| 🗣️ | storytelling-with-data | [View](skills/data-analytics/storytelling-with-data/) |
+| ⚙️ | mlops-basics | [View](skills/data-analytics/mlops-basics/) |
+| 📝 | nlp-basics | [View](skills/data-analytics/nlp-basics/) |
+| 🎁 | recommendation-basics | [View](skills/data-analytics/recommendation-basics/) |
+| ⚖️ | data-ethics | [View](skills/data-analytics/data-ethics/) |
+| 📓 | notebook-best-practices | [View](skills/data-analytics/notebook-best-practices/) |
+| 🎲 | sampling-and-bias | [View](skills/data-analytics/sampling-and-bias/) |
+| 📑 | ab-test-analysis | [View](skills/data-analytics/ab-test-analysis/) |
 
 ### Other domains
 
