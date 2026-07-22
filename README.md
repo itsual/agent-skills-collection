@@ -14,8 +14,8 @@ Built following the [Anthropic Agent Skills standard](https://github.com/anthrop
 **Phase 4 – Design & UX** ✅ (46 skills)  
 **Phase 5 – Marketing & Growth** ✅ (24 skills)  
 **Phase 6 – Sales** ✅ (24 skills)  
-**Phase 7 – Finance** ✅ (56 skills)  
-**Skills added so far**: **316** (2 Meta + 85 Engineering + 43 Document Production + 36 Product Management + 46 Design & UX + 24 Marketing & Growth + 24 Sales + 56 Finance)
+**Phase 7 – Finance** ✅ (60 skills)  
+**Skills added so far**: **320** (2 Meta + 85 Engineering + 43 Document Production + 36 Product Management + 46 Design & UX + 24 Marketing & Growth + 24 Sales + 60 Finance)
 
 ---
 
@@ -28,7 +28,7 @@ Built following the [Anthropic Agent Skills standard](https://github.com/anthrop
 | 🛠️ | **skill-creator** | Create, improve, and evaluate new Agent Skills | [View](skills/meta/skill-creator/) |
 | 🧭 | **using-agent-skills** | Discover and apply the right skills for the current task | [View](skills/meta/using-agent-skills/) |
 
-### 💰 Finance (56 skills)
+### 💰 Finance (60 skills)
 
 | Icon | Skill | Description | Link |
 |------|-------|-------------|------|
@@ -62,6 +62,10 @@ Built following the [Anthropic Agent Skills standard](https://github.com/anthrop
 | 🔍 | **internal-audit-basics** | Risk-based assurance and control testing | [View](skills/finance/internal-audit-basics/) |
 | ⚠️ | **financial-risk-management** | Market, credit, liquidity, and operational risk | [View](skills/finance/financial-risk-management/) |
 | 👤 | **credit-risk-basics** | Customer credit limits, terms, and collections risk | [View](skills/finance/credit-risk-basics/) |
+| 👥 | **retail-credit-risk-monitoring** | Individual/consumer scoring, delinquency, vintage risk | [View](skills/finance/retail-credit-risk-monitoring/) |
+| 🏢 | **corporate-credit-risk-monitoring** | Business obligor ratings, covenants, watchlists | [View](skills/finance/corporate-credit-risk-monitoring/) |
+| 🚨 | **credit-early-warning-systems** | Triggers, watchlists, and escalation before default | [View](skills/finance/credit-early-warning-systems/) |
+| 📊 | **credit-portfolio-monitoring** | Concentration, migration, and risk appetite limits | [View](skills/finance/credit-portfolio-monitoring/) |
 | 🧪 | **scenario-and-stress-testing** | Downside cases and resilience planning | [View](skills/finance/scenario-and-stress-testing/) |
 | 🚀 | **fundraising-finance** | Raise-ready financials, runway, and data rooms | [View](skills/finance/fundraising-finance/) |
 | 📣 | **investor-reporting** | Transparent investor updates and KPI cadence | [View](skills/finance/investor-reporting/) |
@@ -89,82 +93,9 @@ Built following the [Anthropic Agent Skills standard](https://github.com/anthrop
 | 📊 | **benchmark-and-peer-analysis** | Peer benchmarks for targets and context | [View](skills/finance/benchmark-and-peer-analysis/) |
 | ⚡ | **close-acceleration** | Faster close without sacrificing accuracy | [View](skills/finance/close-acceleration/) |
 
-### 🤝 Sales (24 skills)
+### 🤝 Sales (24) · 📈 Marketing & Growth (24) · 🎨 Design & UX (46) · 📦 Product Management (36) · 📄 Document Production (43) · ⚙️ Engineering (85)
 
-<details>
-<summary>Click to expand Sales catalog (24 skills)</summary>
-
-| Icon | Skill | Link |
-|------|-------|------|
-| 🎯 | sales-strategy | [View](skills/sales/sales-strategy/) |
-| 🔍 | discovery-calls | [View](skills/sales/discovery-calls/) |
-| 🖥️ | demo-and-presentation | [View](skills/sales/demo-and-presentation/) |
-| 🛡️ | objection-handling | [View](skills/sales/objection-handling/) |
-| 📝 | proposal-and-negotiation | [View](skills/sales/proposal-and-negotiation/) |
-| 📊 | pipeline-management | [View](skills/sales/pipeline-management/) |
-| 📚 | sales-enablement | [View](skills/sales/sales-enablement/) |
-| 🏢 | account-management | [View](skills/sales/account-management/) |
-| 📤 | outbound-prospecting | [View](skills/sales/outbound-prospecting/) |
-| ✅ | inbound-qualification | [View](skills/sales/inbound-qualification/) |
-| 📖 | sales-playbooks | [View](skills/sales/sales-playbooks/) |
-| 📈 | win-loss-analysis | [View](skills/sales/win-loss-analysis/) |
-| 📋 | meddicc-qualification | [View](skills/sales/meddicc-qualification/) |
-| 🗺️ | mutual-action-plans | [View](skills/sales/mutual-action-plans/) |
-| 💵 | pricing-conversations | [View](skills/sales/pricing-conversations/) |
-| ⚔️ | competitive-selling | [View](skills/sales/competitive-selling/) |
-| 🏛️ | enterprise-deals | [View](skills/sales/enterprise-deals/) |
-| 🎓 | sales-coaching | [View](skills/sales/sales-coaching/) |
-| 🗄️ | crm-hygiene | [View](skills/sales/crm-hygiene/) |
-| 🎯 | forecast-accuracy | [View](skills/sales/forecast-accuracy/) |
-| 🤝 | channel-partner-sales | [View](skills/sales/channel-partner-sales/) |
-| 🔄 | renewal-and-upsell | [View](skills/sales/renewal-and-upsell/) |
-| 💼 | social-selling | [View](skills/sales/social-selling/) |
-| 💰 | sales-compensation-basics | [View](skills/sales/sales-compensation-basics/) |
-
-</details>
-
-### 📈 Marketing & Growth (24 skills)
-
-<details>
-<summary>Click to expand Marketing & Growth catalog (24 skills)</summary>
-
-| Icon | Skill | Link |
-|------|-------|------|
-| 📍 | positioning-and-messaging | [View](skills/marketing-growth/positioning-and-messaging/) |
-| 📝 | content-marketing | [View](skills/marketing-growth/content-marketing/) |
-| 🔍 | seo | [View](skills/marketing-growth/seo/) |
-| ✉️ | email-marketing | [View](skills/marketing-growth/email-marketing/) |
-| 📱 | social-media-marketing | [View](skills/marketing-growth/social-media-marketing/) |
-| 💰 | paid-acquisition | [View](skills/marketing-growth/paid-acquisition/) |
-| 🎯 | conversion-optimization | [View](skills/marketing-growth/conversion-optimization/) |
-| 🏷️ | brand-strategy | [View](skills/marketing-growth/brand-strategy/) |
-| 🚀 | launch-marketing | [View](skills/marketing-growth/launch-marketing/) |
-| 📊 | marketing-analytics | [View](skills/marketing-growth/marketing-analytics/) |
-| 👥 | customer-segmentation | [View](skills/marketing-growth/customer-segmentation/) |
-| 🧪 | growth-experimentation | [View](skills/marketing-growth/growth-experimentation/) |
-| ✍️ | copywriting | [View](skills/marketing-growth/copywriting/) |
-| 📄 | landing-pages | [View](skills/marketing-growth/landing-pages/) |
-| 🔗 | referral-programs | [View](skills/marketing-growth/referral-programs/) |
-| 🏘️ | community-marketing | [View](skills/marketing-growth/community-marketing/) |
-| 📰 | pr-and-comms | [View](skills/marketing-growth/pr-and-comms/) |
-| ⭐ | influencer-marketing | [View](skills/marketing-growth/influencer-marketing/) |
-| 🔄 | lifecycle-marketing | [View](skills/marketing-growth/lifecycle-marketing/) |
-| 🤝 | partnership-marketing | [View](skills/marketing-growth/partnership-marketing/) |
-| 🎤 | webinar-and-events | [View](skills/marketing-growth/webinar-and-events/) |
-| 🕵️ | competitive-intelligence | [View](skills/marketing-growth/competitive-intelligence/) |
-| 📣 | demand-generation | [View](skills/marketing-growth/demand-generation/) |
-| 💚 | retention-marketing | [View](skills/marketing-growth/retention-marketing/) |
-
-</details>
-
-### 🎨 Design & UX · 📦 Product Management · 📄 Document Production · ⚙️ Engineering
-
-<details>
-<summary>Click to expand remaining catalogs (Design 46 · PM 36 · Docs 43 · Engineering 85)</summary>
-
-**Design & UX, Product Management, Document Production, and Engineering** catalogs remain in the repository under `skills/design-ux/`, `skills/product-management/`, `skills/document-production/`, and `skills/engineering/` — full tables available in prior README versions and the directory structure.
-
-</details>
+Full catalogs live under `skills/sales/`, `skills/marketing-growth/`, `skills/design-ux/`, `skills/product-management/`, `skills/document-production/`, and `skills/engineering/`.
 
 ---
 
@@ -175,14 +106,14 @@ agent-skills-collection/
 ├── README.md
 ├── LICENSE
 ├── skills/
-│   ├── meta/                    # 2 skills
-│   ├── engineering/             # 85 skills
-│   ├── document-production/     # 43 skills
-│   ├── product-management/      # 36 skills
-│   ├── design-ux/               # 46 skills
-│   ├── marketing-growth/        # 24 skills
-│   ├── sales/                   # 24 skills
-│   ├── finance/                 # 56 skills
+│   ├── meta/                    # 2
+│   ├── engineering/             # 85
+│   ├── document-production/     # 43
+│   ├── product-management/      # 36
+│   ├── design-ux/               # 46
+│   ├── marketing-growth/        # 24
+│   ├── sales/                   # 24
+│   ├── finance/                 # 60
 │   └── ...
 └── packs/
 ```
@@ -197,13 +128,9 @@ git clone https://github.com/itsual/agent-skills-collection.git
 ## Roadmap
 
 - [x] Repository foundation
-- [x] Core Engineering skills (85) ✅
-- [x] Document Production pack (43) ✅
-- [x] Product Management pack (36) ✅
-- [x] Design & UX pack (46) ✅
-- [x] Marketing & Growth pack (24) ✅
-- [x] Sales pack (24) ✅
-- [x] Finance pack (56) ✅
+- [x] Engineering (85) · Document Production (43) · Product Management (36)
+- [x] Design & UX (46) · Marketing & Growth (24) · Sales (24)
+- [x] Finance (60) ✅ — including retail & corporate credit risk monitoring
 - [ ] Customer Success, Research, Compliance, HR, and remaining domains
 - [ ] Curated skill packs + evaluation harness
 
