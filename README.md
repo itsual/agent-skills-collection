@@ -2,7 +2,7 @@
 
 **Production-ready Agent Skills** for Claude, Codex, Cursor, Gemini CLI, and other AI coding agents.
 
-Built on the [Anthropic Agent Skills standard](https://github.com/anthropics/skills) — progressive disclosure, strong trigger descriptions, verification checklists.
+Built on the [Anthropic Agent Skills standard](https://github.com/anthropics/skills) - progressive disclosure, strong trigger descriptions, verification checklists.
 
 ---
 
@@ -13,7 +13,6 @@ Built on the [Anthropic Agent Skills standard](https://github.com/anthropics/ski
 | **Total skills** | **501** |
 | **Domains** | 13 + Meta |
 | **License** | MIT |
-| **Goal** | 500+ ✅ achieved |
 
 ```text
 ┌─────────────────────────────────────────────────────────────┐
