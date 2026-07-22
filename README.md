@@ -17,8 +17,8 @@ Built following the [Anthropic Agent Skills standard](https://github.com/anthrop
 **Phase 7 – Finance** ✅ (60 skills)  
 **Phase 8 – Research** ✅ (24 skills)  
 **Phase 9 – Compliance** ✅ (24 skills)  
-**Phase 10 – Customer Success** 🚀 (12 skills)  
-**Skills added so far**: **380** (2 Meta + 85 Engineering + 43 Document Production + 36 Product Management + 46 Design & UX + 24 Marketing & Growth + 24 Sales + 60 Finance + 24 Research + 24 Compliance + 12 Customer Success)
+**Phase 10 – Customer Success** 🚀 (24 skills)  
+**Skills added so far**: **392** (2 Meta + 85 Engineering + 43 Document Production + 36 Product Management + 46 Design & UX + 24 Marketing & Growth + 24 Sales + 60 Finance + 24 Research + 24 Compliance + 24 Customer Success)
 
 ---
 
@@ -31,7 +31,7 @@ Built following the [Anthropic Agent Skills standard](https://github.com/anthrop
 | 🛠️ | **skill-creator** | Create, improve, and evaluate new Agent Skills | [View](skills/meta/skill-creator/) |
 | 🧭 | **using-agent-skills** | Discover and apply the right skills for the current task | [View](skills/meta/using-agent-skills/) |
 
-### 💙 Customer Success (12 skills)
+### 💙 Customer Success (24 skills)
 
 | Icon | Skill | Description | Link |
 |------|-------|-------------|------|
@@ -47,6 +47,18 @@ Built following the [Anthropic Agent Skills standard](https://github.com/anthrop
 | 🔗 | **support-to-success-handoff** | Clean Support ↔ CS ownership and context | [View](skills/customer-success/support-to-success-handoff/) |
 | 📉 | **cs-metrics** | NRR, GRR, adoption, and leading indicators | [View](skills/customer-success/cs-metrics/) |
 | 🗣️ | **voice-of-customer** | Structured VoC capture and routing to product | [View](skills/customer-success/voice-of-customer/) |
+| 📶 | **adoption-programs** | Feature activation and habit-forming adoption | [View](skills/customer-success/adoption-programs/) |
+| 🎓 | **customer-education** | Academies, paths, and scalable learning | [View](skills/customer-success/customer-education/) |
+| 📱 | **digital-cs** | Tech-touch journeys and pooled coverage | [View](skills/customer-success/digital-cs/) |
+| 🚨 | **escalation-management** | Severity, ownership, and trust-preserving response | [View](skills/customer-success/escalation-management/) |
+| 🗺️ | **journey-orchestration** | Coherent post-sale lifecycle across teams | [View](skills/customer-success/journey-orchestration/) |
+| 👥 | **csm-capacity-planning** | Ratios, books of business, sustainable coverage | [View](skills/customer-success/csm-capacity-planning/) |
+| 📕 | **at-risk-playbooks** | Structured intervention for yellow/red accounts | [View](skills/customer-success/at-risk-playbooks/) |
+| 💎 | **value-realization** | ROI evidence and outcome storytelling | [View](skills/customer-success/value-realization/) |
+| 🔧 | **professional-services-alignment** | Implementation ↔ CS continuous path | [View](skills/customer-success/professional-services-alignment/) |
+| 🏘️ | **community-led-success** | Peer support and champion communities | [View](skills/customer-success/community-led-success/) |
+| 🔁 | **customer-feedback-loops** | Capture → decide → act → close the loop | [View](skills/customer-success/customer-feedback-loops/) |
+| 🛠️ | **cs-tooling** | CS platforms, health data, playbook automation | [View](skills/customer-success/cs-tooling/) |
 
 ### 🛡️ Compliance (24) · 🔬 Research (24) · 💰 Finance (60) · 🤝 Sales (24) · 📈 Marketing & Growth (24) · 🎨 Design & UX (46) · 📦 Product Management (36) · 📄 Document Production (43) · ⚙️ Engineering (85)
 
@@ -71,7 +83,7 @@ agent-skills-collection/
 │   ├── finance/                 # 60
 │   ├── research/                # 24
 │   ├── compliance/              # 24
-│   ├── customer-success/        # 12
+│   ├── customer-success/        # 24
 │   └── ...
 └── packs/
 ```
@@ -87,8 +99,7 @@ git clone https://github.com/itsual/agent-skills-collection.git
 
 - [x] Engineering · Document Production · Product Management · Design & UX
 - [x] Marketing & Growth · Sales · Finance · Research · Compliance
-- [x] Customer Success pack (started – 12 core skills)
-- [ ] Expand Customer Success
+- [x] Customer Success pack (24 skills) ✅
 - [ ] HR and remaining domains
 - [ ] Curated skill packs + evaluation harness
 
