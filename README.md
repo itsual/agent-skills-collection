@@ -45,7 +45,7 @@ Built following the [Anthropic Agent Skills standard](https://github.com/anthrop
 | ✍️ | **copywriting** | Persuasive marketing and product copy that drives action | [View](skills/marketing-growth/copywriting/) |
 | 📄 | **landing-pages** | Focused landing pages that convert targeted traffic | [View](skills/marketing-growth/landing-pages/) |
 | 🔗 | **referral-programs** | Referral and word-of-mouth programs that scale advocacy | [View](skills/marketing-growth/referral-programs/) |
-| Community | **community-marketing** | Communities that create belonging, feedback, and growth | [View](skills/marketing-growth/community-marketing/) |
+| 🏘️ | **community-marketing** | Communities that create belonging, feedback, and growth | [View](skills/marketing-growth/community-marketing/) |
 | 📰 | **pr-and-comms** | PR and communications for coverage and reputation | [View](skills/marketing-growth/pr-and-comms/) |
 | ⭐ | **influencer-marketing** | Authentic creator partnerships with measurable outcomes | [View](skills/marketing-growth/influencer-marketing/) |
 | 🔄 | **lifecycle-marketing** | Journeys from acquisition through retention and expansion | [View](skills/marketing-growth/lifecycle-marketing/) |
