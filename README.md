@@ -16,8 +16,8 @@ Built following the [Anthropic Agent Skills standard](https://github.com/anthrop
 **Phase 6 – Sales** ✅ (24 skills)  
 **Phase 7 – Finance** ✅ (60 skills)  
 **Phase 8 – Research** ✅ (24 skills)  
-**Phase 9 – Compliance** 🚀 (12 skills)  
-**Skills added so far**: **356** (2 Meta + 85 Engineering + 43 Document Production + 36 Product Management + 46 Design & UX + 24 Marketing & Growth + 24 Sales + 60 Finance + 24 Research + 12 Compliance)
+**Phase 9 – Compliance** 🚀 (24 skills)  
+**Skills added so far**: **368** (2 Meta + 85 Engineering + 43 Document Production + 36 Product Management + 46 Design & UX + 24 Marketing & Growth + 24 Sales + 60 Finance + 24 Research + 24 Compliance)
 
 ---
 
@@ -30,7 +30,7 @@ Built following the [Anthropic Agent Skills standard](https://github.com/anthrop
 | 🛠️ | **skill-creator** | Create, improve, and evaluate new Agent Skills | [View](skills/meta/skill-creator/) |
 | 🧭 | **using-agent-skills** | Discover and apply the right skills for the current task | [View](skills/meta/using-agent-skills/) |
 
-### 🛡️ Compliance (12 skills)
+### 🛡️ Compliance (24 skills)
 
 | Icon | Skill | Description | Link |
 |------|-------|-------------|------|
@@ -46,6 +46,18 @@ Built following the [Anthropic Agent Skills standard](https://github.com/anthrop
 | 📡 | **regulatory-change-management** | Horizon scan, impact, implement before effective dates | [View](skills/compliance/regulatory-change-management/) |
 | 🎓 | **compliance-training** | Role-relevant training that changes behavior | [View](skills/compliance/compliance-training/) |
 | ⚖️ | **ethics-and-conduct** | Code of conduct, speak-up, conflicts of interest | [View](skills/compliance/ethics-and-conduct/) |
+| 🚫 | **sanctions-screening** | List screening, alert handling, and escalation | [View](skills/compliance/sanctions-screening/) |
+| 🧠 | **model-risk-governance** | Model inventory, validation, monitoring, challenge | [View](skills/compliance/model-risk-governance/) |
+| 🛡️ | **consumer-protection-compliance** | Fair treatment, disclosures, responsible marketing | [View](skills/compliance/consumer-protection-compliance/) |
+| 📁 | **records-management** | Retention, holds, findability, and disposition | [View](skills/compliance/records-management/) |
+| 📋 | **regulatory-exam-management** | Exam prep, requests, fieldwork, remediation | [View](skills/compliance/regulatory-exam-management/) |
+| 🤖 | **ai-model-compliance** | AI decision governance, fairness, oversight | [View](skills/compliance/ai-model-compliance/) |
+| 🚨 | **incident-breach-notification** | Breach assessment and regulatory notification clocks | [View](skills/compliance/incident-breach-notification/) |
+| 📨 | **complaints-handling** | Regulated complaints logging, resolution, themes | [View](skills/compliance/complaints-handling/) |
+| ⚠️ | **conduct-risk** | Customer harm, incentives, and culture-driven risk | [View](skills/compliance/conduct-risk/) |
+| 📑 | **licensing-and-permissions** | Authorization perimeter and conditions tracking | [View](skills/compliance/licensing-and-permissions/) |
+| 🏗️ | **operational-resilience-compliance** | Critical services, impact tolerances, scenario tests | [View](skills/compliance/operational-resilience-compliance/) |
+| 📢 | **whistleblowing-investigations** | Speak-up investigations with fairness and non-retaliation | [View](skills/compliance/whistleblowing-investigations/) |
 
 ### 🔬 Research (24) · 💰 Finance (60) · 🤝 Sales (24) · 📈 Marketing & Growth (24) · 🎨 Design & UX (46) · 📦 Product Management (36) · 📄 Document Production (43) · ⚙️ Engineering (85)
 
@@ -69,7 +81,7 @@ agent-skills-collection/
 │   ├── sales/                   # 24
 │   ├── finance/                 # 60
 │   ├── research/                # 24
-│   ├── compliance/              # 12
+│   ├── compliance/              # 24
 │   └── ...
 └── packs/
 ```
@@ -85,8 +97,7 @@ git clone https://github.com/itsual/agent-skills-collection.git
 
 - [x] Engineering · Document Production · Product Management · Design & UX
 - [x] Marketing & Growth · Sales · Finance (60) · Research (24)
-- [x] Compliance pack (started – 12 core skills)
-- [ ] Expand Compliance
+- [x] Compliance pack (24 skills) ✅
 - [ ] Customer Success, HR, and remaining domains
 - [ ] Curated skill packs + evaluation harness
 
