@@ -12,8 +12,9 @@ Built following the [Anthropic Agent Skills standard](https://github.com/anthrop
 **Phase 2 – Document Production** ✅ (43 skills)  
 **Phase 3 – Product Management** ✅ (36 skills)  
 **Phase 4 – Design & UX** ✅ (46 skills)  
-**Phase 5 – Marketing & Growth** 🚀 (24 skills)  
-**Skills added so far**: **236** (2 Meta + 85 Engineering + 43 Document Production + 36 Product Management + 46 Design & UX + 24 Marketing & Growth)
+**Phase 5 – Marketing & Growth** ✅ (24 skills)  
+**Phase 6 – Sales** 🚀 (12 skills)  
+**Skills added so far**: **248** (2 Meta + 85 Engineering + 43 Document Production + 36 Product Management + 46 Design & UX + 24 Marketing & Growth + 12 Sales)
 
 ---
 
@@ -26,34 +27,56 @@ Built following the [Anthropic Agent Skills standard](https://github.com/anthrop
 | 🛠️ | **skill-creator** | Create, improve, and evaluate new Agent Skills | [View](skills/meta/skill-creator/) |
 | 🧭 | **using-agent-skills** | Discover and apply the right skills for the current task | [View](skills/meta/using-agent-skills/) |
 
-### 📈 Marketing & Growth (24 skills)
+### 🤝 Sales (12 skills)
 
 | Icon | Skill | Description | Link |
 |------|-------|-------------|------|
-| 📍 | **positioning-and-messaging** | Craft clear positioning and consistent market messaging | [View](skills/marketing-growth/positioning-and-messaging/) |
-| 📝 | **content-marketing** | Content that attracts, educates, and converts | [View](skills/marketing-growth/content-marketing/) |
-| 🔍 | **seo** | Organic search visibility through technical, content, and authority | [View](skills/marketing-growth/seo/) |
-| ✉️ | **email-marketing** | Lifecycle and campaign email that earns attention | [View](skills/marketing-growth/email-marketing/) |
-| 📱 | **social-media-marketing** | Social strategy that builds brand and demand | [View](skills/marketing-growth/social-media-marketing/) |
-| 💰 | **paid-acquisition** | Paid channels with clear unit economics | [View](skills/marketing-growth/paid-acquisition/) |
-| 🎯 | **conversion-optimization** | Research-driven funnel and page optimization | [View](skills/marketing-growth/conversion-optimization/) |
-| 🏷️ | **brand-strategy** | Brand purpose, identity, and coherent expression | [View](skills/marketing-growth/brand-strategy/) |
-| 🚀 | **launch-marketing** | Coordinated product and feature launch campaigns | [View](skills/marketing-growth/launch-marketing/) |
-| 📊 | **marketing-analytics** | Measure performance to guide budget and channel decisions | [View](skills/marketing-growth/marketing-analytics/) |
-| 👥 | **customer-segmentation** | Actionable segments for messaging and GTM | [View](skills/marketing-growth/customer-segmentation/) |
-| 🧪 | **growth-experimentation** | Systematic experiments across the growth model | [View](skills/marketing-growth/growth-experimentation/) |
-| ✍️ | **copywriting** | Persuasive marketing and product copy that drives action | [View](skills/marketing-growth/copywriting/) |
-| 📄 | **landing-pages** | Focused landing pages that convert targeted traffic | [View](skills/marketing-growth/landing-pages/) |
-| 🔗 | **referral-programs** | Referral and word-of-mouth programs that scale advocacy | [View](skills/marketing-growth/referral-programs/) |
-| 🏘️ | **community-marketing** | Communities that create belonging, feedback, and growth | [View](skills/marketing-growth/community-marketing/) |
-| 📰 | **pr-and-comms** | PR and communications for coverage and reputation | [View](skills/marketing-growth/pr-and-comms/) |
-| ⭐ | **influencer-marketing** | Authentic creator partnerships with measurable outcomes | [View](skills/marketing-growth/influencer-marketing/) |
-| 🔄 | **lifecycle-marketing** | Journeys from acquisition through retention and expansion | [View](skills/marketing-growth/lifecycle-marketing/) |
-| 🤝 | **partnership-marketing** | Co-marketing and partner programs for shared audiences | [View](skills/marketing-growth/partnership-marketing/) |
-| 🎤 | **webinar-and-events** | Webinars and events that convert interest into pipeline | [View](skills/marketing-growth/webinar-and-events/) |
-| 🕵️ | **competitive-intelligence** | Competitive intel for positioning and sales enablement | [View](skills/marketing-growth/competitive-intelligence/) |
-| 📣 | **demand-generation** | Integrated demand programs that create qualified pipeline | [View](skills/marketing-growth/demand-generation/) |
-| 💚 | **retention-marketing** | Programs that reduce churn and expand lifetime value | [View](skills/marketing-growth/retention-marketing/) |
+| 🎯 | **sales-strategy** | Define sales motions, segments, capacity, and goals | [View](skills/sales/sales-strategy/) |
+| 🔍 | **discovery-calls** | Uncover pain, impact, stakeholders, and fit | [View](skills/sales/discovery-calls/) |
+| 🖥️ | **demo-and-presentation** | Demos that map capabilities to prospect problems | [View](skills/sales/demo-and-presentation/) |
+| 🛡️ | **objection-handling** | Handle objections with empathy, clarity, and evidence | [View](skills/sales/objection-handling/) |
+| 📝 | **proposal-and-negotiation** | Proposals and commercial negotiation that protect value | [View](skills/sales/proposal-and-negotiation/) |
+| 📊 | **pipeline-management** | Accurate stages, forecasting, and deal inspection | [View](skills/sales/pipeline-management/) |
+| 📚 | **sales-enablement** | Content, training, and tools that make reps effective | [View](skills/sales/sales-enablement/) |
+| 🏢 | **account-management** | Post-sale retention, expansion, and advocacy | [View](skills/sales/account-management/) |
+| 📤 | **outbound-prospecting** | Targeted outbound that earns meetings | [View](skills/sales/outbound-prospecting/) |
+| ✅ | **inbound-qualification** | Qualify inbound efficiently; protect AE time | [View](skills/sales/inbound-qualification/) |
+| 📖 | **sales-playbooks** | Repeatable plays for segments and situations | [View](skills/sales/sales-playbooks/) |
+| 📈 | **win-loss-analysis** | Learn from wins and losses to improve GTM | [View](skills/sales/win-loss-analysis/) |
+
+### 📈 Marketing & Growth (24 skills)
+
+<details>
+<summary>Click to expand Marketing & Growth catalog (24 skills)</summary>
+
+| Icon | Skill | Link |
+|------|-------|------|
+| 📍 | positioning-and-messaging | [View](skills/marketing-growth/positioning-and-messaging/) |
+| 📝 | content-marketing | [View](skills/marketing-growth/content-marketing/) |
+| 🔍 | seo | [View](skills/marketing-growth/seo/) |
+| ✉️ | email-marketing | [View](skills/marketing-growth/email-marketing/) |
+| 📱 | social-media-marketing | [View](skills/marketing-growth/social-media-marketing/) |
+| 💰 | paid-acquisition | [View](skills/marketing-growth/paid-acquisition/) |
+| 🎯 | conversion-optimization | [View](skills/marketing-growth/conversion-optimization/) |
+| 🏷️ | brand-strategy | [View](skills/marketing-growth/brand-strategy/) |
+| 🚀 | launch-marketing | [View](skills/marketing-growth/launch-marketing/) |
+| 📊 | marketing-analytics | [View](skills/marketing-growth/marketing-analytics/) |
+| 👥 | customer-segmentation | [View](skills/marketing-growth/customer-segmentation/) |
+| 🧪 | growth-experimentation | [View](skills/marketing-growth/growth-experimentation/) |
+| ✍️ | copywriting | [View](skills/marketing-growth/copywriting/) |
+| 📄 | landing-pages | [View](skills/marketing-growth/landing-pages/) |
+| 🔗 | referral-programs | [View](skills/marketing-growth/referral-programs/) |
+| 🏘️ | community-marketing | [View](skills/marketing-growth/community-marketing/) |
+| 📰 | pr-and-comms | [View](skills/marketing-growth/pr-and-comms/) |
+| ⭐ | influencer-marketing | [View](skills/marketing-growth/influencer-marketing/) |
+| 🔄 | lifecycle-marketing | [View](skills/marketing-growth/lifecycle-marketing/) |
+| 🤝 | partnership-marketing | [View](skills/marketing-growth/partnership-marketing/) |
+| 🎤 | webinar-and-events | [View](skills/marketing-growth/webinar-and-events/) |
+| 🕵️ | competitive-intelligence | [View](skills/marketing-growth/competitive-intelligence/) |
+| 📣 | demand-generation | [View](skills/marketing-growth/demand-generation/) |
+| 💚 | retention-marketing | [View](skills/marketing-growth/retention-marketing/) |
+
+</details>
 
 ### 🎨 Design & UX (46 skills)
 
@@ -323,6 +346,7 @@ agent-skills-collection/
 │   ├── product-management/      # 36 skills
 │   ├── design-ux/               # 46 skills
 │   ├── marketing-growth/        # 24 skills
+│   ├── sales/                   # 12 skills
 │   └── ...
 └── packs/
 ```
@@ -341,9 +365,10 @@ git clone https://github.com/itsual/agent-skills-collection.git
 - [x] Document Production pack (43) ✅
 - [x] Product Management pack (36) ✅
 - [x] Design & UX pack (46) ✅
-- [x] Marketing & Growth pack (24 skills) ✅
-- [ ] Expand Marketing & Growth further (optional)
-- [ ] Research, Finance, Compliance, and remaining domains
+- [x] Marketing & Growth pack (24) ✅
+- [x] Sales pack (started – 12 core skills)
+- [ ] Expand Sales
+- [ ] Research, Finance, Compliance, Customer Success, and remaining domains
 - [ ] Curated skill packs + evaluation harness
 
 ## License
