@@ -40,109 +40,54 @@ Built on the [Anthropic Agent Skills standard](https://github.com/anthropics/ski
 
 | Icon | Domain | Skills | Folder |
 |:----:|--------|:------:|--------|
-| 🧠 | [Meta](#-meta-2) | 2 | `skills/meta/` |
-| ⚙️ | [Engineering & Software Development](#️-engineering--software-development-85) | 85 | `skills/engineering/` |
-| 📄 | [Document Production](#-document-production-43) | 43 | `skills/document-production/` |
-| 📦 | [Product Management](#-product-management-36) | 36 | `skills/product-management/` |
-| 🎨 | [Design & UX](#-design--ux-46) | 46 | `skills/design-ux/` |
-| 📈 | [Marketing & Growth](#-marketing--growth-24) | 24 | `skills/marketing-growth/` |
-| 🤝 | [Sales](#-sales-24) | 24 | `skills/sales/` |
-| 💰 | [Finance](#-finance-60) | 60 | `skills/finance/` |
-| 🔬 | [Research](#-research-24) | 24 | `skills/research/` |
-| 🛡️ | [Compliance](#️-compliance-24) | 24 | `skills/compliance/` |
-| 💙 | [Customer Success](#-customer-success-24) | 24 | `skills/customer-success/` |
-| 👥 | [HR](#-hr-30) | 30 | `skills/hr/` |
-| 📊 | [Data Analytics & Data Science](#-data-analytics--data-science-38) | 38 | `skills/data-analytics/` |
-| 🔐 | [Cybersecurity](#-cybersecurity-41) | 41 | `skills/cybersecurity/` |
-
----
-
-## 🧭 How skills fit together
-
-```mermaid
-flowchart TB
-  subgraph meta [Meta]
-    SC[skill-creator]
-    US[using-agent-skills]
-  end
-
-  subgraph build [Build & Ship]
-    ENG[Engineering 85]
-    DOC[Document Production 43]
-  end
-
-  subgraph product [Product & Experience]
-    PM[Product Management 36]
-    UX[Design & UX 46]
-  end
-
-  subgraph growth [Go-to-Market]
-    MKT[Marketing 24]
-    SAL[Sales 24]
-    CS[Customer Success 24]
-  end
-
-  subgraph run [Run the Business]
-    FIN[Finance 60]
-    HR[HR 30]
-    CMP[Compliance 24]
-  end
-
-  subgraph insight [Insight & Defense]
-    RES[Research 24]
-    DATA[Data & DS 38]
-    CYB[Cybersecurity 41]
-  end
-
-  meta --> build
-  build --> product
-  product --> growth
-  growth --> run
-  run --> insight
-```
+| 🧠 | Meta | 2 | `skills/meta/` |
+| ⚙️ | Engineering & Software Development | 85 | `skills/engineering/` |
+| 📄 | Document Production | 43 | `skills/document-production/` |
+| 📦 | Product Management | 36 | `skills/product-management/` |
+| 🎨 | Design & UX | 46 | `skills/design-ux/` |
+| 📈 | Marketing & Growth | 24 | `skills/marketing-growth/` |
+| 🤝 | Sales | 24 | `skills/sales/` |
+| 💰 | Finance | 60 | `skills/finance/` |
+| 🔬 | Research | 24 | `skills/research/` |
+| 🛡️ | Compliance | 24 | `skills/compliance/` |
+| 💙 | Customer Success | 24 | `skills/customer-success/` |
+| 👥 | HR | 30 | `skills/hr/` |
+| 📊 | Data Analytics & Data Science | 38 | `skills/data-analytics/` |
+| 🔐 | Cybersecurity | 41 | `skills/cybersecurity/` |
 
 ---
 
 ## 📚 Skills catalog
 
-> Click each domain below to **expand / collapse** the full skill table.
+> Click each domain to **expand / collapse** the full skill table.
 
 ### 🧠 Meta (2)
 
 | Icon | Skill | Description | Link |
 |:----:|-------|-------------|------|
-| 🛠️ | **skill-creator** | Create, improve, and evaluate new Agent Skills | [View](skills/meta/skill-creator/) |
-| 🧭 | **using-agent-skills** | Discover and apply the right skills for the task | [View](skills/meta/using-agent-skills/) |
+| 🛠️ | **skill-creator** | Create and improve Agent Skills | [View](skills/meta/skill-creator/) |
+| 🧭 | **using-agent-skills** | Discover and apply the right skills | [View](skills/meta/using-agent-skills/) |
 
 ---
 
 ### 🔐 Cybersecurity (41)
 
 <details>
-<summary><strong>▶️ Click to expand Cybersecurity catalog</strong></summary>
-
-<br>
-
-#### Red team & offensive methodology
-
-| Icon | Skill | Description | Link |
-|:----:|-------|-------------|------|
-| 🎭 | **adversary-emulation** | CTI-driven ATT&CK TTP emulation | [View](skills/cybersecurity/adversary-emulation/) |
-| 📋 | **rules-of-engagement** | Scope, safety stops, deconfliction | [View](skills/cybersecurity/rules-of-engagement/) |
-| 🏦 | **tiber-style-tlpt** | Intelligence-led critical-function TLPT | [View](skills/cybersecurity/tiber-style-tlpt/) |
-| 🛤️ | **attack-path-analysis** | Entry → impact path prioritization | [View](skills/cybersecurity/attack-path-analysis/) |
-| 🗺️ | **detection-coverage-mapping** | ATT&CK coverage heatmaps & gaps | [View](skills/cybersecurity/detection-coverage-mapping/) |
-| 🔴 | **red-team-basics** | Adversary simulation programs | [View](skills/cybersecurity/red-team-basics/) |
-| 🟣 | **purple-teaming** | Collaborative detection improvement | [View](skills/cybersecurity/purple-teaming/) |
-| 🎯 | **penetration-testing-basics** | Scope, consume, remediate tests | [View](skills/cybersecurity/penetration-testing-basics/) |
-| 🛰️ | **detection-engineering** | High-signal detections as a product | [View](skills/cybersecurity/detection-engineering/) |
-| 🔬 | **forensics-basics** | Evidence preservation & analysis | [View](skills/cybersecurity/forensics-basics/) |
-| 🎭 | **tabletop-exercises** | Practice decisions before crisis | [View](skills/cybersecurity/tabletop-exercises/) |
-
-#### Core defensive & platform security
+<summary><strong>▶️ Expand Cybersecurity</strong></summary>
 
 | Icon | Skill | Link |
 |:----:|-------|------|
+| 🎭 | adversary-emulation | [View](skills/cybersecurity/adversary-emulation/) |
+| 📋 | rules-of-engagement | [View](skills/cybersecurity/rules-of-engagement/) |
+| 🏦 | tiber-style-tlpt | [View](skills/cybersecurity/tiber-style-tlpt/) |
+| 🛤️ | attack-path-analysis | [View](skills/cybersecurity/attack-path-analysis/) |
+| 🗺️ | detection-coverage-mapping | [View](skills/cybersecurity/detection-coverage-mapping/) |
+| 🔴 | red-team-basics | [View](skills/cybersecurity/red-team-basics/) |
+| 🟣 | purple-teaming | [View](skills/cybersecurity/purple-teaming/) |
+| 🎯 | penetration-testing-basics | [View](skills/cybersecurity/penetration-testing-basics/) |
+| 🛰️ | detection-engineering | [View](skills/cybersecurity/detection-engineering/) |
+| 🔬 | forensics-basics | [View](skills/cybersecurity/forensics-basics/) |
+| 🎭 | tabletop-exercises | [View](skills/cybersecurity/tabletop-exercises/) |
 | 🛡️ | security-fundamentals | [View](skills/cybersecurity/security-fundamentals/) |
 | 🗺️ | threat-modeling-security | [View](skills/cybersecurity/threat-modeling-security/) |
 | 🩹 | vulnerability-management | [View](skills/cybersecurity/vulnerability-management/) |
@@ -181,11 +126,7 @@ flowchart TB
 ### 📊 Data Analytics & Data Science (38)
 
 <details>
-<summary><strong>▶️ Click to expand Data Analytics & DS catalog</strong></summary>
-
-<br>
-
-#### Data governance & quality
+<summary><strong>▶️ Expand Data Analytics & DS</strong></summary>
 
 | Icon | Skill | Link |
 |:----:|-------|------|
@@ -198,11 +139,6 @@ flowchart TB
 | 👤 | data-stewardship | [View](skills/data-analytics/data-stewardship/) |
 | 🏷️ | metadata-management | [View](skills/data-analytics/metadata-management/) |
 | 📜 | data-contracts | [View](skills/data-analytics/data-contracts/) |
-
-#### Analytics, stats, modeling & ML
-
-| Icon | Skill | Link |
-|:----:|-------|------|
 | 🎯 | analytics-problem-framing | [View](skills/data-analytics/analytics-problem-framing/) |
 | 🔍 | exploratory-data-analysis | [View](skills/data-analytics/exploratory-data-analysis/) |
 | 🧹 | data-cleaning | [View](skills/data-analytics/data-cleaning/) |
@@ -240,9 +176,7 @@ flowchart TB
 ### 👥 HR (30)
 
 <details>
-<summary><strong>▶️ Click to expand HR catalog</strong></summary>
-
-<br>
+<summary><strong>▶️ Expand HR</strong></summary>
 
 | Icon | Skill | Link |
 |:----:|-------|------|
@@ -284,9 +218,7 @@ flowchart TB
 ### 💰 Finance (60)
 
 <details>
-<summary><strong>▶️ Click to expand Finance catalog</strong></summary>
-
-<br>
+<summary><strong>▶️ Expand Finance</strong></summary>
 
 | Icon | Skill | Link |
 |:----:|-------|------|
@@ -358,9 +290,7 @@ flowchart TB
 ### 💙 Customer Success (24)
 
 <details>
-<summary><strong>▶️ Click to expand Customer Success catalog</strong></summary>
-
-<br>
+<summary><strong>▶️ Expand Customer Success</strong></summary>
 
 | Icon | Skill | Link |
 |:----:|-------|------|
@@ -396,9 +326,7 @@ flowchart TB
 ### 🛡️ Compliance (24)
 
 <details>
-<summary><strong>▶️ Click to expand Compliance catalog</strong></summary>
-
-<br>
+<summary><strong>▶️ Expand Compliance</strong></summary>
 
 | Icon | Skill | Link |
 |:----:|-------|------|
@@ -434,9 +362,7 @@ flowchart TB
 ### 🔬 Research (24)
 
 <details>
-<summary><strong>▶️ Click to expand Research catalog</strong></summary>
-
-<br>
+<summary><strong>▶️ Expand Research</strong></summary>
 
 | Icon | Skill | Link |
 |:----:|-------|------|
@@ -472,9 +398,7 @@ flowchart TB
 ### 🤝 Sales (24)
 
 <details>
-<summary><strong>▶️ Click to expand Sales catalog</strong></summary>
-
-<br>
+<summary><strong>▶️ Expand Sales</strong></summary>
 
 | Icon | Skill | Link |
 |:----:|-------|------|
@@ -510,9 +434,7 @@ flowchart TB
 ### 📈 Marketing & Growth (24)
 
 <details>
-<summary><strong>▶️ Click to expand Marketing & Growth catalog</strong></summary>
-
-<br>
+<summary><strong>▶️ Expand Marketing & Growth</strong></summary>
 
 | Icon | Skill | Link |
 |:----:|-------|------|
@@ -548,11 +470,56 @@ flowchart TB
 ### 🎨 Design & UX (46)
 
 <details>
-<summary><strong>▶️ Click to expand Design & UX catalog</strong></summary>
+<summary><strong>▶️ Expand Design & UX</strong></summary>
 
-<br>
-
-Browse all skills under [`skills/design-ux/`](skills/design-ux/) — including design-systems, ui-design, interaction-design, usability-testing, accessibility-design, design-tokens, mobile-ux, dashboard-ux, form-ux, and 37 more.
+| Icon | Skill | Link |
+|:----:|-------|------|
+| 🧱 | design-systems | [View](skills/design-ux/design-systems/) |
+| 🏛️ | design-systems-governance | [View](skills/design-ux/design-systems-governance/) |
+| 🎨 | ui-design | [View](skills/design-ux/ui-design/) |
+| 👁️ | visual-design | [View](skills/design-ux/visual-design/) |
+| 🖱️ | interaction-design | [View](skills/design-ux/interaction-design/) |
+| 🗺️ | information-architecture | [View](skills/design-ux/information-architecture/) |
+| 🧭 | navigation-design | [View](skills/design-ux/navigation-design/) |
+| 📐 | wireframing-and-prototyping | [View](skills/design-ux/wireframing-and-prototyping/) |
+| 🔀 | user-flows | [View](skills/design-ux/user-flows/) |
+| 🧪 | usability-testing | [View](skills/design-ux/usability-testing/) |
+| ✅ | heuristic-evaluation | [View](skills/design-ux/heuristic-evaluation/) |
+| ♿ | accessibility-design | [View](skills/design-ux/accessibility-design/) |
+| 🔍 | accessibility-audit | [View](skills/design-ux/accessibility-audit/) |
+| 🏷️ | design-tokens | [View](skills/design-ux/design-tokens/) |
+| 📱 | mobile-ux | [View](skills/design-ux/mobile-ux/) |
+| 📊 | dashboard-ux | [View](skills/design-ux/dashboard-ux/) |
+| 📝 | form-ux | [View](skills/design-ux/form-ux/) |
+| 📋 | table-ux | [View](skills/design-ux/table-ux/) |
+| 🔍 | search-ux | [View](skills/design-ux/search-ux/) |
+| 🚀 | onboarding-ux | [View](skills/design-ux/onboarding-ux/) |
+| 📭 | empty-states | [View](skills/design-ux/empty-states/) |
+| ⚠️ | error-states | [View](skills/design-ux/error-states/) |
+| ⏳ | loading-states | [View](skills/design-ux/loading-states/) |
+| 🪟 | modal-and-overlay | [View](skills/design-ux/modal-and-overlay/) |
+| 🔔 | notification-ux | [View](skills/design-ux/notification-ux/) |
+| 🎬 | motion-design | [View](skills/design-ux/motion-design/) |
+| 👆 | gesture-design | [View](skills/design-ux/gesture-design/) |
+| 🌙 | dark-mode | [View](skills/design-ux/dark-mode/) |
+| 📐 | responsive-design | [View](skills/design-ux/responsive-design/) |
+| 🌐 | cross-platform-design | [View](skills/design-ux/cross-platform-design/) |
+| 🌍 | localization-ux | [View](skills/design-ux/localization-ux/) |
+| 💬 | conversational-ux | [View](skills/design-ux/conversational-ux/) |
+| 📈 | data-visualization-ux | [View](skills/design-ux/data-visualization-ux/) |
+| 🧩 | progressive-disclosure | [View](skills/design-ux/progressive-disclosure/) |
+| ✍️ | ux-writing | [View](skills/design-ux/ux-writing/) |
+| 📄 | content-design | [View](skills/design-ux/content-design/) |
+| 🖼️ | iconography | [View](skills/design-ux/iconography/) |
+| 🎨 | illustration-in-product | [View](skills/design-ux/illustration-in-product/) |
+| 🔬 | design-research | [View](skills/design-ux/design-research/) |
+| 💡 | design-thinking | [View](skills/design-ux/design-thinking/) |
+| 🛎️ | service-design | [View](skills/design-ux/service-design/) |
+| 💬 | design-critique | [View](skills/design-ux/design-critique/) |
+| 🚚 | design-handoff | [View](skills/design-ux/design-handoff/) |
+| ✅ | design-qa | [View](skills/design-ux/design-qa/) |
+| ⚙️ | design-ops | [View](skills/design-ux/design-ops/) |
+| ⚖️ | design-ethics | [View](skills/design-ux/design-ethics/) |
 
 </details>
 
@@ -561,11 +528,46 @@ Browse all skills under [`skills/design-ux/`](skills/design-ux/) — including d
 ### 📦 Product Management (36)
 
 <details>
-<summary><strong>▶️ Click to expand Product Management catalog</strong></summary>
+<summary><strong>▶️ Expand Product Management</strong></summary>
 
-<br>
-
-Browse all skills under [`skills/product-management/`](skills/product-management/) — including product-strategy, prioritization-frameworks, roadmap-planning, prd-writing, metrics-and-kpis, jobs-to-be-done, product-market-fit, and more.
+| Icon | Skill | Link |
+|:----:|-------|------|
+| 🎯 | product-strategy | [View](skills/product-management/product-strategy/) |
+| 🔭 | product-vision | [View](skills/product-management/product-vision/) |
+| 🔍 | product-discovery | [View](skills/product-management/product-discovery/) |
+| 💼 | jobs-to-be-done | [View](skills/product-management/jobs-to-be-done/) |
+| 👤 | persona-development | [View](skills/product-management/persona-development/) |
+| 🗺️ | journey-mapping | [View](skills/product-management/journey-mapping/) |
+| 🎤 | customer-interviewing | [View](skills/product-management/customer-interviewing/) |
+| 🧪 | user-research | [View](skills/product-management/user-research/) |
+| 🏁 | competitive-analysis | [View](skills/product-management/competitive-analysis/) |
+| 💡 | opportunity-assessment | [View](skills/product-management/opportunity-assessment/) |
+| 🧩 | mvp-definition | [View](skills/product-management/mvp-definition/) |
+| ❤️ | product-market-fit | [View](skills/product-management/product-market-fit/) |
+| ⚖️ | prioritization-frameworks | [View](skills/product-management/prioritization-frameworks/) |
+| 🗺️ | roadmap-planning | [View](skills/product-management/roadmap-planning/) |
+| 📋 | backlog-management | [View](skills/product-management/backlog-management/) |
+| 📝 | prd-writing | [View](skills/product-management/prd-writing/) |
+| 📖 | user-story-writing | [View](skills/product-management/user-story-writing/) |
+| 📊 | metrics-and-kpis | [View](skills/product-management/metrics-and-kpis/) |
+| ⭐ | north-star-metric | [View](skills/product-management/north-star-metric/) |
+| 🎯 | okrs-and-goal-setting | [View](skills/product-management/okrs-and-goal-setting/) |
+| 📈 | product-analytics | [View](skills/product-management/product-analytics/) |
+| 🧪 | experiment-design | [View](skills/product-management/experiment-design/) |
+| 🚀 | go-to-market | [View](skills/product-management/go-to-market/) |
+| ✅ | launch-checklist | [View](skills/product-management/launch-checklist/) |
+| 📦 | release-management | [View](skills/product-management/release-management/) |
+| 💰 | pricing-strategy | [View](skills/product-management/pricing-strategy/) |
+| 💎 | monetization-strategy | [View](skills/product-management/monetization-strategy/) |
+| 📍 | product-positioning | [View](skills/product-management/product-positioning/) |
+| 🔁 | growth-loops | [View](skills/product-management/growth-loops/) |
+| 🌱 | product-led-growth | [View](skills/product-management/product-led-growth/) |
+| 💚 | retention-and-engagement | [View](skills/product-management/retention-and-engagement/) |
+| 📉 | churn-analysis | [View](skills/product-management/churn-analysis/) |
+| 🚀 | onboarding-optimization | [View](skills/product-management/onboarding-optimization/) |
+| 💬 | feedback-management | [View](skills/product-management/feedback-management/) |
+| 🤝 | stakeholder-management | [View](skills/product-management/stakeholder-management/) |
+| ⚙️ | product-ops | [View](skills/product-management/product-ops/) |
 
 </details>
 
@@ -574,11 +576,53 @@ Browse all skills under [`skills/product-management/`](skills/product-management
 ### 📄 Document Production (43)
 
 <details>
-<summary><strong>▶️ Click to expand Document Production catalog</strong></summary>
+<summary><strong>▶️ Expand Document Production</strong></summary>
 
-<br>
-
-Browse all skills under [`skills/document-production/`](skills/document-production/) — including **docx**, **pptx**, **xlsx**, **pdf**, report-generation, proposal-writing, pitch-deck, board-pack, and specialized document types.
+| Icon | Skill | Link |
+|:----:|-------|------|
+| 📝 | **docx** | [View](skills/document-production/docx/) |
+| 📊 | **pptx** | [View](skills/document-production/pptx/) |
+| 📈 | **xlsx** | [View](skills/document-production/xlsx/) |
+| 📕 | **pdf** | [View](skills/document-production/pdf/) |
+| 📋 | report-generation | [View](skills/document-production/report-generation/) |
+| 💼 | proposal-writing | [View](skills/document-production/proposal-writing/) |
+| 🚀 | pitch-deck | [View](skills/document-production/pitch-deck/) |
+| 🏛️ | board-pack | [View](skills/document-production/board-pack/) |
+| 📌 | one-pager | [View](skills/document-production/one-pager/) |
+| 🧾 | executive-summary | [View](skills/document-production/executive-summary/) |
+| 📊 | status-report | [View](skills/document-production/status-report/) |
+| 💰 | business-case | [View](skills/document-production/business-case/) |
+| 📄 | whitepaper | [View](skills/document-production/whitepaper/) |
+| 📚 | case-study | [View](skills/document-production/case-study/) |
+| 🎤 | presentation-storytelling | [View](skills/document-production/presentation-storytelling/) |
+| 📅 | agenda-and-meeting-pack | [View](skills/document-production/agenda-and-meeting-pack/) |
+| 🗒️ | meeting-notes-and-minutes | [View](skills/document-production/meeting-notes-and-minutes/) |
+| 📓 | decision-log | [View](skills/document-production/decision-log/) |
+| 🧠 | lessons-learned | [View](skills/document-production/lessons-learned/) |
+| ✅ | checklist-and-runbook | [View](skills/document-production/checklist-and-runbook/) |
+| 📜 | policy-and-procedure | [View](skills/document-production/policy-and-procedure/) |
+| 🛠️ | technical-documentation | [View](skills/document-production/technical-documentation/) |
+| 📖 | user-guide-and-manual | [View](skills/document-production/user-guide-and-manual/) |
+| ❓ | faq | [View](skills/document-production/faq/) |
+| 📚 | knowledge-base-article | [View](skills/document-production/knowledge-base-article/) |
+| 🎓 | training-material | [View](skills/document-production/training-material/) |
+| 🚨 | incident-report | [View](skills/document-production/incident-report/) |
+| 📰 | press-release | [View](skills/document-production/press-release/) |
+| 💌 | newsletter-and-update | [View](skills/document-production/newsletter-and-update/) |
+| 💼 | resume-and-cv | [View](skills/document-production/resume-and-cv/) |
+| 🧑‍💼 | job-description | [View](skills/document-production/job-description/) |
+| 📊 | performance-review | [View](skills/document-production/performance-review/) |
+| 🧾 | invoice-and-quote | [View](skills/document-production/invoice-and-quote/) |
+| 🎁 | grant-proposal | [View](skills/document-production/grant-proposal/) |
+| 📑 | research-paper | [View](skills/document-production/research-paper/) |
+| 🎒 | onboarding-kit | [View](skills/document-production/onboarding-kit/) |
+| 🎨 | document-design | [View](skills/document-production/document-design/) |
+| 📐 | visual-hierarchy | [View](skills/document-production/visual-hierarchy/) |
+| 📋 | template-design | [View](skills/document-production/template-design/) |
+| ✍️ | style-guide | [View](skills/document-production/style-guide/) |
+| 📝 | form-design | [View](skills/document-production/form-design/) |
+| 📊 | dashboard-spreadsheets | [View](skills/document-production/dashboard-spreadsheets/) |
+| 📈 | data-visualization-for-documents | [View](skills/document-production/data-visualization-for-documents/) |
 
 </details>
 
@@ -587,11 +631,98 @@ Browse all skills under [`skills/document-production/`](skills/document-producti
 ### ⚙️ Engineering & Software Development (85)
 
 <details>
-<summary><strong>▶️ Click to expand Engineering catalog</strong></summary>
+<summary><strong>▶️ Expand Engineering</strong></summary>
 
-<br>
-
-Browse all skills under [`skills/engineering/`](skills/engineering/) — covering code review, TDD, security hardening, architecture, CI/CD, observability, microservices, platform engineering, threat modeling, and 75+ more engineering practices.
+| Icon | Skill | Link |
+|:----:|-------|------|
+| 🔍 | code-review-and-quality | [View](skills/engineering/code-review-and-quality/) |
+| 🧪 | test-driven-development | [View](skills/engineering/test-driven-development/) |
+| 📋 | testing-strategy | [View](skills/engineering/testing-strategy/) |
+| 📐 | planning-and-task-breakdown | [View](skills/engineering/planning-and-task-breakdown/) |
+| 📄 | spec-driven-development | [View](skills/engineering/spec-driven-development/) |
+| 🔒 | security-and-hardening | [View](skills/engineering/security-and-hardening/) |
+| 🗺️ | threat-modeling | [View](skills/engineering/threat-modeling/) |
+| 📊 | engineering-scorecards | [View](skills/engineering/engineering-scorecards/) |
+| 🐛 | debugging-and-error-recovery | [View](skills/engineering/debugging-and-error-recovery/) |
+| ✨ | code-simplification | [View](skills/engineering/code-simplification/) |
+| 📦 | incremental-implementation | [View](skills/engineering/incremental-implementation/) |
+| 🚀 | shipping-and-launch | [View](skills/engineering/shipping-and-launch/) |
+| 📝 | documentation-and-adrs | [View](skills/engineering/documentation-and-adrs/) |
+| 🌿 | git-workflow-and-versioning | [View](skills/engineering/git-workflow-and-versioning/) |
+| 💡 | idea-refine | [View](skills/engineering/idea-refine/) |
+| 🤔 | doubt-driven-development | [View](skills/engineering/doubt-driven-development/) |
+| 📚 | source-driven-development | [View](skills/engineering/source-driven-development/) |
+| 🧠 | context-engineering | [View](skills/engineering/context-engineering/) |
+| 🏛️ | architecture-review | [View](skills/engineering/architecture-review/) |
+| 🧹 | clean-architecture | [View](skills/engineering/clean-architecture/) |
+| 🎯 | domain-driven-design | [View](skills/engineering/domain-driven-design/) |
+| 🔌 | api-and-interface-design | [View](skills/engineering/api-and-interface-design/) |
+| 🌐 | microservices-patterns | [View](skills/engineering/microservices-patterns/) |
+| ⚡ | event-driven-architecture | [View](skills/engineering/event-driven-architecture/) |
+| 📬 | event-sourcing | [View](skills/engineering/event-sourcing/) |
+| 📤 | cqrs | [View](skills/engineering/cqrs/) |
+| 🧱 | monolith-modularization | [View](skills/engineering/monolith-modularization/) |
+| 🌿 | strangler-fig-pattern | [View](skills/engineering/strangler-fig-pattern/) |
+| 🛡️ | anti-corruption-layer | [View](skills/engineering/anti-corruption-layer/) |
+| 🏢 | multi-tenancy-design | [View](skills/engineering/multi-tenancy-design/) |
+| 🚪 | api-gateway-patterns | [View](skills/engineering/api-gateway-patterns/) |
+| 🔢 | api-versioning-and-compatibility | [View](skills/engineering/api-versioning-and-compatibility/) |
+| 📡 | graphql-api-design | [View](skills/engineering/graphql-api-design/) |
+| 🔗 | grpc-and-protobuf | [View](skills/engineering/grpc-and-protobuf/) |
+| 🗄️ | data-modeling-and-persistence | [View](skills/engineering/data-modeling-and-persistence/) |
+| 🔄 | database-migrations | [View](skills/engineering/database-migrations/) |
+| 📜 | data-contracts | [View](skills/engineering/data-contracts/) |
+| 📊 | schema-registry | [View](skills/engineering/schema-registry/) |
+| 🔀 | change-data-capture | [View](skills/engineering/change-data-capture/) |
+| 🌊 | data-pipeline-engineering | [View](skills/engineering/data-pipeline-engineering/) |
+| 🔍 | search-design-and-indexing | [View](skills/engineering/search-design-and-indexing/) |
+| 💾 | caching-strategies | [View](skills/engineering/caching-strategies/) |
+| 📬 | outbox-and-inbox-patterns | [View](skills/engineering/outbox-and-inbox-patterns/) |
+| 🔁 | saga-and-distributed-transactions | [View](skills/engineering/saga-and-distributed-transactions/) |
+| 🔐 | distributed-locking | [View](skills/engineering/distributed-locking/) |
+| ✅ | idempotency-and-exactly-once | [View](skills/engineering/idempotency-and-exactly-once/) |
+| 🛡️ | resilience-patterns | [View](skills/engineering/resilience-patterns/) |
+| 📉 | backpressure-and-flow-control | [View](skills/engineering/backpressure-and-flow-control/) |
+| ⏱️ | rate-limiting-and-throttling | [View](skills/engineering/rate-limiting-and-throttling/) |
+| 🛑 | graceful-shutdown-and-degradation | [View](skills/engineering/graceful-shutdown-and-degradation/) |
+| ❤️ | health-checks-and-probes | [View](skills/engineering/health-checks-and-probes/) |
+| ⚠️ | error-handling-strategy | [View](skills/engineering/error-handling-strategy/) |
+| 👷 | background-jobs-and-async-processing | [View](skills/engineering/background-jobs-and-async-processing/) |
+| 📁 | file-uploads-and-storage | [View](skills/engineering/file-uploads-and-storage/) |
+| 🔄 | ci-cd-and-automation | [View](skills/engineering/ci-cd-and-automation/) |
+| 🏗️ | infrastructure-as-code | [View](skills/engineering/infrastructure-as-code/) |
+| 🚀 | progressive-delivery | [View](skills/engineering/progressive-delivery/) |
+| 📦 | release-engineering | [View](skills/engineering/release-engineering/) |
+| 🚩 | feature-flag-architecture | [View](skills/engineering/feature-flag-architecture/) |
+| 👀 | observability-and-instrumentation | [View](skills/engineering/observability-and-instrumentation/) |
+| 📈 | continuous-profiling | [View](skills/engineering/continuous-profiling/) |
+| 💥 | chaos-engineering | [View](skills/engineering/chaos-engineering/) |
+| ⚡ | performance-optimization | [View](skills/engineering/performance-optimization/) |
+| 🏋️ | load-testing-and-performance-testing | [View](skills/engineering/load-testing-and-performance-testing/) |
+| 🤝 | contract-testing | [View](skills/engineering/contract-testing/) |
+| 🌐 | browser-testing | [View](skills/engineering/browser-testing/) |
+| 🖥️ | frontend-ui-engineering | [View](skills/engineering/frontend-ui-engineering/) |
+| ♿ | accessibility-engineering | [View](skills/engineering/accessibility-engineering/) |
+| 🏭 | platform-engineering | [View](skills/engineering/platform-engineering/) |
+| 🧰 | internal-developer-platform | [View](skills/engineering/internal-developer-platform/) |
+| 💻 | local-development-experience | [View](skills/engineering/local-development-experience/) |
+| ⚙️ | configuration-management | [View](skills/engineering/configuration-management/) |
+| 🔑 | secrets-management | [View](skills/engineering/secrets-management/) |
+| 📜 | policy-as-code | [View](skills/engineering/policy-as-code/) |
+| 🕸️ | service-mesh | [View](skills/engineering/service-mesh/) |
+| 📦 | dependency-management | [View](skills/engineering/dependency-management/) |
+| 🏗️ | reproducible-builds | [View](skills/engineering/reproducible-builds/) |
+| 📋 | sbom-and-provenance | [View](skills/engineering/sbom-and-provenance/) |
+| 🔗 | supply-chain-security | [View](skills/engineering/supply-chain-security/) |
+| 🔐 | authentication-patterns | [View](skills/engineering/authentication-patterns/) |
+| 🛂 | authorization-patterns | [View](skills/engineering/authorization-patterns/) |
+| 🚫 | zero-trust-principles | [View](skills/engineering/zero-trust-principles/) |
+| 🕵️ | privacy-engineering | [View](skills/engineering/privacy-engineering/) |
+| 📉 | technical-debt-management | [View](skills/engineering/technical-debt-management/) |
+| ♻️ | deprecation-and-migration | [View](skills/engineering/deprecation-and-migration/) |
+| 📊 | dora-and-engineering-metrics | [View](skills/engineering/dora-and-engineering-metrics/) |
+| 💵 | finops-and-cost-aware-engineering | [View](skills/engineering/finops-and-cost-aware-engineering/) |
+| 📝 | blameless-postmortems | [View](skills/engineering/blameless-postmortems/) |
 
 </details>
 
@@ -602,10 +733,6 @@ Browse all skills under [`skills/engineering/`](skills/engineering/) — coverin
 ```bash
 git clone https://github.com/itsual/agent-skills-collection.git
 cd agent-skills-collection
-
-# Copy selected skills into your agent skills directory, e.g.:
-# Claude: ~/.claude/skills/
-# Or symlink individual skill folders
 ```
 
 Each skill is a folder with a `SKILL.md` (YAML frontmatter + instructions + verification checklist).
@@ -637,19 +764,6 @@ agent-skills-collection/
 
 ---
 
-## 🛣️ Roadmap
-
-- [x] Engineering · Documents · Product · Design · Marketing · Sales
-- [x] Finance · Research · Compliance · Customer Success · HR
-- [x] Data Analytics & DS (incl. governance) · Cybersecurity (incl. red team methods)
-- [x] **500+ skills milestone**
-- [ ] Curated “packs” by persona (e.g. Banking Risk, Startup GTM)
-- [ ] Evaluation harness for skill quality
-
----
-
 ## 📄 License
 
-MIT
-
-**Maintained by** [Arockia Liborious](https://github.com/itsual) · **Repo** [itsual/agent-skills-collection](https://github.com/itsual/agent-skills-collection)
+MIT · Maintained by [Arockia Liborious](https://github.com/itsual)
