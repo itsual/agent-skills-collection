@@ -12,8 +12,8 @@ Built following the [Anthropic Agent Skills standard](https://github.com/anthrop
 **Phase 2 – Document Production** ✅ (43 skills)  
 **Phase 3 – Product Management** ✅ (36 skills)  
 **Phase 4 – Design & UX** ✅ (46 skills)  
-**Phase 5 – Marketing & Growth** 🚀 (12 skills)  
-**Skills added so far**: **224** (2 Meta + 85 Engineering + 43 Document Production + 36 Product Management + 46 Design & UX + 12 Marketing & Growth)
+**Phase 5 – Marketing & Growth** 🚀 (24 skills)  
+**Skills added so far**: **236** (2 Meta + 85 Engineering + 43 Document Production + 36 Product Management + 46 Design & UX + 24 Marketing & Growth)
 
 ---
 
@@ -26,7 +26,7 @@ Built following the [Anthropic Agent Skills standard](https://github.com/anthrop
 | 🛠️ | **skill-creator** | Create, improve, and evaluate new Agent Skills | [View](skills/meta/skill-creator/) |
 | 🧭 | **using-agent-skills** | Discover and apply the right skills for the current task | [View](skills/meta/using-agent-skills/) |
 
-### 📈 Marketing & Growth (12 skills)
+### 📈 Marketing & Growth (24 skills)
 
 | Icon | Skill | Description | Link |
 |------|-------|-------------|------|
@@ -42,6 +42,18 @@ Built following the [Anthropic Agent Skills standard](https://github.com/anthrop
 | 📊 | **marketing-analytics** | Measure performance to guide budget and channel decisions | [View](skills/marketing-growth/marketing-analytics/) |
 | 👥 | **customer-segmentation** | Actionable segments for messaging and GTM | [View](skills/marketing-growth/customer-segmentation/) |
 | 🧪 | **growth-experimentation** | Systematic experiments across the growth model | [View](skills/marketing-growth/growth-experimentation/) |
+| ✍️ | **copywriting** | Persuasive marketing and product copy that drives action | [View](skills/marketing-growth/copywriting/) |
+| 📄 | **landing-pages** | Focused landing pages that convert targeted traffic | [View](skills/marketing-growth/landing-pages/) |
+| 🔗 | **referral-programs** | Referral and word-of-mouth programs that scale advocacy | [View](skills/marketing-growth/referral-programs/) |
+| Community | **community-marketing** | Communities that create belonging, feedback, and growth | [View](skills/marketing-growth/community-marketing/) |
+| 📰 | **pr-and-comms** | PR and communications for coverage and reputation | [View](skills/marketing-growth/pr-and-comms/) |
+| ⭐ | **influencer-marketing** | Authentic creator partnerships with measurable outcomes | [View](skills/marketing-growth/influencer-marketing/) |
+| 🔄 | **lifecycle-marketing** | Journeys from acquisition through retention and expansion | [View](skills/marketing-growth/lifecycle-marketing/) |
+| 🤝 | **partnership-marketing** | Co-marketing and partner programs for shared audiences | [View](skills/marketing-growth/partnership-marketing/) |
+| 🎤 | **webinar-and-events** | Webinars and events that convert interest into pipeline | [View](skills/marketing-growth/webinar-and-events/) |
+| 🕵️ | **competitive-intelligence** | Competitive intel for positioning and sales enablement | [View](skills/marketing-growth/competitive-intelligence/) |
+| 📣 | **demand-generation** | Integrated demand programs that create qualified pipeline | [View](skills/marketing-growth/demand-generation/) |
+| 💚 | **retention-marketing** | Programs that reduce churn and expand lifetime value | [View](skills/marketing-growth/retention-marketing/) |
 
 ### 🎨 Design & UX (46 skills)
 
@@ -310,7 +322,7 @@ agent-skills-collection/
 │   ├── document-production/     # 43 skills
 │   ├── product-management/      # 36 skills
 │   ├── design-ux/               # 46 skills
-│   ├── marketing-growth/        # 12 skills
+│   ├── marketing-growth/        # 24 skills
 │   └── ...
 └── packs/
 ```
@@ -329,8 +341,8 @@ git clone https://github.com/itsual/agent-skills-collection.git
 - [x] Document Production pack (43) ✅
 - [x] Product Management pack (36) ✅
 - [x] Design & UX pack (46) ✅
-- [x] Marketing & Growth pack (started – 12 core skills)
-- [ ] Expand Marketing & Growth
+- [x] Marketing & Growth pack (24 skills) ✅
+- [ ] Expand Marketing & Growth further (optional)
 - [ ] Research, Finance, Compliance, and remaining domains
 - [ ] Curated skill packs + evaluation harness
 
