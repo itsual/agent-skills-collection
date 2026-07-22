@@ -13,8 +13,8 @@ Built following the [Anthropic Agent Skills standard](https://github.com/anthrop
 **Phase 3 – Product Management** ✅ (36 skills)  
 **Phase 4 – Design & UX** ✅ (46 skills)  
 **Phase 5 – Marketing & Growth** ✅ (24 skills)  
-**Phase 6 – Sales** 🚀 (12 skills)  
-**Skills added so far**: **248** (2 Meta + 85 Engineering + 43 Document Production + 36 Product Management + 46 Design & UX + 24 Marketing & Growth + 12 Sales)
+**Phase 6 – Sales** 🚀 (24 skills)  
+**Skills added so far**: **260** (2 Meta + 85 Engineering + 43 Document Production + 36 Product Management + 46 Design & UX + 24 Marketing & Growth + 24 Sales)
 
 ---
 
@@ -27,7 +27,7 @@ Built following the [Anthropic Agent Skills standard](https://github.com/anthrop
 | 🛠️ | **skill-creator** | Create, improve, and evaluate new Agent Skills | [View](skills/meta/skill-creator/) |
 | 🧭 | **using-agent-skills** | Discover and apply the right skills for the current task | [View](skills/meta/using-agent-skills/) |
 
-### 🤝 Sales (12 skills)
+### 🤝 Sales (24 skills)
 
 | Icon | Skill | Description | Link |
 |------|-------|-------------|------|
@@ -43,6 +43,18 @@ Built following the [Anthropic Agent Skills standard](https://github.com/anthrop
 | ✅ | **inbound-qualification** | Qualify inbound efficiently; protect AE time | [View](skills/sales/inbound-qualification/) |
 | 📖 | **sales-playbooks** | Repeatable plays for segments and situations | [View](skills/sales/sales-playbooks/) |
 | 📈 | **win-loss-analysis** | Learn from wins and losses to improve GTM | [View](skills/sales/win-loss-analysis/) |
+| 📋 | **meddicc-qualification** | MEDDICC for rigorous complex-deal qualification | [View](skills/sales/meddicc-qualification/) |
+| 🗺️ | **mutual-action-plans** | Shared buyer-seller roadmaps to decision and onboarding | [View](skills/sales/mutual-action-plans/) |
+| 💵 | **pricing-conversations** | Value-anchored pricing dialogue and discount discipline | [View](skills/sales/pricing-conversations/) |
+| ⚔️ | **competitive-selling** | Win head-to-head and displace incumbents | [View](skills/sales/competitive-selling/) |
+| 🏛️ | **enterprise-deals** | Navigate multi-stakeholder enterprise complexity | [View](skills/sales/enterprise-deals/) |
+| 🎓 | **sales-coaching** | Coach reps on skills, deals, and behaviors | [View](skills/sales/sales-coaching/) |
+| 🗄️ | **crm-hygiene** | Keep CRM data trustworthy for forecast and decisions | [View](skills/sales/crm-hygiene/) |
+| 🎯 | **forecast-accuracy** | Evidence-based forecasting that leadership can trust | [View](skills/sales/forecast-accuracy/) |
+| 🤝 | **channel-partner-sales** | Sell through resellers, referrals, and co-sell partners | [View](skills/sales/channel-partner-sales/) |
+| 🔄 | **renewal-and-upsell** | Protect and expand revenue at commercial moments | [View](skills/sales/renewal-and-upsell/) |
+| 💼 | **social-selling** | Professional network prospecting without spam | [View](skills/sales/social-selling/) |
+| 💰 | **sales-compensation-basics** | Comp plans that align behavior with revenue goals | [View](skills/sales/sales-compensation-basics/) |
 
 ### 📈 Marketing & Growth (24 skills)
 
@@ -346,7 +358,7 @@ agent-skills-collection/
 │   ├── product-management/      # 36 skills
 │   ├── design-ux/               # 46 skills
 │   ├── marketing-growth/        # 24 skills
-│   ├── sales/                   # 12 skills
+│   ├── sales/                   # 24 skills
 │   └── ...
 └── packs/
 ```
@@ -366,9 +378,8 @@ git clone https://github.com/itsual/agent-skills-collection.git
 - [x] Product Management pack (36) ✅
 - [x] Design & UX pack (46) ✅
 - [x] Marketing & Growth pack (24) ✅
-- [x] Sales pack (started – 12 core skills)
-- [ ] Expand Sales
-- [ ] Research, Finance, Compliance, Customer Success, and remaining domains
+- [x] Sales pack (24 skills) ✅
+- [ ] Customer Success, Finance, Research, Compliance, and remaining domains
 - [ ] Curated skill packs + evaluation harness
 
 ## License
