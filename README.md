@@ -4,7 +4,7 @@
 
 Built following the [Anthropic Agent Skills standard](https://github.com/anthropics/skills) with best practices from leading open collections.
 
-> **Goal**: 500+ modular, battle-tested skills organized by domain, with strong verification steps, clear triggering descriptions, and progressive disclosure.
+> **Goal**: 500+ modular, battle-tested skills organized by domain.
 
 ## Current Status
 
@@ -21,9 +21,10 @@ Built following the [Anthropic Agent Skills standard](https://github.com/anthrop
 | 9 | Compliance | 24 ✅ |
 | 10 | Customer Success | 24 ✅ |
 | 11 | HR | 30 ✅ |
-| 12 | **Data Analytics & Data Science** | **38 ✅** |
+| 12 | Data Analytics & Data Science | 38 ✅ |
+| 13 | **Cybersecurity** | **24 ✅** |
 | | **Meta** | **2** |
-| | **Total** | **460** |
+| | **Total** | **484** |
 
 ---
 
@@ -36,57 +37,38 @@ Built following the [Anthropic Agent Skills standard](https://github.com/anthrop
 | 🛠️ | skill-creator | [View](skills/meta/skill-creator/) |
 | 🧭 | using-agent-skills | [View](skills/meta/using-agent-skills/) |
 
-### 📊 Data Analytics & Data Science (38 skills)
+### 🔐 Cybersecurity (24 skills)
 
-#### Data Governance & Quality
 | Icon | Skill | Description | Link |
 |------|-------|-------------|------|
-| 🏛️ | **data-governance** | Ownership, policies, decision rights, accountability | [View](skills/data-analytics/data-governance/) |
-| ✅ | **data-quality-management** | Dimensions, rules, remediation, prevention | [View](skills/data-analytics/data-quality-management/) |
-| 🛡️ | **data-quality-monitoring** | Freshness, volume, schema, pipeline checks | [View](skills/data-analytics/data-quality-monitoring/) |
-| 📚 | **data-catalog-and-discovery** | Findable, certified, owned datasets | [View](skills/data-analytics/data-catalog-and-discovery/) |
-| 🔗 | **data-lineage** | Source-to-consumer impact and traceability | [View](skills/data-analytics/data-lineage/) |
-| 🗃️ | **master-data-management** | Golden records for core entities | [View](skills/data-analytics/master-data-management/) |
-| 👤 | **data-stewardship** | Day-to-day domain care and definitions | [View](skills/data-analytics/data-stewardship/) |
-| 🏷️ | **metadata-management** | Technical, business, operational metadata | [View](skills/data-analytics/metadata-management/) |
-| 📜 | **data-contracts** | Producer–consumer schema and SLA agreements | [View](skills/data-analytics/data-contracts/) |
-
-#### Analytics, Statistics & Modeling
-| Icon | Skill | Link |
-|------|-------|------|
-| 🎯 | analytics-problem-framing | [View](skills/data-analytics/analytics-problem-framing/) |
-| 🔍 | exploratory-data-analysis | [View](skills/data-analytics/exploratory-data-analysis/) |
-| 🧹 | data-cleaning | [View](skills/data-analytics/data-cleaning/) |
-| 📈 | statistical-analysis | [View](skills/data-analytics/statistical-analysis/) |
-| 🧪 | hypothesis-testing | [View](skills/data-analytics/hypothesis-testing/) |
-| ⚗️ | experiment-design-data | [View](skills/data-analytics/experiment-design-data/) |
-| 📉 | regression-analysis | [View](skills/data-analytics/regression-analysis/) |
-| 🏷️ | classification-basics | [View](skills/data-analytics/classification-basics/) |
-| 🧩 | clustering-and-segmentation | [View](skills/data-analytics/clustering-and-segmentation/) |
-| ⏱️ | time-series-basics | [View](skills/data-analytics/time-series-basics/) |
-| 📊 | data-visualization | [View](skills/data-analytics/data-visualization/) |
-| 📐 | metrics-definition | [View](skills/data-analytics/metrics-definition/) |
-| 🗃️ | sql-for-analysis | [View](skills/data-analytics/sql-for-analysis/) |
-| 🔧 | feature-engineering | [View](skills/data-analytics/feature-engineering/) |
-| ✅ | model-evaluation | [View](skills/data-analytics/model-evaluation/) |
-| 🔎 | feature-importance-and-explainability | [View](skills/data-analytics/feature-importance-and-explainability/) |
-| 🔮 | forecasting | [View](skills/data-analytics/forecasting/) |
-| 🚨 | anomaly-detection | [View](skills/data-analytics/anomaly-detection/) |
-| ⛓️ | causal-inference-basics | [View](skills/data-analytics/causal-inference-basics/) |
-| 🏗️ | analytics-engineering | [View](skills/data-analytics/analytics-engineering/) |
-| 📱 | dashboard-design | [View](skills/data-analytics/dashboard-design/) |
-| 🗣️ | storytelling-with-data | [View](skills/data-analytics/storytelling-with-data/) |
-| ⚙️ | mlops-basics | [View](skills/data-analytics/mlops-basics/) |
-| 📝 | nlp-basics | [View](skills/data-analytics/nlp-basics/) |
-| 🎁 | recommendation-basics | [View](skills/data-analytics/recommendation-basics/) |
-| ⚖️ | data-ethics | [View](skills/data-analytics/data-ethics/) |
-| 📓 | notebook-best-practices | [View](skills/data-analytics/notebook-best-practices/) |
-| 🎲 | sampling-and-bias | [View](skills/data-analytics/sampling-and-bias/) |
-| 📑 | ab-test-analysis | [View](skills/data-analytics/ab-test-analysis/) |
+| 🛡️ | **security-fundamentals** | CIA, least privilege, defense in depth | [View](skills/cybersecurity/security-fundamentals/) |
+| 🗺️ | **threat-modeling-security** | Assets, threats, mitigations before build | [View](skills/cybersecurity/threat-modeling-security/) |
+| 🩹 | **vulnerability-management** | Find, prioritize, remediate, verify | [View](skills/cybersecurity/vulnerability-management/) |
+| 🔑 | **identity-and-access-management** | AuthN/AuthZ, lifecycle, privileged access | [View](skills/cybersecurity/identity-and-access-management/) |
+| 🌐 | **network-security-basics** | Segmentation, exposure, remote access | [View](skills/cybersecurity/network-security-basics/) |
+| 📦 | **application-security** | AppSec across the SDLC | [View](skills/cybersecurity/application-security/) |
+| 💻 | **secure-coding** | Safe patterns at the point of implementation | [View](skills/cybersecurity/secure-coding/) |
+| 🔐 | **secrets-and-credential-hygiene** | Storage, rotation, leak prevention | [View](skills/cybersecurity/secrets-and-credential-hygiene/) |
+| 📡 | **security-logging-and-monitoring** | Detectable, actionable security signals | [View](skills/cybersecurity/security-logging-and-monitoring/) |
+| 🚨 | **incident-response** | Triage, contain, recover, learn | [View](skills/cybersecurity/incident-response/) |
+| 💻 | **endpoint-security** | Device hardening, EDR, patch, privileges | [View](skills/cybersecurity/endpoint-security/) |
+| 🎣 | **phishing-and-social-engineering** | Technical + human defenses | [View](skills/cybersecurity/phishing-and-social-engineering/) |
+| ☁️ | **cloud-security** | Identity, posture, exposure in the cloud | [View](skills/cybersecurity/cloud-security/) |
+| 🐳 | **container-and-kubernetes-security** | Images, RBAC, runtime, cluster hardening | [View](skills/cybersecurity/container-and-kubernetes-security/) |
+| 🚫 | **zero-trust-architecture** | Verify explicitly, least privilege, assume breach | [View](skills/cybersecurity/zero-trust-architecture/) |
+| 🔒 | **encryption-and-key-management** | Crypto use and key lifecycle | [View](skills/cybersecurity/encryption-and-key-management/) |
+| 🏛️ | **security-architecture** | Patterns, boundaries, scalable guardrails | [View](skills/cybersecurity/security-architecture/) |
+| 🎯 | **penetration-testing-basics** | Scope, consume, remediate offensive tests | [View](skills/cybersecurity/penetration-testing-basics/) |
+| 📚 | **security-awareness-programs** | Behavior-changing awareness | [View](skills/cybersecurity/security-awareness-programs/) |
+| 🤝 | **third-party-security** | Vendor diligence and ongoing oversight | [View](skills/cybersecurity/third-party-security/) |
+| 📎 | **supply-chain-security-cyber** | Dependencies, build integrity, provenance | [View](skills/cybersecurity/supply-chain-security-cyber/) |
+| 💾 | **backup-and-recovery-security** | Immutable backups, tested cyber recovery | [View](skills/cybersecurity/backup-and-recovery-security/) |
+| 📊 | **security-metrics-and-reporting** | KPIs that drive risk reduction | [View](skills/cybersecurity/security-metrics-and-reporting/) |
+| 📢 | **vulnerability-disclosure** | VDP/bug bounty intake and response | [View](skills/cybersecurity/vulnerability-disclosure/) |
 
 ### Other domains
 
-HR (30) · Customer Success (24) · Compliance (24) · Research (24) · Finance (60) · Sales (24) · Marketing & Growth (24) · Design & UX (46) · Product Management (36) · Document Production (43) · Engineering (85)
+Data Analytics & DS (38) · HR (30) · Customer Success (24) · Compliance (24) · Research (24) · Finance (60) · Sales (24) · Marketing & Growth (24) · Design & UX (46) · Product Management (36) · Document Production (43) · Engineering (85)
 
 ---
 
