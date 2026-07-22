@@ -20,104 +20,71 @@ Built following the [Anthropic Agent Skills standard](https://github.com/anthrop
 | 8 | Research | 24 ✅ |
 | 9 | Compliance | 24 ✅ |
 | 10 | Customer Success | 24 ✅ |
-| 11 | **HR** | **30 ✅** |
+| 11 | HR | 30 ✅ |
+| 12 | **Data Analytics & Data Science** | **30 ✅** |
 | | **Meta** | **2** |
-| | **Total** | **422** |
+| | **Total** | **452** |
 
 ---
 
 ## Skills Catalog
 
-### 🧠 Meta
+### 🧠 Meta (2)
+
+| Icon | Skill | Link |
+|------|-------|------|
+| 🛠️ | skill-creator | [View](skills/meta/skill-creator/) |
+| 🧭 | using-agent-skills | [View](skills/meta/using-agent-skills/) |
+
+### 📊 Data Analytics & Data Science (30 skills)
 
 | Icon | Skill | Description | Link |
 |------|-------|-------------|------|
-| 🛠️ | **skill-creator** | Create, improve, and evaluate new Agent Skills | [View](skills/meta/skill-creator/) |
-| 🧭 | **using-agent-skills** | Discover and apply the right skills for the current task | [View](skills/meta/using-agent-skills/) |
-
-### 👥 HR (30 skills)
-
-| Icon | Skill | Description | Link |
-|------|-------|-------------|------|
-| 🎯 | **talent-acquisition** | Attract, assess, and hire with quality and fairness | [View](skills/hr/talent-acquisition/) |
-| 🏗️ | **job-architecture** | Families, levels, and role profiles | [View](skills/hr/job-architecture/) |
-| 🎙️ | **interviewing** | Structured interviews and evidence-based selection | [View](skills/hr/interviewing/) |
-| 🚀 | **onboarding-hr** | New-hire ramp, belonging, and early retention | [View](skills/hr/onboarding-hr/) |
-| 📊 | **performance-management** | Expectations, reviews, calibration, fairness | [View](skills/hr/performance-management/) |
-| 🎯 | **goal-setting-and-okrs-hr** | Aligned, usable goal/OKR systems | [View](skills/hr/goal-setting-and-okrs-hr/) |
-| 💬 | **feedback-and-coaching** | Manager feedback skill and coaching cadence | [View](skills/hr/feedback-and-coaching/) |
-| 📚 | **learning-and-development** | Capability building tied to strategy | [View](skills/hr/learning-and-development/) |
-| 👑 | **succession-planning** | Critical roles, benches, readiness | [View](skills/hr/succession-planning/) |
-| 💰 | **compensation-design** | Pay bands, variable pay, equity structures | [View](skills/hr/compensation-design/) |
-| 🏥 | **benefits-strategy** | Benefits portfolio and perceived value | [View](skills/hr/benefits-strategy/) |
-| 📈 | **workforce-planning** | Supply, demand, skills, and capacity | [View](skills/hr/workforce-planning/) |
-| ⚖️ | **employee-relations** | Fair handling of conflicts and concerns | [View](skills/hr/employee-relations/) |
-| 💙 | **employee-engagement** | Surveys, drivers, and action follow-through | [View](skills/hr/employee-engagement/) |
-| 🌈 | **diversity-equity-inclusion** | Evidence-based DEI in process and outcomes | [View](skills/hr/diversity-equity-inclusion/) |
-| 🏛️ | **culture-and-values** | Values as lived behaviors and systems | [View](skills/hr/culture-and-values/) |
-| 📄 | **hr-policies** | Clear, usable, consistent people policies | [View](skills/hr/hr-policies/) |
-| 🔍 | **workplace-investigations** | Fair, documented misconduct fact-finding | [View](skills/hr/workplace-investigations/) |
-| 🚪 | **offboarding** | Secure, respectful, learning-oriented exits | [View](skills/hr/offboarding/) |
-| 🔄 | **internal-mobility** | Internal moves, marketplaces, talent reuse | [View](skills/hr/internal-mobility/) |
-| 📉 | **hr-analytics** | People metrics and responsible workforce insight | [View](skills/hr/hr-analytics/) |
-| 🖥️ | **hr-systems** | HRIS/ATS/LMS selection and operation | [View](skills/hr/hr-systems/) |
-| ⚖️ | **labor-compliance-basics** | Employment law literacy and escalation | [View](skills/hr/labor-compliance-basics/) |
-| 🧭 | **manager-enablement** | Tools and skill for people leaders | [View](skills/hr/manager-enablement/) |
-| 🎁 | **total-rewards** | Integrated pay, benefits, growth, experience | [View](skills/hr/total-rewards/) |
-| 📣 | **employer-branding** | Authentic attraction narrative | [View](skills/hr/employer-branding/) |
-| 🔀 | **change-management-hr** | People-side adoption of org change | [View](skills/hr/change-management-hr/) |
-| 🧘 | **wellbeing-and-burnout** | Work design and support against burnout | [View](skills/hr/wellbeing-and-burnout/) |
-| 🗂️ | **org-design-basics** | Structure, spans, layers, accountabilities | [View](skills/hr/org-design-basics/) |
-| 🤝 | **hrbp-partnership** | Strategic HR business partnering | [View](skills/hr/hrbp-partnership/) |
+| 🎯 | **analytics-problem-framing** | Decision-oriented problem scoping before analysis | [View](skills/data-analytics/analytics-problem-framing/) |
+| 🔍 | **exploratory-data-analysis** | Distributions, quality, and hypothesis generation | [View](skills/data-analytics/exploratory-data-analysis/) |
+| 🧹 | **data-cleaning** | Documented, reversible preparation pipelines | [View](skills/data-analytics/data-cleaning/) |
+| 📈 | **statistical-analysis** | Estimation, uncertainty, honest interpretation | [View](skills/data-analytics/statistical-analysis/) |
+| 🧪 | **hypothesis-testing** | Tests, power, p-values without fallacies | [View](skills/data-analytics/hypothesis-testing/) |
+| ⚗️ | **experiment-design-data** | A/B design, randomization, sample size | [View](skills/data-analytics/experiment-design-data/) |
+| 📉 | **regression-analysis** | Explanation/prediction with diagnostics | [View](skills/data-analytics/regression-analysis/) |
+| 🏷️ | **classification-basics** | Label prediction, metrics, thresholds | [View](skills/data-analytics/classification-basics/) |
+| 🧩 | **clustering-and-segmentation** | Actionable segments with validation | [View](skills/data-analytics/clustering-and-segmentation/) |
+| ⏱️ | **time-series-basics** | Trend, seasonality, temporal validation | [View](skills/data-analytics/time-series-basics/) |
+| 📊 | **data-visualization** | Honest, decision-fit charts | [View](skills/data-analytics/data-visualization/) |
+| 📐 | **metrics-definition** | Metric dictionaries and single sources of truth | [View](skills/data-analytics/metrics-definition/) |
+| 🗃️ | **sql-for-analysis** | Analytical SQL, grain, window functions | [View](skills/data-analytics/sql-for-analysis/) |
+| 🔧 | **feature-engineering** | Leakage-safe predictive features | [View](skills/data-analytics/feature-engineering/) |
+| ✅ | **model-evaluation** | Metrics, validation, baselines, error analysis | [View](skills/data-analytics/model-evaluation/) |
+| 🔎 | **feature-importance-and-explainability** | Interpreting model drivers carefully | [View](skills/data-analytics/feature-importance-and-explainability/) |
+| 🔮 | **forecasting** | Planning-grade forecasts with uncertainty | [View](skills/data-analytics/forecasting/) |
+| 🚨 | **anomaly-detection** | KPI/data anomalies with actionable alerts | [View](skills/data-analytics/anomaly-detection/) |
+| ⛓️ | **causal-inference-basics** | Effects, confounding, credible designs | [View](skills/data-analytics/causal-inference-basics/) |
+| 🛡️ | **data-quality-monitoring** | Freshness, volume, schema, pipeline checks | [View](skills/data-analytics/data-quality-monitoring/) |
+| 🏗️ | **analytics-engineering** | Tested, versioned transformation layers | [View](skills/data-analytics/analytics-engineering/) |
+| 📱 | **dashboard-design** | Decision-first dashboards | [View](skills/data-analytics/dashboard-design/) |
+| 🗣️ | **storytelling-with-data** | Insight narratives that drive action | [View](skills/data-analytics/storytelling-with-data/) |
+| ⚙️ | **mlops-basics** | Production ML lifecycle basics | [View](skills/data-analytics/mlops-basics/) |
+| 📝 | **nlp-basics** | Practical text analytics pipelines | [View](skills/data-analytics/nlp-basics/) |
+| 🎁 | **recommendation-basics** | Ranking, baselines, feedback loops | [View](skills/data-analytics/recommendation-basics/) |
+| ⚖️ | **data-ethics** | Privacy, fairness, responsible claims | [View](skills/data-analytics/data-ethics/) |
+| 📓 | **notebook-best-practices** | Reproducible analytical notebooks | [View](skills/data-analytics/notebook-best-practices/) |
+| 🎲 | **sampling-and-bias** | Selection bias and external validity | [View](skills/data-analytics/sampling-and-bias/) |
+| 📑 | **ab-test-analysis** | Experiment readout and ship decisions | [View](skills/data-analytics/ab-test-analysis/) |
 
 ### Other domains
 
-Customer Success (24) · Compliance (24) · Research (24) · Finance (60) · Sales (24) · Marketing & Growth (24) · Design & UX (46) · Product Management (36) · Document Production (43) · Engineering (85) — full catalogs under `skills/`.
+HR (30) · Customer Success (24) · Compliance (24) · Research (24) · Finance (60) · Sales (24) · Marketing & Growth (24) · Design & UX (46) · Product Management (36) · Document Production (43) · Engineering (85)
 
 ---
 
-## Repository Structure
+## Repository
 
-```
-agent-skills-collection/
-├── README.md
-├── LICENSE
-├── skills/
-│   ├── meta/                 # 2
-│   ├── engineering/          # 85
-│   ├── document-production/  # 43
-│   ├── product-management/   # 36
-│   ├── design-ux/            # 46
-│   ├── marketing-growth/     # 24
-│   ├── sales/                # 24
-│   ├── finance/              # 60
-│   ├── research/             # 24
-│   ├── compliance/           # 24
-│   ├── customer-success/     # 24
-│   ├── hr/                   # 30
-│   └── ...
-└── packs/
-```
-
-## How to Use
+**https://github.com/itsual/agent-skills-collection**
 
 ```bash
 git clone https://github.com/itsual/agent-skills-collection.git
-# Copy desired skills into ~/.claude/skills/ (or equivalent)
 ```
-
-## Roadmap
-
-- [x] Engineering · Document Production · Product Management · Design & UX
-- [x] Marketing & Growth · Sales · Finance · Research · Compliance
-- [x] Customer Success · **HR (30)** ✅
-- [ ] Remaining domains toward 500+
-- [ ] Curated skill packs + evaluation harness
 
 ## License
 
-MIT
-
----
-
-**Maintained by** [Arockia Liborious](https://github.com/itsual)
+MIT · Maintained by [Arockia Liborious](https://github.com/itsual)
