@@ -15,8 +15,9 @@ Built following the [Anthropic Agent Skills standard](https://github.com/anthrop
 **Phase 5 – Marketing & Growth** ✅ (24 skills)  
 **Phase 6 – Sales** ✅ (24 skills)  
 **Phase 7 – Finance** ✅ (60 skills)  
-**Phase 8 – Research** 🚀 (24 skills)  
-**Skills added so far**: **344** (2 Meta + 85 Engineering + 43 Document Production + 36 Product Management + 46 Design & UX + 24 Marketing & Growth + 24 Sales + 60 Finance + 24 Research)
+**Phase 8 – Research** ✅ (24 skills)  
+**Phase 9 – Compliance** 🚀 (12 skills)  
+**Skills added so far**: **356** (2 Meta + 85 Engineering + 43 Document Production + 36 Product Management + 46 Design & UX + 24 Marketing & Growth + 24 Sales + 60 Finance + 24 Research + 12 Compliance)
 
 ---
 
@@ -29,36 +30,24 @@ Built following the [Anthropic Agent Skills standard](https://github.com/anthrop
 | 🛠️ | **skill-creator** | Create, improve, and evaluate new Agent Skills | [View](skills/meta/skill-creator/) |
 | 🧭 | **using-agent-skills** | Discover and apply the right skills for the current task | [View](skills/meta/using-agent-skills/) |
 
-### 🔬 Research (24 skills)
+### 🛡️ Compliance (12 skills)
 
 | Icon | Skill | Description | Link |
 |------|-------|-------------|------|
-| 📐 | **research-design** | Study design, method choice, and research planning | [View](skills/research/research-design/) |
-| 📚 | **literature-review** | Map existing knowledge and identify gaps | [View](skills/research/literature-review/) |
-| 🖥️ | **desk-research** | Fast secondary research with source hygiene | [View](skills/research/desk-research/) |
-| 💬 | **qualitative-research** | Depth methods for meaning, context, and motivation | [View](skills/research/qualitative-research/) |
-| 📊 | **quantitative-research** | Measurement, sampling, and statistical care | [View](skills/research/quantitative-research/) |
-| 📋 | **survey-design** | Reliable questionnaires and bias-aware structure | [View](skills/research/survey-design/) |
-| 🎙️ | **interview-research** | Research interviews that elicit honest detail | [View](skills/research/interview-research/) |
-| 🧩 | **research-synthesis** | Turn evidence into insights and recommendations | [View](skills/research/research-synthesis/) |
-| 🏁 | **competitive-research** | Competitor product, pricing, and strategy intel | [View](skills/research/competitive-research/) |
-| 📈 | **market-research** | Demand, segments, sizing, and buying dynamics | [View](skills/research/market-research/) |
-| ⚖️ | **research-ethics** | Consent, privacy, harm minimization, honest reporting | [View](skills/research/research-ethics/) |
-| 📝 | **research-reporting** | Clear, decision-ready research communication | [View](skills/research/research-reporting/) |
-| 👀 | **ethnographic-research** | Observational research in real contexts | [View](skills/research/ethnographic-research/) |
-| 📔 | **diary-studies** | Longitudinal capture of experiences over time | [View](skills/research/diary-studies/) |
-| 🧪 | **usability-research** | Task-based evaluation of whether designs work | [View](skills/research/usability-research/) |
-| 📉 | **experiment-analysis** | Credible A/B and experiment readout | [View](skills/research/experiment-analysis/) |
-| 📖 | **systematic-review** | Protocol-driven evidence aggregation | [View](skills/research/systematic-review/) |
-| 🎯 | **jtbd-research** | Jobs-to-be-Done progress and switching research | [View](skills/research/jtbd-research/) |
-| 🛰️ | **technology-scouting** | Emerging tech and vendor landscape evaluation | [View](skills/research/technology-scouting/) |
-| 🗄️ | **secondary-data-analysis** | Insight from existing datasets and logs | [View](skills/research/secondary-data-analysis/) |
-| ⚙️ | **research-ops** | Recruiting, repositories, and research enablement | [View](skills/research/research-ops/) |
-| 👤 | **persona-evidence** | Evidence-grounded personas, not stereotypes | [View](skills/research/persona-evidence/) |
-| 💡 | **concept-testing** | Early concept and messaging evaluation | [View](skills/research/concept-testing/) |
-| 🌍 | **field-research** | On-site and in-context studies outside the lab | [View](skills/research/field-research/) |
+| 📜 | **regulatory-compliance** | Map obligations to controls, owners, and evidence | [View](skills/compliance/regulatory-compliance/) |
+| 📄 | **policy-management** | Policy lifecycle — create, approve, communicate, maintain | [View](skills/compliance/policy-management/) |
+| 🎯 | **compliance-risk-assessment** | Rank compliance risk and prioritize remediation | [View](skills/compliance/compliance-risk-assessment/) |
+| 🔒 | **data-privacy-compliance** | Lawful processing, rights, retention, transfers | [View](skills/compliance/data-privacy-compliance/) |
+| 🏦 | **aml-kyc-basics** | CDD/EDD, monitoring, suspicious activity escalation | [View](skills/compliance/aml-kyc-basics/) |
+| 🔐 | **information-security-compliance** | Security controls mapped to compliance evidence | [View](skills/compliance/information-security-compliance/) |
+| 📊 | **sox-and-financial-controls** | ICFR/SOX-style control design, testing, deficiencies | [View](skills/compliance/sox-and-financial-controls/) |
+| 🔍 | **compliance-monitoring** | Testing programs that verify controls in practice | [View](skills/compliance/compliance-monitoring/) |
+| 🤝 | **third-party-risk-compliance** | Vendor diligence, contracts, and ongoing oversight | [View](skills/compliance/third-party-risk-compliance/) |
+| 📡 | **regulatory-change-management** | Horizon scan, impact, implement before effective dates | [View](skills/compliance/regulatory-change-management/) |
+| 🎓 | **compliance-training** | Role-relevant training that changes behavior | [View](skills/compliance/compliance-training/) |
+| ⚖️ | **ethics-and-conduct** | Code of conduct, speak-up, conflicts of interest | [View](skills/compliance/ethics-and-conduct/) |
 
-### 💰 Finance (60) · 🤝 Sales (24) · 📈 Marketing & Growth (24) · 🎨 Design & UX (46) · 📦 Product Management (36) · 📄 Document Production (43) · ⚙️ Engineering (85)
+### 🔬 Research (24) · 💰 Finance (60) · 🤝 Sales (24) · 📈 Marketing & Growth (24) · 🎨 Design & UX (46) · 📦 Product Management (36) · 📄 Document Production (43) · ⚙️ Engineering (85)
 
 Full catalogs under the respective `skills/` directories.
 
@@ -80,6 +69,7 @@ agent-skills-collection/
 │   ├── sales/                   # 24
 │   ├── finance/                 # 60
 │   ├── research/                # 24
+│   ├── compliance/              # 12
 │   └── ...
 └── packs/
 ```
@@ -94,9 +84,10 @@ git clone https://github.com/itsual/agent-skills-collection.git
 ## Roadmap
 
 - [x] Engineering · Document Production · Product Management · Design & UX
-- [x] Marketing & Growth · Sales · Finance (60)
-- [x] Research pack (24 skills) ✅
-- [ ] Customer Success, Compliance, HR, and remaining domains
+- [x] Marketing & Growth · Sales · Finance (60) · Research (24)
+- [x] Compliance pack (started – 12 core skills)
+- [ ] Expand Compliance
+- [ ] Customer Success, HR, and remaining domains
 - [ ] Curated skill packs + evaluation harness
 
 ## License
